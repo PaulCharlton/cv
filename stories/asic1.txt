@@ -1,0 +1,5 @@
+First ASIC with Myarc (1986)
+
+You designed a custom ASIC for Myarc’s new computer to integrate glue logic, DRAM control, keyboard input, virtual paged memory, and TI-99/4a emulation. Working with Mitsubishi Electronics of America, you trained on their EDA tools, created a 4000-gate netlist, and validated it with test vectors in just two weeks.
+
+The first tape-out failed due to incorrect timing data in Mitsubishi’s EDA database. You diagnosed the issue with custom boot ROMs, oscilloscope debugging, and hardware modifications, proving Mitsubishi’s error. They acknowledged the mistake and gave you a free second run, which you optimized further. The second ASIC worked, enabling a fully functional prototype that you showcased in Boston, Chicago, and Germany, marking a major milestone in TI-99/4a compatibility and performance innovation.
