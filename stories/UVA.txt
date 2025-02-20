@@ -1,5 +1,8 @@
 University of Virginia School of Medicine - 1979 to 1986
 
+Summary:
+Youngest paid researcher at UVA School of Medicine at 14, recruited after scoring “>170 IQ off the chart” in UVA’s gifted research program. Engineered the first-ever lab-scale integration of analog lab equipment with digital computers, pioneering automated biomedical data collection and transforming scientific research.
+
 University of Virginia
 University of Virginia School of Medicine
 Commenced work over two summers as an intern, starting at age of 12
@@ -28,7 +31,7 @@ status lights or paper scroll graph.   Because of the darkroom environment, all 
 to be disabled by cutting their circuit leads.  I paralleled computer controls over GPIB with each knob, dial, and
 switch using D/A converters, TTY latches, and relays as appropriate.   For the output of those machines, I converted
 each status lamp to a latched TTL input which was returned to the computer via GPIB.  I wrote all of the drivers
-for the GPIB controls and indicators in 6502 assembler.   For the output graph from a photo-spectrometer, I used an
+for the GPIB controls and indicators in 6502 assembler.   For the output graph from a photo-spectrometer and HPLC, I used an
 A/D converter sampling at 10 times per second and fed that data to the computer via GPIB.
 
 In order to communicate with the human experimenter in the darkroom, I used audio output in the form of
