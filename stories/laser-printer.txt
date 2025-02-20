@@ -44,7 +44,7 @@ The process became trickier at higher resolutions because the original design di
 marks on either the filters or the original images.  I added a requirement for a one inch white margin
 around the original image, and a cross-hair registration mark near each corner of the white area.
 I used the registration marks (detected by the edge detection algorithm I had previously written for the cursive glyph
-scanning system) to compute a trapzoidal coordinate transformation on the image pixels and corrected to
+scanning system) to compute a trapezoidal coordinate transformation on the image pixels and corrected to
 a rectangular set of pixels prior to combining the various color layers.
 
 The graphics shop owner had purchased special displays and hardware for the Apple III that allowed him to edit and

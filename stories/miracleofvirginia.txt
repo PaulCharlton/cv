@@ -22,7 +22,7 @@ was not a constant, but a gradient which became brightest close to the light sou
 algorithm which detected the gradient lighting background and used that to correct the image prior
 to edge detection and vectorization.
 
-The caligraphic data set consisted of 80 Glyphs, 52 for upper and lower case, another 10 for digits, and the
+The calligraphic data set consisted of 80 Glyphs, 52 for upper and lower case, another 10 for digits, and the
 remaining 18 for other characters such as punctuation.
 
 =====================================================
