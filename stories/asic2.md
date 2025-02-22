@@ -1,4 +1,4 @@
-Second ASIC with Myarc (HFDC, late 1987)
+Second ASIC with Myarc - HFDC - late 1987
 
 After the success of the first ASIC, you designed a second ASIC for Myarc’s HFDC (Hard/Floppy Disk Controller) to unify HDD and FDD management on a single card. This time, you worked with California Devices near Boston, spending six days on-site to design, validate, and optimize the 4000-gate ASIC using their proprietary EDA tools.
 

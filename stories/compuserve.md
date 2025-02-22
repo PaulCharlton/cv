@@ -1,15 +1,18 @@
-Compuserve TIFORUM 1983 to 1990
+Compuserve TIFORUM - 1983 to 1990
 
 ID: 75136,2256
+
 Sysop for the TiForum 1983 to 1990
 
 Moderator for group chats, forums, and file upload/download libraries.
+
 Hosted group chats on technical deep dives into computer architecture and communication tools
 
 Used Compuserve as primary means of distributing my various FOSS software including Fast-Term for the TI-99/4a.
 
 Also: Sysop on Delphi and "The Source"
 
+```
 300 baud FSK
 1200 bps DPSK
 2400 bps TCM
@@ -26,3 +29,4 @@ The Source
 ARPANET 56k
 Tymnet
 TeleNet
+```

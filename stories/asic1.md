@@ -1,4 +1,4 @@
-First ASIC with Myarc (1986)
+First ASIC with Myarc - 1986
 
 You designed a custom ASIC for Myarc’s new computer to integrate glue logic, DRAM control, keyboard input, virtual paged memory, and TI-99/4a emulation. Working with Mitsubishi Electronics of America, you trained on their EDA tools, created a 4000-gate netlist, and validated it with test vectors in just two weeks.
 
