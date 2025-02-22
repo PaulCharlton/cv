@@ -1,4 +1,4 @@
-Hewlett-Packard 1988-1990
+Hewlett-Packard - 1988-1990
 
 Hewlett-Packard was my first full time employer post-graduation from RPI.  I joined their Storage and Scanner division in Greeley Colorado, and at the time, it was mostly a lifestyle choice where I welcomed clean air, wide open spaces, and the opportunity to learn a long-lived corporate culture.  John Young, the CEO, had also set a corporate goal of growing sales 10x in 10 years.
 
@@ -21,6 +21,7 @@ In December 1999 me and 2 others on my team were tasked with integrating our sto
 I made the decision to leave HP and join Chase Manhattan bank in mid-1990 for a bitter-sweet set of reasons: 1) I had learned that promotion and advancement in salary at HP's Colorado divisions, during my time there, was not based on merit, but was based on seniority, and that one could only move up in salary or official responsibility if a vacancy was created above you in the org chart, and 2) I was invited by a friend of mine to join him at Chase Manhattan in New York where I had other personal interests.
 
 ========================================
+```
 SCSI-II
 6-sigma
 Requirements before Design
@@ -38,3 +39,4 @@ NASA
 Apollo - Domain - SCSI-II Autochanger drivers
 Apollo - Domain - SCSI-II magneto optic drivers
 Apollo DSEE design software - Atria Software -> ClearCase -> IBM
+```

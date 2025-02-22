@@ -6,6 +6,7 @@ The Fast-Term journey began with a deep dive on the serial ports available on th
 
 As an aside, the RS232 Rom from TI also contained the shortest complete CRC-16 computation I have ever seen, with my original disassembly as below, with columns being: (address, memory contents, label, instruction decode)
 
+```
 ==CRC 16
 47C0 C046           MOV  R6,R1
 47C2 0241 FF00      ANDI R1,>FF00
@@ -20,7 +21,7 @@ As an aside, the RS232 Rom from TI also contained the shortest complete CRC-16 c
 47D8 2A41           XOR  R1,9
 47DA 06C9           SWPB R9
 47DC 045B           RT
-
+```
 Bonus points if you can figure out how that code implements the full 16 bit CRC, updated a byte at a time.
 
 Another anomaly which arose, is that the clock divisor was not fine grained enough to truly support 19,200 baud with 10 bits per 8 bit character -- the quantization of the clock actually required 2-stop bits per character for a total of 11 bits per character on inbound characters in order to properly decode a sequence of characters without interference between characters.
@@ -51,6 +52,7 @@ Along the way with FastTerm and my other community contributions, I got numerous
 More will come to light once I recover any copy of the FastTerm source code and read the change log.
 
 ========================================
+```
 TI-99/4a
 TMS9900
 TMS9901
@@ -69,3 +71,4 @@ Computing for Visually Impaired
 RGB monitors
 TIFORUM
 COMPUSERVE
+```

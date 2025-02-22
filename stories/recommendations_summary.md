@@ -15,4 +15,3 @@ From leading migrations with minimal downtime to mentoring young teams through r
 But it's not just about work. Paul's the kind of person you look up to, not just for his mind but for his approach. He's the one who makes you want to be better at what you do, not because he tells you, but because he leads by example. His passion for engineering excellence is infectious, and his vision for technology goes beyond the screen, touching lives and improving experiences for thousands through his work.
 
 If you're looking for someone who can inspire, lead, and solve like nobody else, Paul Charlton is your guy. He's not just a part of the team; he's the heart of it. His legacy isn't just in the code he writes but in the lives he influences and the paths he clears for others in the tech world.
-

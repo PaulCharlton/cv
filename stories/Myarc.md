@@ -1,4 +1,4 @@
-Myarc Computers Inc. 1985 to 1989
+Myarc Computers Inc. - 1985 to 1989
 
 In my adventures with Fast-Term, I quickly hit the roadblock of low-level support for disk controllers was different across different manufacturers.  I had used a novel formatting scheme for piracy prevention which relied on the TI Floppy disk controller, not realizing until I received customer feedback that the formatting was not compatible with other vendors such as CorComp or Myarc.  I acquired floppy controllers manufactured by both Corcomp and Myarc before I pivoted away from piracy prevention and made Fast-Term one of the earliest open-source and "share-ware" applications.
 
@@ -16,11 +16,11 @@ We also attended a small trade show in Germany to show off the new computer and 
 
 Somewhere along the journey of writing the 50,000 lines of source code for MDOS, I also wrote a full set of tools to assist me -- an Assembler for TMS9900, a linker, an object code librarian, a full-features MAKE utility and later a "C" compiler.  I also wrote end user documentation for all of those.  They were bootstrapped initially using the assembler language tooling from the TI-99/4a compatibility environment, but ultimately they all ran as native, preemptible, command line applications on MDOS.
 
-Shortly after MDOS was released to the public and the Geneve computer started shipping, I turned my attention to a new controller that I needed for my own use, and that Myarc's president agreed to mass produce for his customer base.   It was a new combination HDC and FDC (the HFDC) on one peripheral card and was able to manage multiple hard drives and floppy drives concurrently.  For the initial design, I placed all glue logic and other functionality into a new ASIC design.  This time, the ASIC was bid out to California Devices who had a sales office near Boston Massachusetts.  I spent 6 days at their office, learning their proprietary EDA tool, entering my design, entering my test vectors, and validating the design using their test suite.  This second ASIC of mine was also about 4000 gate equivalents.   They offered me a job at a really good pay rate after seeing my work -- they had imagined that I would be working a month of more for a design of that size.   The ASIC worked on the first tape out, and the HFDC was born.
+Shortly after MDOS was released to the public and the Geneve computer started shipping, I turned my attention to a new controller that I needed for my own use, and that Myarc's president agreed to mass produce for his customer base.   It was a new combination HDC and FDC (the HFDC) on one peripheral card and was able to manage multiple hard drives and floppy drives concurrently.  For the initial design, I placed all glue logic and other functionality into a new ASIC design.  This time, the ASIC was bid out to California Devices who had a sales office near Boston Massachusetts.  I spent 6 days at their office, learning their proprietary EDA tool, entering my design, entering my test vectors, and validating the design using their test suite.  This second ASIC of mine was also about 4000 gate equivalents. They offered me a job at a really good pay rate after seeing my work -- they had imagined that I would be working a month of more for a design of that size.   The ASIC worked on the first tape out, and the HFDC was born.
 
 =================================
-Introduction via LT MM
-HDC purchase
+```
+HDC "purchase"
 FDC bugs
 FDC performance improvements
 HDC bugs
@@ -38,3 +38,12 @@ Second ASIC - California Devices - Boston Sales Office
 Cologne Germany
 Germany Trade Show
 People Express
+TMS 9900
+TMS 9901
+TMS 9902
+TMS 9918
+TMS 9938
+GRAM
+GROM
+VDP
+```
