@@ -1,0 +1,65 @@
+@startuml
+
+!define KubernetesColor LightBlue
+!define PostgresColor LightGreen
+!define LoadBalancerColor LightPink
+!define SecurityColor LightGray
+
+skinparam linetype ortho
+
+package "Cloud Environment" {
+    node "Cloud Load Balancer" as LB #LoadBalancerColor {
+        () "SSL Termination"
+        () "DDOS Protection"
+        () "WAF & OWASP Filtering"
+    }
+
+    node "Authentication Gateway" as AuthGW #SecurityColor {
+        () "User AuthN/AuthZ"
+        () "Session Management"
+    }
+
+    node "API Gateway" as API #KubernetesColor {
+        () "Rate Limiting"
+        () "Request Routing"
+    }
+
+    node "Kubernetes Cluster" as K8s #KubernetesColor {
+        node "PostgreSQL Query Router" as PgRouter #PostgresColor {
+            () "PgBouncer/PgPool-II/Citus"
+            () "Sharding Metadata"
+        }
+
+        node "Shard Manager" as ShardMgr #PostgresColor {
+            () "Dynamic Shard Scaling"
+            () "Data Redistribution"
+        }
+
+        frame "HA PostgreSQL Shards" {
+            database "Shard 1 Leader" as Shard1 #PostgresColor
+            database "Shard 1 Replica" as Shard1R #PostgresColor
+            database "Shard 2 Leader" as Shard2 #PostgresColor
+            database "Shard 2 Replica" as Shard2R #PostgresColor
+            database "Shard 3 Leader" as Shard3 #PostgresColor
+            database "Shard 3 Replica" as Shard3R #PostgresColor
+            database "Shard N Leader" as ShardN #PostgresColor
+            database "Shard N Replica" as ShardNR #PostgresColor
+        }
+    }
+}
+
+' Connections and Data Flow
+LB --> AuthGW : "SSL Termination & Security Checks"
+AuthGW --> API : "Authenticated Requests"
+API --> PgRouter : "Query Routing"
+PgRouter --> ShardMgr : "Determine Target Shard"
+ShardMgr --> Shard1 : "Write Request (if user_id % N = 1)"
+ShardMgr --> Shard2 : "Write Request (if user_id % N = 2)"
+ShardMgr --> Shard3 : "Write Request (if user_id % N = 3)"
+ShardMgr --> ShardN : "Write Request (if user_id % N = N)"
+Shard1 --> Shard1R : "Sync Replication"
+Shard2 --> Shard2R : "Sync Replication"
+Shard3 --> Shard3R : "Sync Replication"
+ShardN --> ShardNR : "Sync Replication"
+
+@enduml

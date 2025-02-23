@@ -47,3 +47,7 @@ GRAM
 GROM
 VDP
 ```
+
+UCSD P-system
+IML - Infocom machine language
+port Infocom cames
