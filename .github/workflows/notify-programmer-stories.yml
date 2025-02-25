@@ -1,0 +1,17 @@
+name: Notify Programmer Stories Repository
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          repository: tallalnparis4ev/programmer-stories
+          event-type: cv-submodule-update
