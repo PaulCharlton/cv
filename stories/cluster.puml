@@ -8,44 +8,44 @@
 skinparam linetype ortho
 
 package "Cloud Environment" {
-    node "Cloud Load Balancer" as LB #LoadBalancerColor {
-        () "SSL Termination"
-        () "DDOS Protection"
-        () "WAF & OWASP Filtering"
-    }
+ node "Cloud Load Balancer" as LB #LoadBalancerColor {
+ () "SSL Termination"
+ () "DDOS Protection"
+ () "WAF & OWASP Filtering"
+ }
 
-    node "Authentication Gateway" as AuthGW #SecurityColor {
-        () "User AuthN/AuthZ"
-        () "Session Management"
-    }
+ node "Authentication Gateway" as AuthGW #SecurityColor {
+ () "User AuthN/AuthZ"
+ () "Session Management"
+ }
 
-    node "API Gateway" as API #KubernetesColor {
-        () "Rate Limiting"
-        () "Request Routing"
-    }
+ node "API Gateway" as API #KubernetesColor {
+ () "Rate Limiting"
+ () "Request Routing"
+ }
 
-    node "Kubernetes Cluster" as K8s #KubernetesColor {
-        node "PostgreSQL Query Router" as PgRouter #PostgresColor {
-            () "PgBouncer/PgPool-II/Citus"
-            () "Sharding Metadata"
-        }
+ node "Kubernetes Cluster" as K8s #KubernetesColor {
+ node "PostgreSQL Query Router" as PgRouter #PostgresColor {
+ () "PgBouncer/PgPool-II/Citus"
+ () "Sharding Metadata"
+ }
 
-        node "Shard Manager" as ShardMgr #PostgresColor {
-            () "Dynamic Shard Scaling"
-            () "Data Redistribution"
-        }
+ node "Shard Manager" as ShardMgr #PostgresColor {
+ () "Dynamic Shard Scaling"
+ () "Data Redistribution"
+ }
 
-        frame "HA PostgreSQL Shards" {
-            database "Shard 1 Leader" as Shard1 #PostgresColor
-            database "Shard 1 Replica" as Shard1R #PostgresColor
-            database "Shard 2 Leader" as Shard2 #PostgresColor
-            database "Shard 2 Replica" as Shard2R #PostgresColor
-            database "Shard 3 Leader" as Shard3 #PostgresColor
-            database "Shard 3 Replica" as Shard3R #PostgresColor
-            database "Shard N Leader" as ShardN #PostgresColor
-            database "Shard N Replica" as ShardNR #PostgresColor
-        }
-    }
+ frame "HA PostgreSQL Shards" {
+ database "Shard 1 Leader" as Shard1 #PostgresColor
+ database "Shard 1 Replica" as Shard1R #PostgresColor
+ database "Shard 2 Leader" as Shard2 #PostgresColor
+ database "Shard 2 Replica" as Shard2R #PostgresColor
+ database "Shard 3 Leader" as Shard3 #PostgresColor
+ database "Shard 3 Replica" as Shard3R #PostgresColor
+ database "Shard N Leader" as ShardN #PostgresColor
+ database "Shard N Replica" as ShardNR #PostgresColor
+ }
+ }
 }
 
 ' Connections and Data Flow

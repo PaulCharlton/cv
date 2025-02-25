@@ -20,9 +20,9 @@ Designed custom amplifiers and A/D conversion board to collect voltage data acro
 
 The anatomy lab I worked in specialized in the field of vision, the chemical processes involved, and the neurological structures supporting those.
 
-At one point, I tasked myself with the complete automation of a 100% darkroom lab that had a dozen pieces of analog process equipment which had knobs, dials, and switches for input, and the output was typically status lights or paper scroll graph.   Because of the darkroom environment, all lamps and other lights sources had to be disabled by cutting their circuit leads.  I paralleled computer controls over GPIB with each knob, dial, and switch using D/A converters, TTY latches, and relays as appropriate.   For the output of those machines, I converted each status lamp to a latched TTL input which was returned to the computer via GPIB.  I wrote all of the drivers for the GPIB controls and indicators in 6502 assembler.   For the output graph from a photo-spectrometer and HPLC, I used an A/D converter sampling at 10 times per second and fed that data to the computer via GPIB.
+At one point, I tasked myself with the complete automation of a 100% darkroom lab that had a dozen pieces of analog process equipment which had knobs, dials, and switches for input, and the output was typically status lights or paper scroll graph.  Because of the darkroom environment, all lamps and other lights sources had to be disabled by cutting their circuit leads.  I paralleled computer controls over GPIB with each knob, dial, and switch using D/A converters, TTY latches, and relays as appropriate.  For the output of those machines, I converted each status lamp to a latched TTL input which was returned to the computer via GPIB.  I wrote all of the drivers for the GPIB controls and indicators in 6502 assembler.  For the output graph from a photo-spectrometer and HPLC, I used an A/D converter sampling at 10 times per second and fed that data to the computer via GPIB.
 
-In order to communicate with the human experimenter in the darkroom, I used audio output in the form of prerecorded and encoded voice snippets.   For the human operator to control the system, I wrote what I now believe was one of the first speaker independent voice recognition systems, using one algorithm for detecting breathing pauses, and another pitch independent algorithm with vector quantized inputs to detect matches with words in a predefined dictionary.  The dictionary had about 70 words, each expressed in a parametric form.
+In order to communicate with the human experimenter in the darkroom, I used audio output in the form of prerecorded and encoded voice snippets.  For the human operator to control the system, I wrote what I now believe was one of the first speaker independent voice recognition systems, using one algorithm for detecting breathing pauses, and another pitch independent algorithm with vector quantized inputs to detect matches with words in a predefined dictionary.  The dictionary had about 70 words, each expressed in a parametric form.
 
 Technical Lead, mentorship and instructional skills, and real-world impact for leading edge research laboratory. Due to my status as an employee with the University, I was able to take courses for credit and audit other courses.  I was creating and understanding experimental research goals and translate them into custom hardware/software solutions.
 
@@ -57,7 +57,7 @@ Analytical Biochemistry
 Extended sensitivity for the calcium selective electrode
 
 R W Morton, J K Chung, J L Miller, J P Charlton, R S Fager
-PMID: 3777438  DOI: 10.1016/0003-2697(86)90636-6
+PMID: 3777438 DOI: 10.1016/0003-2697(86)90636-6
 ```
 ============================================
 ```

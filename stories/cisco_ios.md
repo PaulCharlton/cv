@@ -9,7 +9,7 @@ When the CTO provides the lame answer that the entire codebase of the router (na
 of monolithic "C" code which is "not designed to be thread safe", and the CTO needs a budget of tens of
 millions dollars and several years to rewrite the code?
 
-I was hired as a consultant by (one of) their VP of Engineering  to provide a proof of concept on how to port the 30 million lines of code from single threaded to preemptible multithread on multi-core processors.
+I was hired as a consultant by (one of) their VP of Engineering to provide a proof of concept on how to port the 30 million lines of code from single threaded to preemptible multithread on multi-core processors.
 
 My approach was to first implement fully preemptible and thread safe async message queues in memory.  After analyzing the architecture and call hierarchy of the entire system, I identified several logical components which were functionally independent of each other with the exception of a handful of function calls.  I changed each of those function calls into async LPC using the new safe async queues, adding a bit of overhead for marshalling and unmarshalling of the messages, but allowing the logical components to run as separate threads.
 

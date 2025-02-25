@@ -6,7 +6,7 @@ The Netflix Prize (2006–2009) was a \$1 million competition to improve Netflix
 recommendation system by 10%. Thousands of teams used machine learning to predict ratings,
 and BellKor’s Pragmatic Chaos won in 2009.
 
-I first became aware of this competition in early 2008.   On my first attempt, over a weekend,
+I first became aware of this competition in early 2008.  On my first attempt, over a weekend,
 using the same tools I used for a Wall Street hedge fund ... namely, multidimensional linear
 regression, SVD (singular value decomposition), and simulated annealing ... I made an 8% improvement
 over CineMatch.

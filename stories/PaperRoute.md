@@ -8,6 +8,6 @@ I proposed to the local newspaper that I set up an independent business wherein 
 
 I licensed a small geographic exclusive area from the local newspaper and began distribution to housing subdivisions consisting of about 120 households.  I grew from an initial 30 subscribers to over 100 subscribing households in the first year, and also installed and maintained newspaper boxes and poles.
 
-This income kept me replete with bicycles, erector sets, computer parts, and LEGO Technic until I left to attend college.   The savings from this endeavor also purchased my first car.
+This income kept me replete with bicycles, erector sets, computer parts, and LEGO Technic until I left to attend college.  The savings from this endeavor also purchased my first car.
 
 Using my newspaper route as a base for leverage, a nearby 300 unit apartment complex, and a nearby trailer park, I also became the top sales person on a handful of consecutive fund drives for the regional Cub Scouts, Webelo Scouts, and Boy Scouts as the years progressed.
