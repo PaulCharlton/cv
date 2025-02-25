@@ -16,7 +16,6 @@ What I heard in late July is that Lexis-Nexis had terminated the relationship wi
 
 I heard nothing from them, or about them, until July of the next year (1998.) That's another story in its own right, written about C2B Technologies, Inc.
 
-===========================
-1) Marc Pincus went on to found Support.com (IPO 2000), Tribe.net (tech acquired 2003), and Zynga Inc (IPO 2011), and invests now via Reinvent Capital.
+ 1) Marc Pincus went on to found Support.com (IPO 2000), Tribe.net (tech acquired 2003), and Zynga Inc (IPO 2011), and invests now via Reinvent Capital.
 2) Sunil Paul went on to found Brightmail (acquired 2004), Sidecar (risdesharing), and Spring Ventures.
 3) Yossi went on to found Valicert, which had an IPO in 1999.

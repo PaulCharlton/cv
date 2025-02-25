@@ -33,8 +33,7 @@ Freshman year -- RPI would, upon request, run a 9600 baud serial port into your 
 #### Training Pavlov's minions - Tesla coil door knob prank.
 Freshman year in the dorm, many people had no respect whatsoever for a closed door to your room -- the entire dormitory often behaved as a communal space.  I preferred my privacy sometimes and definitely preferred not to have people barging in when I was sleeping.  I started placing signs on the door, to no avail ... nobody respected the signs either.  My next solution, which was 100% effective after the first weekend, was that I built an 80,000 volt tesla coil from an old CRT beam coil...it was super low current at a very high frequency.  I attached one end of the coil to the metal doorframe, and the other end of the coil to the metal doorknob which was grounded out to the doorframe when the door was closed.  Having a closed circuit when the door was closed did not cause me concern -- the telsa coil simply became slightly warm to the touch from the continuous current running through it.  However, the results were spectacular when someone (unauthorized) opened the door when the knob was energized -- they would receive a VERY UNPLEASANT electrical shock (overall harmless and non-lethal) -- people never tried that knob again without knocking. (and most people did not want to knock).  Problem solved.
 
-===========================================
-```
+ ```
 FORTH
 LISP
 SPECTRE execution

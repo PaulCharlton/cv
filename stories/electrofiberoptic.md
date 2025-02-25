@@ -16,8 +16,7 @@ I wrote my own bootable operating system from scratch and burned it into the boo
 
 This project was solo, and part time over the course of a couple of months.  I was also called on to show employees of Electro Fiber Optic how to configure, compile, burn EPROM so that they could independently add their own new customers.  I was also called into the field a couple of times to train the staff at the Baltimore Harbor Tunnel on the overall operation of the system and show their staff what to expect when they received a call-out from the controller when it reported burned out light bulbs.
 
-==================================
-```
+ ```
 TMS 9900
 TMS 9901
 TMS 9902

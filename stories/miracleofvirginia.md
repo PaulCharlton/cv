@@ -16,8 +16,7 @@ to the next line.
 
 The book was published Jan 1 1984
 
-=====================================================
-```
+ ```
 KayPro II
 Seequa Chameleon
 TI-99/4a

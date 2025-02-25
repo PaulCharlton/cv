@@ -28,8 +28,7 @@ Technical Lead, mentorship and instructional skills, and real-world impact for l
 
 The lab I automated got many visits from companies who sent engineers to understand what I had done with their equipment -- Fisher Scientific, Tektronix, Beckman, EE&G, Hewlett Packard, Perkin-Elmer, Varian, Bio-Rad, Waters HPLC, among others.
 
-============================================
-```
+ ```
 GPIB
 HPIB
 S-100
@@ -50,8 +49,7 @@ TMS9900
 Speech synthesis
 Speaker independent Speech recognition
 ```
-============================================
-```
+ ```
 Analytical Biochemistry
 . 1986 Sep;157(2):345-52.  doi: 10.1016/0003-2697(86)90636-6.
 Extended sensitivity for the calcium selective electrode
@@ -59,8 +57,7 @@ Extended sensitivity for the calcium selective electrode
 R W Morton, J K Chung, J L Miller, J P Charlton, R S Fager
 PMID: 3777438 DOI: 10.1016/0003-2697(86)90636-6
 ```
-============================================
-```
+ ```
 Fisher Scientific
 Tektronix
 Beckman

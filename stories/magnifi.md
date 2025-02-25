@@ -17,8 +17,7 @@ automated tests which validated the ability of the search engine to find all of 
 
 Magnifi was purchased by Proctor & Gamble in 2001.
 
-=============================
-```
+ ```
 C
 C++
 PPC

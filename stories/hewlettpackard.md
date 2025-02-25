@@ -20,8 +20,7 @@ In December 1999 me and 2 others on my team were tasked with integrating our sto
 
 I made the decision to leave HP and join Chase Manhattan bank in mid-1990 for a bitter-sweet set of reasons: 1) I had learned that promotion and advancement in salary at HP's Colorado divisions, during my time there, was not based on merit, but was based on seniority, and that one could only move up in salary or official responsibility if a vacancy was created above you in the org chart, and 2) I was invited by a friend of mine to join him at Chase Manhattan in New York where I had other personal interests.
 
-========================================
-```
+ ```
 SCSI-II
 6-sigma
 Requirements before Design

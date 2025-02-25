@@ -129,8 +129,7 @@ missing fields
 
 ### Aftermath
 
-=========================
-```
+ ```
 B-trieve
 C
 C++

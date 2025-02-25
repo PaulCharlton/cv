@@ -46,8 +46,7 @@ One theme running through all of the above, is how Chase management perceived Sa
 #### Football pool and machine learning.
 Near the end of my second year, I got involved in the football pool created by the tech team on the floor in my building in Garden City.  It was for fun, and the bets were funny money, with recognition and reputation being the primary currency.  My approach to the betting was fully data-driven, and I separated each official football team into two separate teams on the computer, one for offense, and a separate team for defense.  For my data, I also had a separate line-item for each and every player.  One of my primary data sources was a newspaper called the "Sports Daily" which had the key stats for the top players in each game the previous week, as well as reports of player injuries which could affect their upcoming performance.  The bets were not just win-lose, but based on the spread.  After manually data entering all of the relevant data from my sources, I managed all the data in a databased linked to an early version of Microsoft Excel.  I used calculus based multi-dimensional statistics with regression models and my own simulated annealing algorithms to process the data, and I scored each team's defense roster against the opposing teams offense roster.  At the end of the season, my model had scored over 70% on the win-loss predictions, and was the closest by far on the predicted spreads.
 
-==================================
-```
+ ```
 PC + IBM Risc workstation
 RS6000
 AIX

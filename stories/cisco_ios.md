@@ -19,8 +19,7 @@ In the second POC (week 2) via iteration on the 4 new logical components, showed
 
 Result -- the system was able to keep all cores and threads nearly saturated, allowing near-linear scaling of router performance with respect to the number of cores and hyperthreads within the router.
 
-========================================
-```
+ ```
 CISCO IOS
 8086
 Intel Core2

@@ -18,16 +18,14 @@ MacOS Kernel, XNU internals and device drivers for both storage and networking
 Windows NT Kernel Internals and device drivers for both storage and networking
 added multicore and converted from long-locks to nested fine grained locks
 ```
-=====================================================
-
+ 
 Vinfolio.com - 2017
 
 * Convert Java/MSSQL application deployment to infrastructure as configuration in the cloud (AWS) write complete CI/CD system which automated vetting and delivery of new code to production in minutes instead of days
 * refactor database keys, indices, joins and aggregation for 100x performance improvement on complex queries
 * reduce web-facing P99 from 3 seconds to 100 milliseconds
 
-======================================================
-
+ 
 Unnamed: High-Mix, Low-Volume (HMLV) Manufacturer (Thailand)
 
 Engaged by CEO to find opportunities to improve efficiency of manufacturing lines, to increase capacity, by finding key bottlenecks and making recommendations on how to remove them.  CEO was looking for 2-3% capacity increase.

@@ -6,8 +6,7 @@ Oct 10
 Thanksgiving Weekend
 Dec 3
 
-==================================
-```
+ ```
 C
 C++
 Java

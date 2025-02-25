@@ -7,12 +7,10 @@ With my intimate knowledge of Intel Architecture pipelining of instructions lear
 
 This foundational code is in every single Android device shipped today, virtually unchanged from the time I wrote it, and is also included in many other Java based systems.
 
-==========================
-
+ 
 https://github.com/search?q=repo%3Aopenjdk%2Fjdk%20Charlton%20Innovations%2C%20Inc.&type=code
 
-==========================
-```
+ ```
 Java2D
 JDK
 Fonts
