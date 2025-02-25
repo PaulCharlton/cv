@@ -1,4 +1,4 @@
-C2B Technologies Inc.  1997-1998
+C2B Technologies Inc.  1997 to 1998
 
 I heard nothing from Beyond News Inc, other than their name change immediately after July 1997, until July of the next year (1998.)
 
