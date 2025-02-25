@@ -1,6 +1,6 @@
 Fast-Term - 1984 to 1986
 
-As noted in my writings on time at RPI, RPI would, upon request, run a 9600 baud serial port into your dorm room.  However, my personal computer at the time, a TI-99/4a only had communication software that was reliable at only at 300 baud with a handset coupler.  This motivated me to write "Fast-Term", in 100% assembler language, that was fully capable at 19200 baud.
+As noted in my writings on time at RPI, RPI would, upon request, run a 9600 baud serial port into your dorm room.  However, my personal computer at the time, a TI-99/4A, only had communication software that was reliable at only at 300 baud with a handset coupler.  This motivated me to write "Fast-Term", in 100% assembler language, that was fully capable at 19200 baud.
 
 The Fast-Term journey began with a deep dive on the serial ports available on the TI-99/4a.  What I learned is that the serial ports were driven by a custom chip from Texas Instruments called the TMS9902, which could be programmed to different bit rates by a programmable clock divisor.    I also completely reverse engineered the ROM of TI's RS232 Interface card to better understand how the card interacted with the main board in the TI-99/4a.
 
@@ -51,7 +51,6 @@ Along the way with FastTerm and my other community contributions, I got numerous
 
 More will come to light once I recover any copy of the FastTerm source code and read the change log.
 
-========================================
 ```
 TI-99/4a
 TMS9900
@@ -72,3 +71,5 @@ RGB monitors
 TIFORUM
 COMPUSERVE
 ```
+1) https://ftp.whtech.com/user%20groups/Net%2099er/net99er8508.pdf
+2) https://www.ti99ers.org/timeline/sw99ers8611.pdf
