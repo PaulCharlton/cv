@@ -1,4 +1,4 @@
-{
+export const IdMap: Record<string, number | string> = {
   "EnterNet.md": 1,
   "IdeaLab.md": 2,
   "Intuit.md": 3,
@@ -56,6 +56,5 @@
   "rpi.md": 55,
   "swiftboot.md": 56,
   "valueclick.md": 57,
-  "wikipedia.md": 58
-}
-
+  "wikipedia.md": 58,
+};
