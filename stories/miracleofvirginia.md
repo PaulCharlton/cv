@@ -34,5 +34,5 @@ MSDOS
 NTSC
 ```
 
-1) https://a.co/d/3OKlSCT
-2) https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/616811matv-0816.pdf
+1)  [Reference_URL](https://a.co/d/3OKlSCT)
+2)  [Reference_URL](https://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/616811matv-0816.pdf)

@@ -101,9 +101,9 @@ Async distributed software
 Global-scale time synchronization algorithms
 ```
 
-1) https://en.wikipedia.org/wiki/QuickTime#QuickTime_2.x
-https://patents.google.com/patent/US5875354A/en?oq=US5875354A
-https://patents.google.com/patent/US5825359A/en?oq=US5825359A
+1)  [Reference_URL](https://en.wikipedia.org/wiki/QuickTime#QuickTime_2.x)
+ [Reference_URL](https://patents.google.com/patent/US5875354A/en?oq=US5875354A)
+ [Reference_URL](https://patents.google.com/patent/US5825359A/en?oq=US5825359A)
 2) WWDC 1995 - main hall presentation "Quicktime" - as Microsoft Windows tech leader
 3) WWDC 1996 - main hall presentation "Cross Platform Quicktime" - as tech lead, main presenter
 4) WWDC 1996 - main hall presentation "Quicktime" - as Cross Platform tech leader

@@ -50,16 +50,16 @@ GRAM
 GROM
 VDP
 ```
-1) https://www.ti99ers.org/timeline/time1987.htm
-2) https://www.ti99ers.org/timeline/time1989.htm
-3) https://en.wikipedia.org/wiki/Geneve_9640
-4) https://en.wikipedia.org/wiki/Myarc_Disk_Operating_System
-5) http://www.mainbyte.com/ti99/geneve_system.jpg
-6) https://web.archive.org/web/20160117050625/http://www.thekeep.net/mcgill/images/101_0124.jpg
-7) http://www.mainbyte.com/ti99/geneve/geneve.html
-8) http://www.homecomputer.de/pages/f_misc.html?Myarc_Geneve_9640.html
-9) http://aug.99er.net/geneve_9640.htm
-10) https://archiveos.org/mdos/
+1)  [TI-99 Timeline 1987](https://www.ti99ers.org/timeline/time1987.htm)
+2)  [Reference_URL](https://www.ti99ers.org/timeline/time1989.htm)
+3)  [Reference_URL](https://en.wikipedia.org/wiki/Geneve_9640)
+4)  [Reference_URL](https://en.wikipedia.org/wiki/Myarc_Disk_Operating_System)
+5)  [Reference_URL](http://www.mainbyte.com/ti99/geneve_system.jpg)
+6)  [Reference_URL](https://web.archive.org/web/20160117050625/http://www.thekeep.net/mcgill/images/101_0124.jpg)
+7)  [Reference_URL](http://www.mainbyte.com/ti99/geneve/geneve.html)
+8)  [Reference_URL](http://www.homecomputer.de/pages/f_misc.html?Myarc_Geneve_9640.html)
+9)  [Reference_URL](http://aug.99er.net/geneve_9640.htm)
+10)  [Reference_URL](https://archiveos.org/mdos/)
 
 UCSD P-system
 IML - Infocom machine language

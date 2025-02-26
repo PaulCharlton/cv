@@ -71,5 +71,5 @@ RGB monitors
 TIFORUM
 COMPUSERVE
 ```
-1) https://ftp.whtech.com/user%20groups/Net%2099er/net99er8508.pdf
-2) https://www.ti99ers.org/timeline/sw99ers8611.pdf
+1)  [Reference_URL](https://ftp.whtech.com/user%20groups/Net%2099er/net99er8508.pdf)
+2)  [Reference_URL](https://www.ti99ers.org/timeline/sw99ers8611.pdf)
