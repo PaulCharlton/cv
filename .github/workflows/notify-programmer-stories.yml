@@ -1,17 +1,16 @@
-name: Notify Programmer Stories Repository
-
+name: Trigger Deploy
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
-  notify:
+  trigger:
     runs-on: ubuntu-latest
     steps:
-      - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v2
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
-          repository: tallalnparis4ev/programmer-stories
-          event-type: cv-submodule-update
+      - name: Trigger deployment in programmer-stories
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/tallalnparis4ev/programmer-stories/dispatches \
+            -d '{"event_type":"cv-submodule-update"}'
