@@ -8,4 +8,4 @@ This is the developer facing documentation I wrote for the development of Applic
 5) [GenREF Math, revised by Beery Miller](https://ftp.whtech.com/Geneve.new/Documents/GenASM/GenREFMath.pdf)
 6) [GenREF Keyboard, revised by Beery Miller](https://ftp.whtech.com/Geneve.new/Documents/GenASM/GenREFKey.pdf)
 7) [GenREF Device Service Routines](https://ftp.whtech.com/Geneve.new/Documents/GenASM/GenREFDsr.pdf)
-[TI99 timeline 1989](https://www.ti99ers.org/timeline/time1989.htm)
+8) [TI99 timeline 1989](https://www.ti99ers.org/timeline/time1989.htm)
