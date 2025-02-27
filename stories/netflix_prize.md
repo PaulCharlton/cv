@@ -1,6 +1,6 @@
 Netflix prize competition - 2008
 
- [Reference_URL](https://en.wikipedia.org/wiki/Netflix_Prize)
+ [Wikipedia - Netflix prize](https://en.wikipedia.org/wiki/Netflix_Prize)
 
 The Netflix Prize (2006–2009) was a \$1 million competition to improve Netflix’s Cinematch
 recommendation system by 10%. Thousands of teams used machine learning to predict ratings,

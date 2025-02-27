@@ -44,7 +44,7 @@ Commodore SuperPET
 Commodore PET
 KayPro
 Seequa Chameleon
-TI99/4a
+TI-99/4A
 TMS9900
 Speech synthesis
 Speaker independent Speech recognition
