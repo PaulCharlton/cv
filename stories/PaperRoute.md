@@ -4,7 +4,7 @@ I started my first entrepreneurial business at the age of 9.
 
 Since child labor was illegal, and my state had started prosecuting news media for employing anyone under the age of 15, even if they had parental consent ...
 
-I proposed to the local newspaper that I set up an independent business wherein I was self-employed and had a diversified set of products in addition to their newspapers.  Their attorney concurred and my business began purchase newspapers in bulk from them at a wholesale discounted price in a B2B relationship.
+I proposed to the local newspaper that I set up an independent business wherein I was self-employed and had a diversified set of products in addition to their newspapers.  Their attorney concurred and my business began purchasing newspapers in bulk from them at a wholesale discounted price in a B2B relationship.
 
 I licensed a small geographic exclusive area from the local newspaper and began distribution to housing subdivisions consisting of about 120 households.  I grew from an initial 30 subscribers to over 100 subscribing households in the first year, and also installed and maintained newspaper boxes and poles.
 
