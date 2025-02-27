@@ -1,4 +1,4 @@
-Genmake - 1989
+GenMake - 1989
 
 Make utility with macro facility.  I wrote this toolset to manage the development the MyArc Disk operating System.
 

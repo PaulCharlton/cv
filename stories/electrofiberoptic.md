@@ -12,9 +12,9 @@ What I was requested to do was to implement a computer control system which coul
 
 I chose to implement the control system with a TMS9995 16-bit processor, a TMS9902 serial control chip, and a TMS 9901 i/o controller, along with a set of 100w solid state relays for control of each light box.
 
-I wrote my own bootable operating system from scratch and burned it into the boot EPROM.  I added a command line interpreter to the bootable OS which used the RS232 serial port as its input and also for dial-out for bulb change requests.  I was able to detect bulb failures by a feedback circuit which could discriminate between (a) bulb off, (b) bulb on normally, and (c) bulb on but open circuit due to a failed filament.
+I wrote my own bootable operating system from scratch and burned it into the boot EEPROM.  I added a command line interpreter to the bootable OS which used the RS232 serial port as its input and also for dial-out for bulb change requests.  I was able to detect bulb failures by a feedback circuit which could discriminate between (a) bulb off, (b) bulb on normally, and (c) bulb on but open circuit due to a failed filament.
 
-This project was solo, and part time over the course of a couple of months.  I was also called on to show employees of Electro Fiber Optic how to configure, compile, burn EPROM so that they could independently add their own new customers.  I was also called into the field a couple of times to train the staff at the Baltimore Harbor Tunnel on the overall operation of the system and show their staff what to expect when they received a call-out from the controller when it reported burned out light bulbs.
+This project was solo, and part-time over the course of a couple of months.  I was also called on to show employees of Electro Fiber Optic how to configure, compile, burn EEPROM so that they could independently add their own new customers.  I was also called into the field a couple of times to train the staff at the Baltimore Harbor Tunnel on the overall operation of the system and show their staff what to expect when they received a call-out from the controller when it reported burned out light bulbs.
 
  ```
 TMS 9900

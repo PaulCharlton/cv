@@ -8,7 +8,7 @@ SGI/Cray Division - 2014
 * Asked to become paid maintainer Clustered-XFS for Mac and Windows Clients.
 
 #### Scope:
-200,000 lines of new code -- common code base for 32/64 bit and common code with NT/Mac version (with the exception of platform specific behaviors, such as support for: Finder or Explorer, and endian converter
+200,000 lines of new code -- common code base for 32/64 bit and common code with NT/Mac version (except for platform specific behaviors, such as support for: Finder or Explorer, and endian converter
 
 Tech Stack:
 ```
@@ -34,8 +34,8 @@ After spending a week on the factory floor and interviewing team members from th
 
 He implored me (and paid me) to keep looking for other efficiency bottlenecks.  I spent the next week collecting API and interface documentation for all of the automated machines on the floor -- none of which were networked with each other at the time -- and manually harvested all of the machine logs into a database I built from scratch.  Ignoring the fact that half of the assembly lines were not running at any given moment, I analyzed the log data with various frequency domain analysis and noted that 3 times a day, there was a decrease in activity for about an hour each time.  3 hours out of 24 being somewhere around a 15% improvement if addressed, I took this new finding to the CEO, with the receipts to back it up.  He immediately identified the lull in productivity as the "shift changes" in the factory staff, and is reaction was nearly the same as before -- he could not take the finding to his immediate staff because they would feel ashamed because they had already identified shift change as a productivity issue, and claimed to have fixed it, in contradiction to my data from the machines on the floor. [sigh again]
 
-He implored me (and paid me) to keep looking for other efficiency bottlenecks. I spent a day reanalyzing the data I had already collected, and found some bottle necks where different assembly lines were competing for the same components from inventory.  In each instance, those components were ultra-high value (CPU, RAM) and inventory typically only had one reel of each component, leading to conflicts when more than one assembly line needed the same reel.
+He implored me (and paid me) to keep looking for other efficiency bottlenecks. I spent a day reanalyzing the data I had already collected, and found some bottlenecks where different assembly lines were competing for the same components from inventory.  In each instance, those components were ultra-high value (CPU, RAM) and inventory typically only had one reel of each component, leading to conflicts when more than one assembly line needed the same reel.
 
 I proposed that during setup of a product batch, that the "one reel" from inventory be split onto another reel, with just enough components for that batch, and the next product batch would be able to do its own split from the original reel.  According to the data I had collected, this would be a 3-5% reduction in downtime on competing assembly lines.
 
-I took this result to the CEO and he was happy and we presented to his staff later that day.
+I took this result to the CEO and he was happy, and we presented to his staff later that day.

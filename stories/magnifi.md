@@ -11,7 +11,7 @@ CNN Interactive, Boeing, and Disney.
 
 I was tasked with developing multimedia search capability for Magnifi, with the specific objectives of
 extracting any available text from multimedia assets and adding those pieces of text to the
-search database.  This engagement lasted a few months, part time, while resulting in the integration of the
+search database.  This engagement lasted a few months, part-time, while resulting in the integration of the
 most popular multimedia formats into a contextual search engine.  I also developed a suite of fully
 automated tests which validated the ability of the search engine to find all of the relevant content.
 

@@ -1,4 +1,4 @@
-NetFlix prize competition - 2008
+Netflix prize competition - 2008
 
  [Reference_URL](https://en.wikipedia.org/wiki/Netflix_Prize)
 

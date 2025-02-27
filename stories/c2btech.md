@@ -12,7 +12,7 @@ A bit surreal -- I had a share certificate worth slightly over \$30 million sitt
  1) If I had held those shares until the maximum valuation of Inktomi 18 months later, they would have been worth \$300 million instead of \$30 million.  I cashed out earlier than that.
 2) Inktomi was acquired by Yahoo in 2003 for 1% of its peak value.
 3) even though I cashed out over \$25 million in CY 1998, my name did not make the published list of top 10 earners in the SJ Mercury news, even though I was well into the top 10 that year -- I was happy for the privacy.
-4) C2B had not implement the coolest feature in the QE2 shopping experience.  They only went as far as allowing the customer to compare prices from different vendors, across different web sites, they had not created a real time auction where sellers could bid to obtain the customer's business.  They had also added an advertising feature which could inject advertisements into the customer experience while the customer was still searching for the product they wanted.
+4) C2B had not implemented the coolest feature in the QE2 shopping experience.  They only went as far as allowing the customer to compare prices from different vendors, across different websites, they had not created a real time auction where sellers could bid to obtain the customer's business.  They had also added an advertising feature which could inject advertisements into the customer experience while the customer was still searching for the product they wanted.
 
 
 
