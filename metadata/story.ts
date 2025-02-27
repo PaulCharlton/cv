@@ -1,6 +1,6 @@
 import { Companies, Company } from "./company";
 
-interface Story {
+export interface Story {
   filename: string;
   title: string; // The title of the story - will be displayed on story list page
   date: string; // The date of the story (e.g. "1975-2025" or "1990" or "Unknown") - will be displayed on story list page
