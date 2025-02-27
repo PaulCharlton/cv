@@ -66,6 +66,8 @@ AIX
 OS/2
 Windows 3.0
 Windows 3.1
+Windows SDK
+Windows DDK
 EXCEL
 CICS
 COBOL
