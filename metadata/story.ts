@@ -7,7 +7,7 @@ interface Story {
   summary: string;
   company: Company | undefined;
   id: string | number;
-  coolness: number;
+  coolness: number; // 0-100, 100 is the coolest
 }
 
 export const StoryMap: Record<string, Story> = {
