@@ -6,7 +6,7 @@ interface Story {
   date: string;
   summary: string;
   company: Company | undefined;
-  id: string | number;
+  id: string | number; // This gives the story URL: /story/${id}
   coolness: number; // 0-100, 100 is the coolest
 }
 
