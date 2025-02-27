@@ -535,4 +535,13 @@ export const StoryMap: Record<string, Story> = {
     coolness: 1,
     id: 58,
   },
+  "context_quotes.md": {
+    filename: "context_quotes.md",
+    title: "Context Quotes",
+    date: "",
+    summary: "",
+    company: undefined,
+    coolness: 1,
+    id: 59,
+  },
 };

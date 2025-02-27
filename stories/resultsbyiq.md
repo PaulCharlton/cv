@@ -10,7 +10,29 @@ SGI/Cray Division - 2014
 #### Scope:
 200,000 lines of new code -- common code base for 32/64 bit and common code with NT/Mac version (except for platform specific behaviors, such as support for: Finder or Explorer, and endian converter
 
-Tech Stack:
+#### Challenges:
+Most people might think that the hardest challenges for a Mac or Windows client of a Clustered XFS was something like performance, or latency, or memory, or 32 vs 64 bit, or ISA endian.
+
+They would be wrong.  The most complex technical issue by far was normalization and canonicalization of file names.  Issues such as:
+* Case sensitivity,
+* path parts, 
+* maximum length of path parts,
+* total length of all path parts,
+* characters which were illegal on some file systems,
+* directory separators legal on one platform's file system representing something entirely different on a different platform,
+* 8 bit vs 16 bit name storage,
+* endian of name storage,
+* Unicode glyphs -- and their aliases,
+* Unicode 8/16/32 encodings,
+* Unicode endian,
+* locale,
+* conversion from code pages such as EBCDIC on Windows,
+* collation (sort order) of the same names, glyphs, encodings - but in different human languages,
+* ironclad guarantee that the name put into XFS on a given platform would be character-for-character identical on that same platform when enumerated from a directory listing.
+
+Those issues had not been resolved before I started rearchitecting the Cluster-XFS client codebases.  Simple tests such as checking out from a git repo on a Mac, then using the shared files to build on a PC, or on Linux -- UX unsolved prior to my contributions.
+
+### Tech Stack:
 ```
 MacOS block device driver framework
 Windows NT block device driver

@@ -54,6 +54,11 @@ One theme running through all of the above, is how Chase management perceived Sa
 #### Football pool and machine learning.
 Near the end of my second year, I got involved in the football pool created by the tech team on the floor in my building in Garden City.  It was for fun, and the bets were funny money, with recognition and reputation being the primary currency.  My approach to the betting was fully data-driven, and I separated each official football team into two separate teams on the computer, one for offense, and a separate team for defense.  For my data, I also had a separate line-item for each and every player.  One of my primary data sources was a newspaper called the "Sports Daily" which had the key stats for the top players in each game the previous week, as well as reports of player injuries which could affect their upcoming performance.  The bets were not just win-lose, but based on the spread.  After manually data entering all of the relevant data from my sources, I managed all the data in a database linked to an early version of Microsoft Excel.  I used calculus based on multidimensional statistics with gradient-ascent regression models and my own simulated annealing algorithms to process the data, and I scored each team's defense roster against the opposing teams offense roster.  At the end of the season, my model had scored over 70% on the win-loss predictions, and was the closest by far on the predicted spreads.
 
+#### Mapping the Hidden Organization
+I played corporate politics like Chess or some other deep game — I made graphs of who had worked with whom, every time I heard a story — and then, when I wanted something from a particular decision maker, I referred to the graph, which although different from the current org chart, usually mapped effective communication conduits for the the planting of seeds … I could plant 5 signals at different points in the graph network, confident that many of them would arrive at the intended recipient, and they would have heard my idea 5 times before I even arrived in their office — when I brought something up, they would have an AHA moment of synthesis…
+
+I later learned that the IBM sales office used a similar technique, and that their "maps" of who had worked with whom went back decades, across member companies in entire industries.   They knew how to get what they wanted.
+
  ```
 PC + IBM Risc workstation
 RS6000
@@ -63,6 +68,9 @@ Windows 3.0
 Windows 3.1
 EXCEL
 CICS
+COBOL
+JCL
+EBCDIC
 MVS
 LU2
 LU6.2
