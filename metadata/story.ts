@@ -2,10 +2,10 @@ import { Companies, Company } from "./company";
 
 interface Story {
   filename: string;
-  title: string;
-  date: string;
-  summary: string;
-  company: Company | undefined;
+  title: string; // The title of the story - will be displayed on story list page
+  date: string; // The date of the story (e.g. "1975-2025" or "1990" or "Unknown") - will be displayed on story list page
+  summary: string; // A short summary of the story - will be displayed on story list page
+  company: Company | undefined; // The company associated with the story - will be displayed on story list page and the comapny page
   id: string | number; // This gives the story URL: /story/${id}
   coolness: number; // 0-100, 100 is the coolest
 }
@@ -14,7 +14,7 @@ export const StoryMap: Record<string, Story> = {
   "introduction.md": {
     filename: "introduction.md",
     title: "Introduction",
-    date: "1975-2025",
+    date: "1975-2025", // So that it appears first on the story list page all the time
     summary: "",
     company: undefined,
     coolness: 100,
