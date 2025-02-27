@@ -1,7 +1,7 @@
 JavaSoft - 1997
 * Principal Consulting Engineer
 
-Focus in implementation and performance of Java2D subsystem for JDK 2.  Increased performance of glyph rendering to onscreen by 40x from the original implementation (5000 glyphs per second to over 200,000 glyphs per second.) Rearchitect, refactor and or rewrite entire 2D graphics subsystem.
+Focus in implementation and performance of Java2D subsystem for JDK 2.  Increased performance of glyph rendering to onscreen by 40x from the original implementation (5,000 glyphs per second to over 200,000 glyphs per second.) Rearchitect, refactor and or rewrite entire 2D graphics subsystem.
 
 With my intimate knowledge of Intel Architecture pipelining of instructions learned from writing CODECS for QuickTime, I optimized pipelining of Intel 386 Java Byte Code interpreter, yielding 5x performance improvement over original Sun/JavaSoft implementation.
 
