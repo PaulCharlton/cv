@@ -57,7 +57,7 @@ Near the end of my second year, I got involved in the football pool created by t
 #### Mapping the Hidden Organization
 I played corporate politics like Chess or some other deep game — I made graphs of who had worked with whom, every time I heard a story — and then, when I wanted something from a particular decision maker, I referred to the graph, which although different from the current org chart, usually mapped effective communication conduits for the the planting of seeds … I could plant 5 signals at different points in the graph network, confident that many of them would arrive at the intended recipient, and they would have heard my idea 5 times before I even arrived in their office — when I brought something up, they would have an AHA moment of synthesis…
 
-I later learned that the IBM sales office used a similar technique, and that their "maps" of who had worked with whom went back decades, across member companies in entire industries.   They knew how to get what they wanted.
+I later learned that the IBM sales office used a similar technique, and that their "maps" of who had worked with whom went back decades, across member companies in entire industries.  They knew how to get what they wanted.
 
  ```
 PC + IBM Risc workstation
