@@ -13,3 +13,11 @@ The next weekend I wrote a proof that satisfied me that the 10% improvement goal
 Once I had the proof, I was no longer interested in the competition because iterating against the scoring oracle did not feel like an intellectually honest approach to me.  Ensemble and iterative algorithms against the scoring oracle do not have the theoretical purity of a true singular solution.
 
 Validation -- the winning team, BellKor, was a synthesis of multiple scoring algorithms, each of which had learned, not from the raw data, but from hundreds, if not thousands, of total attempts against the scoring oracle.
+
+```
+multidimensional linear regression
+SVD (singular value decomposition)
+simulated annealing
+gradient ascent
+gradient descent
+```

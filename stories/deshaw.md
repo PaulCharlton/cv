@@ -43,3 +43,28 @@ Things that happened after I left:
 2) DESHAW spun off Juno Communications which became a leading nationwide dial-up ISP,
 3) DESHAW became involved in a scandal for losing nearly \$1 billion of investor funds from banks in a derivatives trade. (1997, Bank of America)
 4) I am informed and believe that most of the 23 people who were at DESHAW before me are now multi-billionaires.
+
+```
+multidimensional linear regression
+SVD (singular value decomposition)
+simulated annealing
+gradient ascent
+gradient descent
+Windows GUI
+Windows DDK
+Stratus
+Pascal
+Borland C++
+C++
+C
+Unix
+Solaris
+Sun Microsystems
+NASDAQ
+NYSE
+AMEX
+VOS
+ISDN
+T1
+leased lines
+```

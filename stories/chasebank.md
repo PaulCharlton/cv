@@ -76,6 +76,7 @@ EBCDIC
 MVS
 LU2
 LU6.2
+SNA (System Network Architecture)
 Token Ring
 Novell Netware
 ```

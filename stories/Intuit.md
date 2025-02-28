@@ -171,4 +171,6 @@ SysInternals
 Araxis Merge
 IntelliJ
 Visual Studio
+Intel VTune
+SoftICE for Windows
 ```
