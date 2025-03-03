@@ -22,13 +22,13 @@ export type CompanyName =
   | "University of Virginia"
   | "Netflix"
   | "CompuServe"
-  | "Pixar"
-  | "AMD"
-  | "Lockheed Martin"
-  | "AT&T"
-  | "General Dynamics"
-  | "General Electric"
-  | "US Navy";
+  | "Pixar";
+  // | "AMD"
+  // | "Lockheed Martin"
+  // | "AT&T"
+  // | "General Dynamics"
+  // | "General Electric"
+  // | "US Navy";
 
 export interface Company {
   name: CompanyName;
