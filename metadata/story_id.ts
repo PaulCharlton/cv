@@ -544,4 +544,13 @@ export const StoryMap: Record<string, Story> = {
     coolness: 1,
     id: 59,
   },
+  "pixar.md": {
+    filename: "pixar.md",
+    title: "Pixar Inc.",
+    date: "1988, 1995, 2010",
+    summary: "",
+    company: Companies.Pixar,
+    coolness: 59,
+    id: 60,
+  },
 };

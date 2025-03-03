@@ -21,7 +21,14 @@ export type CompanyName =
   | "Oracle Corporation"
   | "University of Virginia"
   | "Netflix"
-  | "CompuServe";
+  | "CompuServe"
+  | "Pixar"
+  | "AMD"
+  | "Lockheed Martin"
+  | "AT&T"
+  | "General Dynamics"
+  | "General Electric"
+  | "US Navy";
 
 export interface Company {
   name: CompanyName;
@@ -141,4 +148,39 @@ export const Companies: Record<CompanyName, Company> = {
     file: "compuserve.svg",
     homepage: "https://www.compuserve.com",
   },
+  Pixar: {
+    name: "Pixar",
+    file: "pixar.jpeg",
+    homepage: "https://www.pixar.com",
+  },
+  // AMD: {
+  //   name: "AMD",
+  //   file: "amd.svg",
+  //   homepage: "https://www.amd.com",
+  // },
+  // "Lockheed Martin": {
+  //   name: "Lockheed Martin",
+  //   file: "lockheed_martin.svg",
+  //   homepage: "https://www.lockheedmartin.com",
+  // },
+  // "AT&T": {
+  //   name: "AT&T",
+  //   file: "att.svg",
+  //   homepage: "https://www.att.com",
+  // },
+  // "General Dynamics": {
+  //   name: "General Dynamics",
+  //   file: "general_dynamics.svg",
+  //   homepage: "https://www.gd.com",
+  // },
+  // "General Electric": {
+  //   name: "General Electric",
+  //   file: "general_electric.svg",
+  //   homepage: "https://www.ge.com",
+  // },
+  // "US Navy": {
+  //   name: "US Navy",
+  //   file: "us_navy.svg",
+  //   homepage: "https://www.navy.mil",
+  // },
 };
