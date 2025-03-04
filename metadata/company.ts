@@ -156,6 +156,8 @@ export const Companies: Record<CompanyName, Company> = {
   },
   "Myarc Computers Inc.": {
     name: "Myarc Computers Inc.",
+    file: "",
+    homepage: "https://en.wikipedia.org/wiki/Geneve_9640",
   },
   // AMD: {
   //   name: "AMD",
