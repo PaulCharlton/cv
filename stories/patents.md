@@ -1,3 +1,14 @@
+### Patents, in general
+
+For the most part, I do not believe in the value of patents in today's economic landscape, except to treat them as "trading cards" and a brand building marketing expense.
+
+`He who has the gold rules` --wise attorney
+
+The fundamental right that comes with a patent is to sue someone in court for infringement if they copy your "unique design".  It is an expensive proposition, at best, to attempt prosecuting someone, especially a large well-funded tech company for such violations.   They know this, and often use patents of others with impunity, and the knowledge that even if they get caught, the expense of paying attorneys to keep fighting in court (say, \$100,000 per month), is far less than they are making by using the idea.
+
+As an illustration, my father changed the world of telescope mirrors, but history barely remembers his name. In the early 1960s, he invented and patented a revolutionary machine that could grind mirrors 20× more accurately than anything before (USPTO: 3,141,265), achieving 40nm precision—a level previously possible only with painstaking manual effort. He saw the problem that no one else did: the gear-driven machines of the time were inherently flawed, producing harmonic lissajous distortions like a spirograph toy. His solution was brilliant yet simple—replace gears with a belt driven analog computer computing an irrational number, breaking the flawed cycles and allowing for truly smooth, sub-wavelength precision optics. It worked. Almost immediately after his patent was published, the market shifted. High-precision mirrors, once out of reach, were now mass-produced and sold at 100× lower prices. He walked through factories and saw his ideas in action, but he never saw a dime from it. No financial backers, no legal team, no protection—his revolutionary invention became industry standard, while he remained an outsider to the wealth and recognition that followed. His legacy lives on in every high-precision mirror that came after. But in the business of invention, sometimes the greatest breakthroughs are the ones history forgets.
+
+I'd rather not deep dive on the topic here, so I am switching gears to summarize the patents that Apple filed and received assignment of for my work, as well as one which I did file myself.
 
 ### Summary of US Patent 5,875,354 (1999) and Its Relevance Today
 
@@ -95,13 +106,13 @@ Relevance 30 Years Later
 • Real-time Graphics & Gaming: The principle of rendering arbitration applies to modern game engines (Unreal, Unity) and video compositors (OBS, FFMPEG, AV1 encoding), where frame synchronization and efficient scheduling remain critical.
 • Cloud-based UI Rendering: The cloud-based application delivery model, such as Amazon AppStream or Windows 365, must intelligently schedule UI updates to optimize bandwidth and latency—making arbitration techniques crucial.
 
-This patent essentially anticipated compositing window managers and multi-process display arbitration techniques that are now a standard part of modern graphical user interfaces.
+This patent essentially anticipated compositing window managers and multiprocess display arbitration techniques that are now a standard part of modern graphical user interfaces.
 
 ### Summary of US Patent 5,949,434 (Paul Charlton, 1999)
 
 Title: Method and Apparatus for Scaling Graphic Images
-Filed: March 20, 1997
-Issued: September 7, 1999
+Filed: March 20, 1997,
+Issued: September 7, 1999,
 
 Key Innovations
 
