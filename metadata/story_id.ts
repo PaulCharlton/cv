@@ -83,8 +83,8 @@ export const StoryMap: Record<string, Story> = {
     coolness: 93,
     id: 20,
   },
-  "cyber currency 101.md": {
-    filename: "cyber currency 101.md",
+  "cyber_currency_101.md": {
+    filename: "cyber_currency_101.md",
     title: "CBDC",
     date: "2018",
     summary: "",
@@ -272,8 +272,8 @@ export const StoryMap: Record<string, Story> = {
     coolness: 72,
     id: 36,
   },
-  "home construction.md": {
-    filename: "home construction.md",
+  "home_construction.md": {
+    filename: "home_construction.md",
     title: "Home Construction",
     date: "Unknown",
     summary: "",
@@ -317,8 +317,8 @@ export const StoryMap: Record<string, Story> = {
     coolness: 67,
     id: 6,
   },
-  "national merit.md": {
-    filename: "national merit.md",
+  "national_merit.md": {
+    filename: "national_merit.md",
     title: "National Merit Finalist",
     date: "Unknown",
     summary: "",
@@ -355,8 +355,8 @@ export const StoryMap: Record<string, Story> = {
     coolness: 1,
     id: 2,
   },
-  "acuity brands.md": {
-    filename: "acuity brands.md",
+  "acuity_brands.md": {
+    filename: "acuity_brands.md",
     title: "Acuity Brands",
     date: "",
     summary: "",
@@ -409,8 +409,8 @@ export const StoryMap: Record<string, Story> = {
     coolness: 1,
     id: 26,
   },
-  "element analytics.md": {
-    filename: "element analytics.md",
+  "element_analytics.md": {
+    filename: "element_analytics.md",
     title: "Element Analytics",
     date: "",
     summary: "",
@@ -481,8 +481,8 @@ export const StoryMap: Record<string, Story> = {
     coolness: 1,
     id: 49,
   },
-  "open source.md": {
-    filename: "open source.md",
+  "open_source.md": {
+    filename: "open_source.md",
     title: "Open Source",
     date: "",
     summary: "",
