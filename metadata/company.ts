@@ -23,7 +23,7 @@ export type CompanyName =
   | "Netflix"
   | "CompuServe"
   | "Pixar"
-  | "Myarc";
+  | "Myarc Computers Inc.";
   // | "AMD"
   // | "Lockheed Martin"
   // | "AT&T"
@@ -154,7 +154,7 @@ export const Companies: Record<CompanyName, Company> = {
     file: "pixar.jpeg",
     homepage: "https://www.pixar.com",
   },
-  Myarc: {
+  "Myarc Computers Inc.": {
     name: "Myarc Computers Inc.",
   },
   // AMD: {
