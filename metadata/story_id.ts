@@ -553,4 +553,13 @@ export const StoryMap: Record<string, Story> = {
     coolness: 59,
     id: 60,
   },
+  "patents.md": {
+    filename: "patents.md",
+    title: "Patents Issued",
+    date: "1998, 1999",
+    summary: "",
+    company: Companies.Apple,
+    coolness: 45,
+    id: 61,
+  },
 };
