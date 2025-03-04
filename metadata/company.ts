@@ -153,6 +153,9 @@ export const Companies: Record<CompanyName, Company> = {
     file: "pixar.jpeg",
     homepage: "https://www.pixar.com",
   },
+  Myarc: {
+    name: "Myarc Computers Inc.",
+  },
   // AMD: {
   //   name: "AMD",
   //   file: "amd.svg",
