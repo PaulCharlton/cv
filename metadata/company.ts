@@ -22,7 +22,8 @@ export type CompanyName =
   | "University of Virginia"
   | "Netflix"
   | "CompuServe"
-  | "Pixar";
+  | "Pixar"
+  | "Myarc";
   // | "AMD"
   // | "Lockheed Martin"
   // | "AT&T"
