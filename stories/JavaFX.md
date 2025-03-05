@@ -72,9 +72,6 @@ You decide -- did the on-time release of JavaFX cause this 50% increase, over $1
 #### Monday, April 20, 2009
 Sun Microsystems Inc., and all Java released products, were acquired by Oracle, Inc, for \$9.50 per share at a \$7.4 billion valuation.
 
-Architecture rewrite-reset market expectation to make product relevant
-
-
 ```
 C
 C++
