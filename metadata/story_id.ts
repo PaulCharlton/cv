@@ -562,4 +562,13 @@ export const StoryMap: Record<string, Story> = {
     coolness: 45,
     id: 61,
   },
+  "gtoc.md": {
+    filename: "gtoc.md",
+    title: "The America’s cup of rocket science",
+    date: "2010-2015",
+    summary: "",
+    company: undefined,
+    coolness: 45,
+    id: 61,
+  },
 };

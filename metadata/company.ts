@@ -23,6 +23,7 @@ export type CompanyName =
   | "Netflix"
   | "CompuServe"
   | "Pixar"
+  | "European Space Agency"
   | "Myarc Computers Inc.";
   // | "AMD"
   // | "Lockheed Martin"
@@ -159,7 +160,13 @@ export const Companies: Record<CompanyName, Company> = {
     file: "",
     homepage: "https://en.wikipedia.org/wiki/Geneve_9640",
   },
-  // AMD: {
+  "European Space Agency": {
+    name: "European Space Agency",
+    file: "ESA_Logo.svg",
+    homepage: "https://sophia.estec.esa.int/gtoc_portal/",
+  },
+
+// AMD: {
   //   name: "AMD",
   //   file: "amd.svg",
   //   homepage: "https://www.amd.com",

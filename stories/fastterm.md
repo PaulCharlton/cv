@@ -74,3 +74,5 @@ COMPUSERVE
 
 1) [WHTech - FastTerm, Paul Charlton](https://ftp.whtech.com/user%20groups/Net%2099er/net99er8508.pdf)
 2) [ti99ers.org - FastTerm, Paul Charlton](https://www.ti99ers.org/timeline/sw99ers8611.pdf)
+3) [Atariage FastTerm](https://forums.atariage.com/topic/295590-terminal-emulator-ii-and-a-wifi-modem/#comment-4341791)
+4) [Wikipedia FastTerm mention](https://en.wikipedia.org/wiki/Paul_Charlton_%28technologist%29)
