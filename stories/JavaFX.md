@@ -43,7 +43,7 @@ We were "code complete" and presented the new product to Sun's Java leadership t
 
 Three of us stayed on over the weekend, still working 20-hour days over the 4-day holiday.  Our primary goal for wrapping things up was to add more design related comments to the code base and to do a complete refresh of the SDK documentation for external developers, complete with example code.  We were also on-call with the outside developers who wanted to co-launch their products with the JavaFX launch the next week.
 
-All in all, we deleted 30% of the original [September 2008] codebase, we added 40,000 lines of new code (including automated test cases and the related observability), all with 10 people in less than 10 weeks.  We accomplished in those 7 weeks the equivalent of 60 person-years of work from the original Sun team, with an investment of less than 5 person-years of effort.
+All in all, we deleted 30% of the original [September 2008] codebase, we added 40,000 lines of new code (including automated test cases and the related observability), all with 10 people in less than 10 weeks.  We accomplished in those 7 weeks the equivalent of 34 person-years of work from the original Sun team, with an investment of less than 5 person-years of effort.
 
 #### Tuesday, Dec 2, 2008
 `Stock price of Sun Microsystems (JAVA) closed at $2.83.`
@@ -67,7 +67,7 @@ Street credibility.
 
 #### Wednesday, Dec 17, 2008
 `Stock price of Sun Microsystems (JAVA) closed at $4.27.`
-You decide -- did the on-time release of JavaFX cause this 50% increase, over $1-billion in market cap, in the stock price in 15-days?  What I can say is that I wish had negotiated part of my team's compensation as stock instead of cash.
+You decide -- did the on-time release of JavaFX cause this 51% increase, over \$1.08-billion in market cap, in the stock price in 15-days?  What I can say is that I wish had negotiated part of my team's compensation as stock instead of cash.
 
 #### Monday, April 20, 2009
 Sun Microsystems Inc., and all Java released products, were acquired by Oracle, Inc, for \$9.50 per share at a \$7.4 billion valuation.
