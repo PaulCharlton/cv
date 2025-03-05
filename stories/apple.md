@@ -52,11 +52,12 @@ Once QTML was publicly rolled out, and in the hands of thousands of developers, 
 Followup after I left Apple:
 1) QTML became widely popular and developers used it to port Mac applications on to Windows.
 2) QTML became essential when macOS converted to a true `preemptive multitasking environment on the BSD/Darwin/XNU kernel and got branded as the "Carbon API" for those who wanted to port their legacy macOS applications to run natively on Darwin.
-3) Steve Jobs came back as Apple's CEO
-4) the Microsoft/Intel lawsuit was settled for \$150 million in cash, and other concessions like Microsoft would continue supporting MS Office on Mac for another 5 years, and that Microsoft Explorer Web Browser would be shipped with all Mac computers.
-5) QuickTime, as a technology, won an Oscar award for its contributions to Hollywood.
-6) QuickTime media format became the basis of MP4 and related file formats, in use for over 3 decades and the foreseeable future.  Uses include all streaming video platforms, all mobile devices supporting video, essentially all satellites supporting video.
-7) QuickTime morphed into iTunes from a branding perspective, and is a critical part of all audio and visual capture and presentation on iPhone, iPad, AppleTV and macOS devices.
+3) Without my work on QTML, there would have been no Carbon, and without Carbon, Mac OS X would have failed.
+4) Steve Jobs came back as Apple's CEO
+5) the Microsoft/Intel lawsuit was settled for \$150 million in cash, and other concessions like Microsoft would continue supporting MS Office on Mac for another 5 years, and that Microsoft Explorer Web Browser would be shipped with all Mac computers.
+6) QuickTime, as a technology, won an Oscar award for its contributions to Hollywood.
+7) QuickTime media format became the basis of MP4 and related file formats, in use for over 3 decades and the foreseeable future.  Uses include all streaming video platforms, all mobile devices supporting video, essentially all satellites supporting video.
+8) QuickTime morphed into iTunes from a branding perspective, and is a critical part of all audio and visual capture and presentation on iPhone, iPad, AppleTV and macOS devices.
  ```
 Tech used:
 C
