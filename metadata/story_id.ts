@@ -215,7 +215,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2008",
     summary: "",
     company: Companies["Oracle Corporation"],
-    coolness: 78,
+    coolness: 96,
     id: 4,
   },
   "valueclick.md": {
