@@ -7,10 +7,10 @@ The Global Trajectory Optimization Competition (GTOC) is a prestigious internati
 
 ESA has sponsored and hosted multiple GTOC editions, including GTOC1 (2005) and GTOC4 (2010), reinforcing its commitment to advancing space trajectory optimization. The competition has since been hosted by NASA’s JPL, CNES, Politecnico di Torino, and Tsinghua University, among others, making it a benchmark event in astrodynamics research.
 
-##### for fun
+#### For Fun
 I participated as an individual team in 4 of the 5 competitions from GTOC-4 to GTOC-8 from 2010 to 2015.  My participation was a private journey as I never shared my results or ranking relative to teams from the top universities and space agencies around the world.
 
-All I am going to share for the moment is that I had a novel approach that scored far ahead of most other teams.
+All I am going to share for the moment is that I had a novel approach that scored far ahead of most other, if not all, teams that did make submissions.
 
 #### references
 
