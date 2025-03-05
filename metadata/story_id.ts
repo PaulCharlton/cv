@@ -184,7 +184,7 @@ export const StoryMap: Record<string, Story> = {
   },
   "asic1.md": {
     filename: "asic1.md",
-    title: "Myarc pt.1",
+    title: "ASIC #1, Myarc",
     date: "1986",
     summary: "",
     company: Companies["Myarc Computers Inc."],
@@ -193,7 +193,7 @@ export const StoryMap: Record<string, Story> = {
   },
   "asic2.md": {
     filename: "asic2.md",
-    title: "Myarc pt.2",
+    title: "ASIC #2, Myarc",
     date: "1987",
     summary: "",
     company: Companies["Myarc Computers Inc."],
@@ -567,7 +567,7 @@ export const StoryMap: Record<string, Story> = {
     title: "The America’s cup of rocket science",
     date: "2010-2015",
     summary: "",
-    company: undefined,
+    company: Companies["European Space Agency"],
     coolness: 45,
     id: 61,
   },
