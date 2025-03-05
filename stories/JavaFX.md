@@ -26,7 +26,7 @@ I spent the first two hours with the team giving them a download (training sessi
 
 We spent the remainder of the afternoon acquiring workstations and critical software (on my credit card, and some from the JavaFX testing lab), acquiring (by takeover) an office large enough to hold the entire team, and equipping that office with "whiteboards" covering all of the walls.  The "whiteboards" were 1/8" shower enclosure sheets from Home Depot that we treated with a common household spray wax.
 
-I gave my team some hand-picked videos from my collection and told them that we were done with the technical implementation when those videos played smoothly on all of the target devices, including low-end mobile phones that supported Java.
+I gave my team some hand-picked videos from my collection and told them that we were done with the technical implementation when those videos played smoothly on all of the target devices, including low-end mobile phones that supported Java.  I also threw in some 4K video demos I had received from friends, including one movie trailer -- as a test for the higher end desktop hardware available at the time.
 
 I also gave the technical team the direction that all new code must follow the TDD (test driven development) lifecycle, and that all UX must be specified from a perspective of "customer delight".  The TDD initiative also required the team to add thousands of lines of code to deal with observability of metrics needed to determine the success of those tests.
 
