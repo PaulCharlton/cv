@@ -568,7 +568,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2010-2015",
     summary: "",
     company: Companies["European Space Agency"],
-    coolness: 45,
-    id: 61,
+    coolness: 44,
+    id: 62,
   },
 };

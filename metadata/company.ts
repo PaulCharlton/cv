@@ -163,7 +163,7 @@ export const Companies: Record<CompanyName, Company> = {
   "European Space Agency": {
     name: "European Space Agency",
     file: "ESA_Logo.svg",
-    homepage: "https://sophia.estec.esa.int/gtoc_portal/",
+    homepage: "https://sophia.estec.esa.int/gtoc_portal",
   },
 
 // AMD: {
