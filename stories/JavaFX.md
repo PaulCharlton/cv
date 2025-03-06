@@ -24,7 +24,7 @@ To understand what was missing from JavaFX you need to compare a comic flip-book
 
 I spent the first two hours with the team giving them a download (training session) on how to actually display smooth video and synchronize it with the audio playback, and also how to read from the data source without interrupting the video playback.  During that training, the other opinion I expressed is that the most essential decoding and copying of video data would need to be implemented as "native code" in order to keep things flowing smoothly.
 
-We spent the remainder of the afternoon acquiring workstations and critical software (on my credit card, and some from the JavaFX testing lab), acquiring (by takeover) an office large enough to hold the entire team, and equipping that office with "whiteboards" covering all of the walls.  The "whiteboards" were 1/8" shower enclosure sheets from Home Depot that we treated with a common household spray wax.
+We spent the remainder of the afternoon acquiring workstations and critical software (on my credit card, and some from the JavaFX testing lab), acquiring (by takeover) a conference room large enough to hold the entire team, and equipping that office with "whiteboards" covering all of the walls.  The "whiteboards" were 1/8" shower enclosure sheets from Home Depot that we treated with a common household spray wax.
 
 I gave my team some hand-picked videos from my collection and told them that we were done with the technical implementation when those videos played smoothly on all of the target devices, including low-end mobile phones that supported Java.  I also threw in some 4K video demos I had received from friends, including two movie trailers -- as a test for the higher end desktop hardware available at the time.
 
