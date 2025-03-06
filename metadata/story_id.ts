@@ -17,7 +17,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1975-2025", // So that it appears first on the story list page all the time
     summary: "",
     company: undefined,
-    coolness: 100,
+    coolness: 200,
     id: 42,
   },
   "deshaw.md": {
@@ -215,7 +215,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2008",
     summary: "",
     company: Companies["Oracle Corporation"],
-    coolness: 96,
+    coolness: 150,
     id: 4,
   },
   "valueclick.md": {
