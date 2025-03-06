@@ -79,7 +79,7 @@ You decide -- did the on-time release of JavaFX cause this 51% increase, over \$
 Sun Microsystems Inc., and all Java released products, were acquired by Oracle, Inc, for \$9.50 per share at a \$7.4 billion valuation.
 
 ### Closing thoughts
-How much of the price change from Dec 2, 2008 until April 20, 2009 -- from \$2.83 to \$9.50 is attributable to the successful on-time launch of JavaFX?   That was a swing in market cap from \$2.2 billion, with an increase of \$5.2 billion to a resulting \$7.4 billion in a 5-month period.  Other than the news of the acquisition, what other positive news contributed to the valuation of the ticker JAVA in that timeframe?
+How much of the price change from Dec 2, 2008 until April 20, 2009 -- from \$2.83 to \$9.50 is attributable to the successful on-time launch of JavaFX?   That was a swing in market cap from \$2.2 billion, with an increase of \$5.2 billion, to a resulting \$7.4 billion in a 5-month period.  Other than the news of the acquisition, what other positive news contributed to the valuation of the ticker JAVA in that timeframe?
 
 ```
 C
