@@ -22,6 +22,7 @@ He agreed to my terms, sent me a confirming email, and we started in earnest tha
 
 To understand what was missing from JavaFX you need to compare a comic flip-book to the smooth video you see on Television or modern Internet streaming services.  The basic algorithm that most newbies try is something like "(1) wait for the appropriate display time, (2) read the frame data, (3) decode the video frame, (4) display the video frame", this approach is very naive due to the fact that step #2 (decode the frame) can actually take longer than the interval between frames, and that steps #2 to #3 add latency to the display of the frame, with the ultimate visual affect of jerky video and visible pauses in the display process.   The other naive assumption is that audio and video could be presented separately and stay synchronized.  The existing JavaFX was completely naive at the time, including the fact that its entire presentation was based on a single-threaded event loop.
 
+### Huddle
 I spent the first two hours with the team giving them a download (training session) on how to actually display smooth video and synchronize it with the audio playback, and also how to read from the data source without interrupting the video playback.  During that training, the other opinion I expressed is that the most essential decoding and copying of video data would need to be implemented as "native code" in order to keep things flowing smoothly.
 
 We spent the remainder of the afternoon acquiring workstations and critical software (on my credit card, and some from the JavaFX testing lab), acquiring (by takeover) a conference room large enough to hold the entire team, and equipping that office with "whiteboards" covering all of the walls.  The "whiteboards" were 1/8" shower enclosure sheets from Home Depot that we treated with a common household spray wax.
@@ -30,12 +31,15 @@ I gave my team some hand-picked videos from my collection and told them that we 
 
 I also gave the technical team the direction that all new code must follow the TDD (test driven development) lifecycle, and that all UX must be specified from a perspective of "customer delight".  The TDD initiative also required the team to add thousands of lines of code to deal with observability of metrics needed to determine the success of those tests.
 
+### Moving the Goalposts
 My next order of business, once the technical team was launched and on the way, was to set up a series of meetings with the product management team and some of the outside customers.   My intention was to negotiate a large reduction in feature set for the JavaFX 1.0 release with product management, with the blessing of those customers.  Ultimately, we removed over 15% of the features desired by the product managers, in favor of making essential features such as digital video work to delight our customers and the ultimate end-users.
 
+### Running the Playbook
 I spent the next six weeks with my team, 7 days a week, often over 20 hours per day, writing tests, writing new code, ripping out unwanted code, writing native code, and reviewing results from the test lab.  We often slept on the floor on yoga mats with a single bedsheet, and ordered 3 or 4 meals a day from outside food delivery services.
 
 We added a "modern" multimedia pipeline, all the way from asynchronous i/o for fetching the presentation media, to a sophisticated scheduler that could manage up to 10 seconds of buffering i/o and decoded video frames so that the video could play smoothly.   We derived the video playback clock from the observed rate of play of the audio samples, and we rate adjusted the audio sample rate to match the real time clock instead of blindly relying on the audio chipset capabilities.  We removed the dependency on the single threaded event loop from the Swing/AWT frameworks and hardened dozens of datastructures for true fine-grained locking safe for preemptive multithreading playback and presentation.
 
+### The Winning Touchdown
 #### Tuesday, November 25, 2008
 We were "code complete" and presented the new product to Sun's Java leadership team, and shared it with those key outside customers as a "beta", looking for feedback on any other features that may have still been broken.  The videos played smoothly, and were completely synchronized with the audio playback.  The UX was responsive.  Video playback also worked over the Internet, not just from local storage media.
 
@@ -45,6 +49,7 @@ Three of us stayed on over the weekend, still working 20-hour days over the 4-da
 
 All in all, we deleted 30% of the original [September 2008] codebase, we added 40,000 lines of new code (including automated test cases and the related observability), all with 10 people in less than 10 weeks.  We accomplished in those 7 weeks the equivalent of 34 person-years of work from the original Sun team, with an investment of less than 5 person-years of effort.
 
+### Market Reaction
 #### Tuesday, Dec 2, 2008
 `Stock price of Sun Microsystems (JAVA) closed at $2.83.`
 The prices of Sun's stock was still on a steady decline from its previous high earlier that year of \$18.13.
@@ -65,12 +70,16 @@ The important announcement late that day came from an "investment recommendation
 
 Street credibility.
 
+### Afterparty
 #### Wednesday, Dec 17, 2008
 `Stock price of Sun Microsystems (JAVA) closed at $4.27.`
 You decide -- did the on-time release of JavaFX cause this 51% increase, over \$1.08-billion in market cap, in the stock price in 15-days?  What I can say is that I wish had negotiated part of my team's compensation as stock instead of cash.
 
 #### Monday, April 20, 2009
 Sun Microsystems Inc., and all Java released products, were acquired by Oracle, Inc, for \$9.50 per share at a \$7.4 billion valuation.
+
+### Closing thoughts
+How much of the price change from Dec 2, 2008 until April 20, 2009 -- from \$2.83 to \$9.50 is attributable to the successful on-time launch of JavaFX?   That was a swing in market cap from \$2.2 billion, with an increase of \$5.2 billion to a resulting \$7.4 billion in a 5-month period.  Other than the news of the acquisition, what other positive news contributed to the valuation of the ticker JAVA in that timeframe?
 
 ```
 C
