@@ -11,8 +11,7 @@ Converted to hourly employee with an Anatomy research lab at age of 14
 Converted to full-time employee researcher at age of 16
 ```
 
-Commenced work as intern designing circuit boards and driver software to assist graduate students in anatomy lab with their data collection and experimental process
-controls.
+Commenced work as intern designing circuit boards and driver software to assist graduate students in anatomy lab with their data collection and experimental process controls.
 
 On these projects I worked alone, and then mentored/taught both graduate student and professorial staff how to use the equipment and darkroom I had modified through integrating electronics, software, and biological research.  My work impacted biomedical research at a professional level before most people even enter college.
 
