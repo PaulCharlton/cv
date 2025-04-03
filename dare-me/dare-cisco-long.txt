@@ -1,0 +1,45 @@
+🧠 Dare me to do it again.
+30 million lines of spaghetti C. One router OS. Zero thread safety. Let’s party.
+
+In 2008, Cisco’s board had a simple question:
+“Why aren’t our routers faster, even though they all ship with multicore CPUs now?”
+
+The CTO’s answer?
+
+“IOS is 30 million lines of C. It’s not thread-safe. We’d need a total rewrite. Cost: tens of millions. Timeline: several years.”
+
+🥱 Cute.
+Cisco hired me instead.
+
+I was brought in by a VP of Engineering as a last-ditch effort:
+“Can we make IOS scale with multicore, without rewriting it all from scratch?”
+
+✅ Week 1: I built a fully thread-safe, preemptible, in-memory async message queue system. Then I carved the IOS runtime into four logical threads:
+	1.	Inbound packets
+	2.	Routing/filtering
+	3.	Outbound packets
+	4.	System overhead (heap mgmt, housekeeping, etc.)
+
+Each one isolated. Communicating only via my new async queues.
+
+✅ Week 2: I sliced those four into two dozen concurrent components, replacing every unsafe internal function call with async local procedure calls (LPCs) using message queues. Yes, it added a bit of marshalling overhead. No, it didn’t matter.
+
+💥 The result? IOS scaled.
+Core-for-core, thread-for-thread, near-linear performance gains.
+From single-threaded monolith to multicore beast mode—with no rewrite.
+
+The system kept all cores saturated. No race conditions. No deadlocks.
+Just raw performance, powered by surgical precision.
+
+⸻
+
+You’ve got legacy code choking your hardware?
+
+Your CTO says “rewrite” and your CFO faints at the price tag?
+
+Bring in someone who sees thread safety as a challenge, not a blocker.
+Someone who tames 30 million lines of C and makes it dance across CPU cores.
+
+Dare me to do it again.
+
+#Cisco #RouterOS #Multicore #Concurrency #SystemsEngineering #LegacyModernization #ThreadSafety #HighPerformance #CProgramming #TechRescue #MessageQueues #AsyncArchitecture #DareMeToDoItAgain #LinkedInTechStory

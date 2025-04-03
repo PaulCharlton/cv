@@ -1,0 +1,28 @@
+🧠 Dare me to do it again!
+
+First-time ASIC success (and second-time perfection) — Myarc, 1986–1987
+
+In 1986, I was still in college when Myarc—a company pushing the limits of what the TI-99/4A could become—asked me to design their first custom ASIC. The goal? Replace an entire PCB full of chips with a single 4000-gate integrated circuit that combined glue logic, DRAM control, virtual paged memory, keyboard input, and full TI-99/4A compatibility. Nobody had done it before. Nobody was even sure it could be done.
+
+I trained directly with Mitsubishi Electronics of America on their internal EDA toolchain. Two weeks later, I had a validated netlist and a full set of simulation vectors. Tape-out one was greenlit.
+
+Then the first ASIC came back dead.
+
+I didn’t flinch. I burned custom boot ROMs that would expose the state of key logic paths, scoped the system at multiple MHz under live load, and hacked the hardware in real time to isolate the failure. What I found shocked even Mitsubishi: their own timing data was flawed. It wasn’t just a bug—it was a systemic error in their database. I wrote up the issue, provided hard evidence, and they not only acknowledged the fault—they gave us a free second run.
+
+I didn’t waste it. I tightened up the netlist, added better margining, and used every spare gate. The second ASIC worked. It ran the full TI-99/4A-compatible system flawlessly. We built a prototype system that I personally demoed in Boston, Chicago, and Germany, showcasing real-time performance gains and compatibility never before seen in that ecosystem. It was the first time someone had brought ASIC-level integration to a home computer clone—and made it work.
+
+Fast-forward to late 1987. Myarc wanted to unify floppy and hard disk I/O on a single board: the HFDC. I signed on to build the second ASIC. This time, I worked with California Devices near Boston. I lived on-site for six days, designing, validating, and optimizing another 4000-gate device using their proprietary tools.
+
+No second chances this time. No margin for error. I ran validation vectors until the tools gave me zero doubt. The first tape-out worked perfectly. We plugged the chip into our board, and it just ran—right out of the gate.
+
+That chip went into mass production and powered one of the most advanced storage solutions ever made for the TI-99/4A. The team at California Devices was so impressed with the speed and quality of my work, they offered me a job on the spot. I respectfully declined—I had more to build.
+
+Two ASICs. One tape-out bug I didn’t cause but fixed. One flawless chip on the first try.
+All done with early-generation EDA tools, hardware prototyping under pressure, and a laptop’s worth of persistence in my head.
+
+You want a custom silicon solution from scratch in under two weeks?
+You want first-try tape-out success and production-grade reliability?
+You want a teenager to walk into your lab, bend logic to his will, and show your own chip vendor where they went wrong?
+
+Dare me to do it again.

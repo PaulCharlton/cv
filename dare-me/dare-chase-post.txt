@@ -1,0 +1,32 @@
+🧠 Dare me to do it again.
+How I outsmarted IBM, modernized a global bank, and built online banking before it was cool.
+
+In 1990, Chase Manhattan Bank hired me as Director of Advanced Technology. My job? Redesign everything in the retail bank that didn’t run on a mainframe or VAX. Translation: I was handed the chaos—and expected to bring order.
+
+🔥 I overhauled the court-ordered levy system, reducing risk of multimillion-dollar penalties. Paper-based processing became real-time. 3 days → 2 hours. Failover. Redundancy. Double-keyed validation. Bulletproof.
+
+🔥 I digitized the central cash vault, twelve stories underground, 80+ million in daily ATM cash, and literal gold bars. I tracked armored transfers, logged every shrink-wrapped $100K bundle, and reconciled vault inventory in real time.
+
+🔥 IBM pitched a $100K/branch tech rollout. I built better for $20K. IBM tried to get me fired. The EVP said, “You’re staying. Just don’t mess with $600M/year of IBM business again.” Fair trade.
+
+🔥 I reverse-engineered SNA LU6.2 comms, built Windows 3.1 online banking for VIP clients (some were nation-states), and integrated CICS with dial-up, secure wire auth, and GUI workflows—before “online banking” even had a name.
+
+🔥 When a core dump leaked every private key for high-value wire transfers, I quietly rebuilt the system and launched a secret global key swap… starting with billion-dollar clients. One of the accounts? Tied to Iran-Contra. No one flinched.
+
+🔥 I beat the IBM mainframe DDA batch posting system. 10M accounts. 600K transactions. Mainframe: 19 mins. My PC: 67 seconds in Borland C++. On a PS/2 tower. Yes, really.
+
+And yeah… I won the office football pool too—with early AI and simulated annealing on Excel.
+
+⸻
+
+You want someone who doesn’t blink at billion-dollar problems?
+You want mainframe integration, secure systems, and vendor disruption in the same breath?
+You want tech leadership that delivers—quietly, precisely, and permanently?
+
+Dare me to do it again.
+
+👇 If this story made you smile, drop a comment.
+🌀 If you’ve battled legacy systems, tag someone who needs to see this.
+💬 Let’s swap war stories.
+
+#DigitalTransformation #FinTech #MainframeModernization #Leadership #LegacySystems #OnlineBanking #ChaseBank #IBM #SecurityEngineering #CyberResilience #EnterpriseArchitecture #DareMeToDoItAgain #LinkedInStorytelling

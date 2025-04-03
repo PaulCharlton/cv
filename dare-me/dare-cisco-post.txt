@@ -1,0 +1,40 @@
+🧠 Dare me to do it again.
+30 million lines of spaghetti C. One monolithic router OS. No thread safety. Let’s go.
+
+In 2008, Cisco’s board asked a simple question:
+“Why aren’t our routers getting faster, even though every box now ships with multicore CPUs?”
+
+The CTO’s answer?
+
+“IOS is 30M lines of C. Not thread-safe. Needs a total rewrite. Tens of millions. Several years.”
+
+So Cisco brought me in instead.
+
+🔥 Week 1: I built a fully preemptible, thread-safe async message queue system and split the IOS stack into four independent components:
+	•	Inbound packets
+	•	Routing/filtering
+	•	Outbound packets
+	•	Heap/system management
+
+🔥 Week 2: I broke those down into two dozen parallelized components, each communicating via async LPC (local procedure calls) instead of unsafe function calls. Yes, it added marshalling overhead. No, it didn’t matter.
+
+🚀 The result?
+Near-linear scaling across cores and hyper-threads.
+The old single-threaded IOS turned into a multicore monster—without a rewrite.
+
+No deadlocks. No races. Just performance.
+Thread safety? Solved. Vendor excuses? Obliterated.
+
+⸻
+
+You’ve got legacy code choking on modern hardware?
+Your CTO says “rewrite.” Your CFO says “no.”
+Let me say this instead:
+
+Dare me to do it again.
+
+👇 If you’ve wrestled with legacy architecture, comment below.
+🔁 Know someone dealing with tech debt paralysis? Tag them.
+💬 Got a story like this? I want to hear it.
+
+#Cisco #IOS #SystemsEngineering #Multicore #ThreadSafety #Concurrency #AsyncArchitecture #LegacyModernization #CProgramming #TechLeadership #LinkedInTechStory #DareMeToDoItAgain

@@ -1,0 +1,37 @@
+🧠 Dare me to do it again.
+From Wall Street to 120 feet underground—redesigning the digital nervous system of a global bank.
+
+In 1990, Chase Manhattan Bank handed me the keys to their future. As Director of Advanced Technology for the retail bank, I was tasked with designing everything that didn’t touch the mainframe or DEC VAX.
+
+Translation? I reimagined all the systems that real people touched—branches, back offices, vaults, subpoena processing, wire transfers, and even early online banking. All while Chase was rapidly acquiring banks across the country.
+
+🚨 One of my first assignments: overhaul the department handling court-ordered levies. At the time, the team was missing court deadlines—risking millions. I built a fault-tolerant scanning and verification system using DOS PCs, Novell NetWare, and a dual-entry validation protocol that cut average response time from 3 days to 2 hours. Game-changer.
+
+💰 Next up: the cash vault—120 feet underground in Lower Manhattan. I built a full document-scanning and reconciliation system that linked digital scans to 5-part physical receipts, tracked ATM-fit currency, and even digitized inventory for the gold and platinum vault (yes, really) and the tunnel that linked to the Federal Reserve.
+
+🏦 Then I broke banking tradition wide open. IBM pitched a $100K-per-branch tech rollout. I countered with a $20K build that outperformed it—and routed the budget request to the Board to expose vendor games. IBM wanted me fired. Instead, the EVP gave me a private mentorship in vendor politics and backchannel strategy.
+
+💡 I built a data dictionary and screen-scraping middleware to integrate CICS mainframes with DOS, OS/2, and even early Windows GUIs. I reverse-engineered SNA LU6.2 comms, built virtual device drivers, and wrapped DOS drivers in Windows shells—bridging banking’s legacy guts with modern UX.
+
+💻 Then came the big one: Online Banking for Windows 3.1. Custom GUI. Dial-up. Challenge-response auth. Cross-product accounts. Secure wire transfer initiation. I did what IBM said was impossible—integrated CICS with a Windows front-end and made it bulletproof.
+
+⚠️ Along the way, I helped contain a core-dump breach that leaked every private key used for customer wire transfers. I orchestrated a risk-prioritized key replacement campaign—starting with billion-dollar clients—without ever alarming the public. One of those accounts? Linked to Iran-Contra. True story.
+
+🧠 I exposed inefficiencies with a real-time meeting cost tracker.
+🔍 Mapped Chase’s political graph like a battlefield.
+💸 Caught quiet frauds.
+💾 Beat the bank’s IBM mainframe with a single PS/2 tower—19 minutes down to 67 seconds—using my own Borland C++ code.
+🏈 And I won the tech team’s football pool with a simulated annealing regression model tied to real-time data from the Sports Daily.
+
+Everywhere I looked, I saw entropy.
+Everywhere I worked, I brought clarity, velocity, and systemic resilience.
+
+⸻
+
+You want someone who can rebuild the engine while the plane is in the air?
+You want solutions that outpace billion-dollar vendors, backed by math, grit, and real-world impact?
+You want to see the bank’s deepest secrets—and not blink?
+
+Dare me to do it again.
+
+#TechLeadership #DigitalTransformation #LegacyModernization #CyberSecurity #OnlineBanking #WireTransfers #MainframeIntegration #IBMPolitics #FinanceInnovation #ChaseBank #CICS #LU62 #UndergroundVaults #DareMeToDoItAgain

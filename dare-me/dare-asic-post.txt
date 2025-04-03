@@ -1,0 +1,33 @@
+🧠 Dare me to do it again.
+Custom silicon. One teenager. Two ASICs. Zero fear.
+
+In 1986, while still in college, I was asked by Myarc to design their first ASIC—an ambitious plan to shrink an entire TI-99/4A-compatible motherboard into a single 4000-gate chip. No roadmap. No YouTube. Just me, some gate arrays, and a mandate to bend logic to my will.
+
+I trained directly with Mitsubishi’s EDA team, built the netlist, and verified the design with simulation vectors—all in under two weeks.
+
+💥 First tape-out? Dead on arrival.
+Not because of my logic—but because Mitsubishi’s own timing data was flawed.
+
+I proved it, using custom boot ROMs, live oscilloscope traces, and hacked-together hardware mods. Mitsubishi acknowledged the issue, gave us a free second run, and I optimized the design even further.
+
+✅ Second tape-out? Perfect.
+Fully functional prototype. Demoed in Boston, Chicago, and Germany. Real-time TI-99/4A emulation in a compact form factor. First of its kind.
+
+Fast-forward to 1987: Myarc wanted a second ASIC—this time for a unified Hard/Floppy Disk Controller. I spent six days on-site with California Devices, running nonstop validation.
+
+🎯 First tape-out: flawless.
+
+That chip went into mass production and became one of the most advanced I/O controllers in the TI-99/4A world. California Devices offered me a job on the spot.
+
+⸻
+
+Two ASICs. One tape-out failure I didn’t cause—but fixed. One flawless run.
+And a lifetime’s worth of lessons in design integrity, systems thinking, and getting it right when it counts.
+
+You want silicon that just works?
+You want a first-time-right result under pressure?
+You want someone who lives for the impossible?
+
+Dare me to do it again.
+
+#ASIC #EDA #HardwareDesign #Throwback #EngineeringLeadership #TI994A #Innovation #SystemsEngineering #ICDesign #LinkedInTechStory #DareMeToDoItAgain

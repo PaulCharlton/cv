@@ -1,0 +1,64 @@
+@startuml
+title Multithreading Cisco IOS: From Monolith to Parallel Execution
+' Enforce top-to-bottom flow
+top to bottom direction
+skinparam backgroundColor #ffffff
+skinparam defaultTextAlignment center
+
+' Node styles
+skinparam node {
+  FontName Arial
+  BackgroundColor #cfe2f3
+  BorderColor black
+}
+skinparam queue {
+  FontName Arial
+  BackgroundColor #d0f0c0
+  BorderColor black
+}
+
+' Interface nodes (distinct shape)
+artifact "Inbound Interface" as IF_In
+node "Inbound Processing" as Inbound
+queue "MQ: Inbound → Router" as MQ1
+node "Routing / Filtering" as Router
+queue "MQ: Router → Outbound" as MQ2
+node "Outbound Processing" as Outbound
+artifact "Outbound Interface" as IF_Out
+
+' Overhead off to the right
+node "System Overhead\n(Heap Mgmt, etc)" as Overhead #f9cb9c
+
+' One-way queues for overhead ↔ processing (placed horizontally)
+queue "MQ: Inbound → Overhead" as MQ_IO_1
+queue "MQ: Overhead → Inbound" as MQ_IO_2
+queue "MQ: Router → Overhead" as MQ_RO_1
+queue "MQ: Overhead → Router" as MQ_RO_2
+queue "MQ: Outbound → Overhead" as MQ_OO_1
+queue "MQ: Overhead → Outbound" as MQ_OO_2
+
+' Vertical main flow
+IF_In -down-> Inbound
+Inbound -down-> MQ1
+MQ1 -down-> Router
+Router -down-> MQ2
+MQ2 -down-> Outbound
+Outbound -down-> IF_Out
+
+' Horizontal overhead queues per processing stage
+Inbound -right-> MQ_IO_1
+MQ_IO_1 -right-> Overhead
+Overhead -left-> MQ_IO_2
+MQ_IO_2 -left-> Inbound
+
+Router -right-> MQ_RO_1
+MQ_RO_1 -right-> Overhead
+Overhead -left-> MQ_RO_2
+MQ_RO_2 -left-> Router
+
+Outbound -right-> MQ_OO_1
+MQ_OO_1 -right-> Overhead
+Overhead -left-> MQ_OO_2
+MQ_OO_2 -left-> Outbound
+
+@enduml
