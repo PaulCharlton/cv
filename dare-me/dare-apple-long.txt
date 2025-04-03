@@ -39,7 +39,7 @@ Fallout:
 	2.	Carbon made Mac OS X viable.
 	3.	Microsoft and Intel settled for $150M cash.
 	4.	QuickTime won an Oscar.
-	5.	QuickTime became MP4, the foundation of all streaming video.
+	5.	QuickTime spawned MP4, the foundation of all streaming video.
 	6.	My oscilloscope debugging session helped fix a pipeline stall that prevented real-time video.
 	7.	iTunes, iOS, AppleTV—they all run on the bones of QTML.
 	8.	Without QTML, there’s no Final Cut, no iMovie, no TikTok.

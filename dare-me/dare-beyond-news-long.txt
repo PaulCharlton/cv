@@ -12,11 +12,11 @@ Through Yossi, we met Marc Pincus and Sunil Paul—FreeLoader founders turned ac
 Lexis-Nexis, at the time, was the Internet. Or at least more of it than the rest of the world. Ten terabytes of indexed, classified, and curated print journalism—much of it unavailable anywhere online. Their top client? The CIA. Their stack? Custom DASD drivers on an IBM mainframe, powering a bespoke, high-performance database faster than any commercial alternative. Their request? Web crawler capability and a social layer to humanize their pipeline. We signed a $75K contract to prototype the web frontend.
 
 🧃 From Champagne to Ramen
-By mid-December, the prototype was had met its milestones, the invoices were sent—and my bank account was toast. I found out, through my own channels, that Lexis-Nexis had paid the first two milestones. But I hadn’t received a dime. My co-founders? Radio silence. No excuses. No transparency. Just betrayal.
+By mid-December, the prototype had met its milestones, the invoices were sent—and my bank account was toast. I found out, through my own channels, that Lexis-Nexis had paid the first two milestones. But I hadn’t received a dime. My co-founders? Radio silence. No excuses. No transparency. Just betrayal.
 
 I walked.
 
-On December 24, 1996, I incorporated Charlton Innovations Inc. and lawyered up. I let the silence simmer until New Year’s Day.
+On December 24, 1996, I incorporated Charlton Innovations Inc. and lawyered up. I let the silence simmer until after New Year’s Day.
 
 🧠 Hardball 101
 When they came crawling back in January, needing my expertise to deliver the Lexis-Nexis prototype, I laid down the terms:

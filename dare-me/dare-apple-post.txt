@@ -23,7 +23,7 @@ I became Apple Legal’s technical expert, helped secure a $150M settlement, and
 🏆 QuickTime later won an Oscar
 💻 QTML evolved into Carbon
 📱 Carbon made macOS X viable, paving the way for iTunes, iPhone, and AppleTV
-🌐 The QuickTime format became MP4, the backbone of streaming video today
+🌐 The QuickTime format spawned MP4, the backbone of streaming video today
 
 When execs tried to kill QTML to protect Apple hardware margins, I took my MBO straight to CEO Gil Amelio and Chief Counsel Ed Stead.
 We mobilized 60+ CEOs of partner companies to lobby for us.

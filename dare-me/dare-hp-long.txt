@@ -30,7 +30,7 @@ I wrote **stack walkers and mutex reflectors**, traced the lock contention, and 
 Oh, and I did all this while my boss kicked me out of the office every afternoon at 1pm:
 > "You’ve already done 8 hours. Go live your life."
 
-I spent summer nights exploring a **1,350-acre state park**, watching hawks fly while my ASICs simulated in cleanroom silence.
+I spent summer nights exploring a **1,350-acre park**, watching hawks fly while my ASICs simulated in cleanroom silence.
 
 ---
 
