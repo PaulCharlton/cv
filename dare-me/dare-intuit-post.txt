@@ -1,0 +1,15 @@
+Dare me to do it again.
+
+I led a team of just 15 engineers working in the same codebase as 250 others. Here’s what we delivered:
+ • More function points than the rest combined
+ • 100x fewer defects in new code
+ • Sustained 35 hours/week of flow time
+ • Kept a steady 40-hour workweek while others pushed 60–80 during the crunch
+
+We followed the same 6-month dev + 2-month integration cycle as everyone else.
+We hit code complete on time — with no drama — and spent the final 2 months helping other teams catch up.
+
+Same codebase. Same constraints. Completely different outcome.
+
+That’s what happens when you optimize for flow, not fire drills.
+Platform thinking. Engineering maturity. Sustainable velocity.

@@ -1,0 +1,23 @@
+🎓 Dare Me to Do It Again! — RPI: Knowledge and Thoroughness (1984–1988)
+
+Before I took a single class at RPI, I already had hands-on experience designing electronics, writing interpreters, and building full-stack systems. Classes? Mostly a formality—I was there to learn the language of each domain, not the material. I’d skip lectures, ace the exams in 10 minutes, and spend my time solving real problems.
+
+🧠 Tutored grad students in quantum physics as a freshman.
+💻 Learned (and often bypassed) everything from APL to ADA, FORTH to Lisp, Snobol to IBM 360 Assembler.
+💥 Wrote a FORTH interpreter on RPI’s IBM-3081 mainframe… and discovered a CPU cache bug.
+➡️ Result: Full system takeover via cache overwrite—a hardware-level precursor to Spectre.
+🧾 Overflowed the mainframe’s accounting system to get a $32K compute budget.
+🧹 Crashed the entire OS using recursive temp file allocation, freezing even the sysop terminals.
+🛠️ Rebuilt a LISP CPU ALU in a weekend. Designed a GaAs VLSI ALU for Tektronix with matched differential traces.
+📡 Reverse-engineered the front-end PDP-11 concentrator. Ported an underground chat system to it—no mainframe resources used.
+🎸 Designed a sort job that caused 200lb VAX disk drives to walk across the floor via resonance.
+⚡ Built an 80,000V Tesla coil to train dorm visitors to knock. It worked.
+
+From white-hat hacks to hardware design, RPI wasn’t a school—it was my sandbox.
+
+I didn’t ask for permission. I asked, “What if?”
+
+And when the system said “You can’t,” I replied:
+Dare me to do it again.
+
+#engineering #hardware #software #mainframes #hacking #VLSI #spectre #FORTH #RPI #throwback #dareme

@@ -1,0 +1,69 @@
+
+
+Dare Me to Do It Again: The JavaFX 1.0 Rescue
+
+Friday, September 26, 2008.
+A friend — one I’d built startups with, worked alongside at Apple, JavaSoft, and C2B — asked me to lunch at Sun Microsystems’ Santa Clara campus. Turns out he wasn’t just catching up. He was now SVP over all 2,000 Java engineers, and he had a problem. A big one.
+
+JavaFX 1.0, Sun’s answer to Flash and Silverlight, was due to launch in under 10 weeks. Customers, partners, investors — all counting on it. But internally, it was a slow-motion disaster. After three years and 300+ person-years of effort, the finish line was nowhere in sight.
+
+His ask was simple:
+“Can you tell me when we’ll really ship?”
+
+I agreed to investigate — engineers, codebase, customers, roadmap — and report back in 10 business days. That’s all it took to discover the hard truth: at the current trajectory, JavaFX 1.0 was at least 18 months out. And even that was optimistic.
+
+The critical failure? Video playback. It was jerky, unsynchronized, unusable. The entire pipeline was naïve and single-threaded. Nobody on the team had built real-time, synchronized multimedia before. But I had — back in the QuickTime days.
+
+So he asked the only question that mattered:
+“Can you fix it?”
+
+⸻
+
+Monday, October 13, 2008.
+
+I said yes. Assembled a ten-person strike team — five of my own multimedia experts, five handpicked from Sun’s roster. I made it clear: this would be war. 120-hour weeks. Yoga mats for beds. Code by flashlight. But we’d ship.
+
+We started that very day.
+
+I gave the team a crash course in high-performance video rendering and audio sync. We repurposed a conference room, converted shower panels into whiteboards, and set the bar: JavaFX had to play real HD video smoothly, even on underpowered devices — and it had to delight users.
+
+Then we got ruthless.
+	•	We deleted 30% of the original codebase.
+	•	We rewrote the entire multimedia pipeline in just weeks — native code for performance, buffered I/O for smooth playback, multi-threaded scheduling for concurrency.
+	•	We replaced the audio system to serve as the master clock and rate-matched it against wall time.
+	•	We added 40,000 lines of TDD-verified, high-performance code, complete with observability and developer docs.
+	•	We cut 15% of nonessential features to focus on what mattered: a smooth, responsive UX.
+
+⸻
+
+Tuesday, November 25, 2008.
+
+Code complete. Videos played flawlessly. UX was buttery smooth. Internet streaming worked. JavaFX was real — and ready.
+
+We worked through Thanksgiving weekend polishing docs, answering calls from external devs preparing for launch. On December 4, 2008, JavaFX 1.0 shipped. On time.
+
+Sun hadn’t hit a software deadline in over a decade. This one landed with a boom.
+
+⸻
+
+What Happened Next?
+	•	Sun’s stock price jumped 51% in 15 days — a $1.08 billion increase in market cap.
+	•	Analyst reports cited JavaFX as a turning point for Sun’s credibility.
+	•	Less than five months later, Oracle acquired Sun for $7.4 billion.
+
+Could we prove our code caused the spike? No.
+Do I believe our release made that deal possible? Absolutely.
+
+⸻
+
+Final Scorecard
+	•	10 engineers.
+	•	10 weeks.
+	•	40,000 lines of test-driven code.
+	•	30% legacy code removed.
+	•	Sun’s first on-time launch in a decade.
+	•	One billion dollars in market cap.
+	•	One story I’ll never forget.
+
+And yeah…
+Dare me to do it again.

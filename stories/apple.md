@@ -105,6 +105,6 @@ Global-scale time synchronization algorithms
 1) [Wikipedia - QuickTime 2.x](https://en.wikipedia.org/wiki/QuickTime#QuickTime_2.x)
 2) [US Patent 5,875,354](https://patents.google.com/patent/US5875354A/en?oq=US5875354A)
 3) [US Patent 5,825,359](https://patents.google.com/patent/US5825359A/en?oq=US5825359A)
-2) WWDC 1995 - main hall presentation "Quicktime" - as tech leader QuickTime for Windows 
-3) WWDC 1996 - main hall presentation "Cross Platform Quicktime" - as tech lead, main presenter
-4) WWDC 1996 - main hall presentation "Quicktime" - as tech lead - Cross Platform QuickTime
+4) WWDC 1995 - main hall presentation "Quicktime" - as tech leader QuickTime for Windows 
+5) WWDC 1996 - main hall presentation "Cross Platform Quicktime" - as tech lead, main presenter
+6) WWDC 1996 - main hall presentation "Quicktime" - as tech lead - Cross Platform QuickTime

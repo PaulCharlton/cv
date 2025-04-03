@@ -1,0 +1,50 @@
+
+
+Dare Me to Do It Again!
+
+Apple Computer Inc. — 1994 to 1996
+
+I left D. E. Shaw in early ’94, just before the snow on Long Island decided to compete with glacial epochs. While waiting on Apple’s bureaucratic gears to cough up a job offer, I had time to turn down E-Trade’s VP of Engineering role—despite their interest in my Chase OLB and DESHAW trading platform work. Finance didn’t feel like value creation to me. I had something else in mind.
+
+My vision: become a fractional CTO in Silicon Valley. The problem? My New York network didn’t translate to Sand Hill Road. So I took a strategic detour: join a name-brand firm, build credibility, and then veer off-road. Apple called. I answered.
+
+I joined the QuickTime team as Principal Engineer with one objective: make QuickTime truly cross-platform. The 16-bit QuickTime 1.x Player for Windows was a mess. I fixed it in under a month—just in time for WWDC 1994.
+
+Then I asked the bigger question: what if we didn’t port QuickTime to Windows? What if we ported the entire macOS API stack to Intel instead?
+
+That’s exactly what I did.
+
+I reverse-engineered and rebuilt the full Macintosh Toolbox, the Mac ROMs, and QuickDraw 2D, all in ANSI C/C++, all endian-agnostic, and all thread-safe. Yes, even though classic Mac OS was single-threaded. I wasn’t optimizing for the past.
+
+By early ’95, my code ran on Windows 3.1, Windows NT, and x86 hardware. Just 400 lines were platform-specific. The rest was clean, portable, battle-hardened. I called it QTML—QuickTime Media Layer. We didn’t just port QuickTime. We built a future-proof OS abstraction layer with a full multimedia stack.
+
+Then it got weird.
+
+I discovered my own Apple-authored code inside Microsoft’s Video for Windows SDK. Turns out a rogue contractor had illegally copied it and passed it to Intel, who gave it to Microsoft. Apple Legal launched a federal suit. I became a full-time expert witness, educating attorneys, attending depositions in Beaverton and Redmond, and building a forensic QA lab with hundreds of capture cards, video boards, and motherboards.
+
+Meanwhile, I scaled the team. I hired engineers and product managers. I got Pixar their QuickTime port on SGI IRIX just in time to post-process Toy Story. Our team got a credit in the film, and I met Steve Jobs and Andy Grove at the SF premiere. Jobs waxed poetic about storytelling; Grove bragged about 300 million chips shipped. I told him he still had 10 billion people left to go.
+
+QTML quietly shipped in beta to Adobe, Broderbund, and dozens of other devs. Our secret? We gave them Carbon ten years before Carbon existed. Same APIs, preemptive threads, real memory protection. No one outside QuickTime knew we had ported all of macOS. Until they did.
+
+By early ’96, the secret was out. Executives panicked—fear of cannibalizing Apple hardware. My entire management chain vanished within weeks. I ended up doing my monthly MBO review with Gil Amelio, the CEO. I told him: if you kill cross-platform QuickTime, I walk. And I take the lawsuit and IP war with me.
+
+Then I walked into the office of Ed Stead, Apple’s top legal counsel, and said the same thing. The next day, our marketing team mobilized over 60 CEOs from our beta companies to call Amelio directly. The message: kill QTML, and we abandon Apple hardware.
+
+Two weeks later, Amelio and Stead called me into a private meeting and personally guaranteed the survival of cross-platform QuickTime.
+
+I stayed through WWDC 1996, where I led the main hall presentation to a packed crowd, laying out how to port Mac apps to QTML. Mission accomplished. I left Apple the next month to co-found a startup.
+
+Fallout:
+	1.	QTML became Carbon.
+	2.	Carbon made Mac OS X viable.
+	3.	Microsoft and Intel settled for $150M cash.
+	4.	QuickTime won an Oscar.
+	5.	QuickTime became MP4, the foundation of all streaming video.
+	6.	My oscilloscope debugging session helped fix a pipeline stall that prevented real-time video.
+	7.	iTunes, iOS, AppleTV—they all run on the bones of QTML.
+	8.	Without QTML, there’s no Final Cut, no iMovie, no TikTok.
+	9.	The StarTrek team (300+ people) failed. I succeeded. Solo.
+
+So go ahead.
+
+Dare me to do it again.

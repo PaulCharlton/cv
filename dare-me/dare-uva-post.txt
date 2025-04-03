@@ -1,0 +1,23 @@
+
+
+🔥 Dare Me to Do It Again!
+I Automated a Biomedical Research Lab at 14—Using Voice Control, in Total Darkness
+
+While most kids my age were grappling with freshman year of high school and puberty, I was a paid researcher at the University of Virginia School of Medicine, retrofitting legacy lab equipment with custom-built digital interfaces and writing voice-controlled automation software—in assembly language.
+
+By 14, I had integrated 1970s analog lab hardware with early microcomputers via GPIB, S-100, and 6502 assembly. I designed and built A/D and D/A converters, rewired status lamps into TTL latches, and created fully programmable experiment orchestration—without disturbing the lightless environment required for vision research.
+
+Because human operators couldn’t see, I built a voice feedback system using pre-recorded snippets—and a speaker-independent voice recognition system using breath pause detection and vector quantization over a 70-word dictionary.
+
+One of my data acquisition systems contributed to a peer-reviewed paper in Analytical Biochemistry (1986). Engineers from Tektronix, Beckman, HP, Waters, and others visited the lab to see how a teenager had made their equipment do the impossible.
+
+By 16, I was mentoring graduate students and taking university-level courses for credit.
+
+🔬 First voice-controlled darkroom
+🧠 >170 IQ gifted program
+🧰 Built and programmed everything myself
+🧪 Published contributor before college
+🏗️ Taught grad students how to use my tech
+🤖 Created an automation stack no one had seen before
+
+Dare me to do it again?

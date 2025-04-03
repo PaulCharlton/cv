@@ -1,0 +1,24 @@
+
+Dare Me to Do It Again!
+
+I Automated a Biomedical Research Lab at 14—Using Voice Control, in Total Darkness
+
+While most kids my age were grappling with freshman year of high school and puberty, I was reverse-engineering analog lab equipment at the University of Virginia School of Medicine and designing one of the first speaker-independent voice control systems—from scratch—in a pitch-black, lightless environment. At 14, I wasn’t just tinkering in my garage—I was a paid researcher integrating digital computers with legacy lab equipment that predated microprocessors.
+
+It started two summers earlier, at age 12, when I interned in UVA’s anatomy research labs, mostly assisting with circuit design and helping graduate students optimize their manual data collection setups. By 14, I was a formal hourly employee. By 16, I was a full-time researcher—mentoring graduate students and occasionally instructing faculty on how to use systems I had designed and built myself. The University let me audit advanced courses and enroll in others for credit. I didn’t just shadow researchers—I was one.
+
+My work focused on automating experimental processes in a darkroom-based vision research lab. The lab contained a dozen analog instruments—oscilloscopes, photometers, spectrophotometers, HPLCs, amplifiers—all dependent on knobs, dials, toggle switches, indicator lamps, and chart recorders. Nothing digital. And because this was a 100% darkroom environment, anything emitting light—status LEDs, pilot bulbs, even CRTs—had to be physically disabled.
+
+So I cut the lamp leads, built latching TTL logic to sense their state, and wired them to a digital bus. I added relay-based actuation and D/A converters to provide digital override control for every analog input surface. Then I connected the whole system via GPIB and S-100 bus machines. The result? I could control and monitor every piece of lab equipment from software.
+
+I wrote the drivers in 6502 assembly. This wasn’t just a control plane—it was a full, programmable experiment orchestration system that could initiate protocols, record and log data, respond to instrumentation state changes, and notify the human operator—all in complete darkness.
+
+To communicate with the experimenter (often myself), I created an audio feedback system using pre-recorded voice snippets. To allow hands-free input, I designed what I now believe was one of the earliest pitch-independent, speaker-independent voice recognition systems. It used parametric matching with vector-quantized input, breath-pause detection, and a predefined dictionary of about 70 words.
+
+One of my A/D systems became the foundation for a published experiment—“Extended sensitivity for the calcium selective electrode”—in Analytical Biochemistry (Sep 1986), a peer-reviewed paper that I contributed to long before most people have taken their first college midterm.
+
+The lab began receiving visits from engineers at Tektronix, Beckman, Perkin-Elmer, Fisher Scientific, Waters, HP, and Bio-Rad—each trying to understand how a teenager had retrofitted their hardware to do things their manuals said were impossible.
+
+I wasn’t trying to be a legend. I was just trying to get better signal-to-noise on a high-impedance membrane sensor. But sometimes, solving your own problem takes you places other people haven’t even imagined yet.
+
+Dare me to do it again?

@@ -1,0 +1,56 @@
+
+🎓 Dare Me to Do It Again! — RPI: Knowledge and Thoroughness (1984–1988)
+
+Before I even set foot in an RPI classroom, I already had the kind of hands-on experience in electronics and software that most students only dream of. I wasn’t there to learn what to think—I was there to learn the lingo of each field so I could speak fluently with the professionals who ran it.
+
+Most of the time, I skipped lectures entirely. I’d show up cold for exams, ace them in ten minutes, and walk out while others were still fumbling through problem one. Straight A’s. Except when I got penalized for being too intuitive. A TA once docked me 20 points on a correct physics answer with a snide “show all work.” I had—my work: question → answer → done. The professor gave me the points back after I solved more problems the same way at his desk. His only feedback? “Try showing the intermediate steps so others can follow.” Fine. I’d speak their dialect too.
+
+👨‍🏫 Tutoring Grad Students as a Freshman
+
+Quantum physics was a passion of mine—so much so that by freshman year, I found myself mentoring graduate students. It wasn’t ego, it was resonance. I wasn’t trying to be a teacher, I was just helping others learn the way I had—by grokking, not grinding.
+
+Languages? Let’s see. I picked up and used APL, Fortran, Snobol, IBM 360 Assembler, Lisp, C, and even ADA. But FORTH was my real muse. On the TI-99/4A, I learned its minimalist elegance—the kernel could run in under 16 bytes on a 16-bit CPU. Naturally, I decided to reimplement it… on the IBM-3081 mainframe at RPI.
+
+💣 Pwnage #1: Cache Spectre on the IBM-3081
+
+I wrote a FORTH interpreter and screen editor on “Sybil,” the IBM-3081 mainframe, and noticed something odd during benchmarking—it was too fast. After careful profiling, I discovered the CPU cache: a 32-byte line size with 8–10x faster execution for cached instructions. But something was off. I hypothesized—and confirmed—that the cache didn’t honor the 4-bit execution context protection used for main memory. Stale supervisory loader instructions remained in cache and… could be overwritten.
+
+That meant I could write into the OS from userland by modifying cache lines and flushing them back to memory. A full mainframe takeover. During a one-on-one meeting, I demoed the POC and promptly informed a sysop. A few weeks later, IBM service techs mysteriously “refreshed” parts of the hardware. Was it a bug? Early-release hardware? Spectre v0.1? Who knows. But yeah, dare me to do it again.
+
+💰 Pwnage #2: Accounting Overflow Exploit
+
+RPI’s mainframe usage was budgeted. Students got $20–$50 worth of CPU and storage. But the accounting system used 16-bit fixed-point numbers. Overflow territory.
+
+I built a plot job with so many tiny charges—pen color changes, pen up/down—that it clocked in at $32,768+. Submitting it credited my account with $32K. I canceled the job but kept the funds. Unlimited compute for the semester. And yes, I reported it. Next MTS update patched the bug. The sysop even let me keep the funny money.
+
+💥 Pwnage #3: Denial-of-Service via Temporary Files
+
+MTS let you preallocate temp files. I noticed the allocation limits scaled down recursively: first 50%, then 25%, then 12.5%… So I wrote a recursive script to consume the entire temporary file system.
+
+What I didn’t know: the CLI interpreter also relied on temp file space. Including for the sysop terminal. My script froze the entire mainframe and even disabled system logging. Full system microcode reload was required. Fix? Sysop buffers moved to their own protected partition. My bad. (Not really.)
+
+🧠 Hardware Design: LISP Acceleration, GaAs VLSI, and More
+
+When coursework bored me, I negotiated alternatives. For a computer hardware class, I helped a grad student design a LISP CPU on a DEC Unibus card. Their ALU was garbage—bitwise errors from a goofy AMD 2901 slice. Over one weekend, I rewired and rebuilt the whole thing, updated the schematics, and we shipped the fixed design to DEC. A+.
+
+In senior year, I talked my way into a classified project sponsored by Tektronix. We were building a CPU using bipolar differential GaAs logic—1000x faster than CMOS. My angle? I noticed no one was working on VLSI place-and-route. Tektronix let me use Mentor Graphics tools instead of their in-house stuff. I got creative: routed standard traces via VHDL tools, then post-processed them to generate matched differential traces with beautiful geometric harmony. My design: an 8-bit ALU with full multiplier. Taped out before graduation. Another A+.
+
+🎸 Performance Art: Resonating VAX Disk Drives
+
+One weekend, I tuned my merge-sort jobs to modulate the disk head seeks on a VAX’s RP06 drive. By adjusting file positions and access cadence, I resonated the drive on its four legs. It walked six feet across the lab. The sysop blamed janitors. I confessed, grinning.
+
+🛰 Chat on the FEP: Ghosting the Mainframe Admins
+
+RPI’s 9600 baud dorm connections ran to a PDP-11 front-end processor (FEP) that load-balanced terminal sessions. My TI-99/4A couldn’t keep up, so I wrote Fast-Term in assembler—19200 baud, rock solid.
+
+Then I discovered that smart terminals could drop into the FEP’s RSTS command shell. From there, you could compile code, run programs, and—yes—snoop every other RS232 port. When the ACM’s mainframe-hosted chat app got flagged for overuse, I led the weekend port to run entirely on the FEP. No mainframe cycles. Admins never noticed. The chat lived on, and so did the nightly donut runs.
+
+⚡ Tesla Coil Door Handle: Pavlovian Access Control
+
+Freshman dorms were a free-for-all. People ignored “Do Not Disturb” signs like they were decoration. So I built an 80,000 volt Tesla coil and wired it to my door handle. Non-lethal, but very motivational. After a few weekend shocks, my room became sacrosanct. No knocks. No surprises. Perfect.
+
+⸻
+
+From quantum physics to cache tampering, VLSI hacking to accounting overflow—RPI wasn’t just school, it was my sandbox. I didn’t need permission. I needed a challenge. And every time I found one, I cracked it open, solved it, and learned what nobody else knew.
+
+Dare me to do it again?

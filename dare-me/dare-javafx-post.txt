@@ -1,0 +1,46 @@
+
+Dare Me to Do It Again: JavaFX 1.0 Rescue 🚨
+
+In late 2008, Sun Microsystems had a problem.
+JavaFX — its answer to Flash and Silverlight — was scheduled to launch in 10 weeks.
+300+ person-years invested.
+Zero chance of shipping on time.
+
+A longtime friend (and newly appointed SVP of Java) asked me to investigate.
+After 10 days embedded with the team, I told him:
+“You’re at least 18 months away from shipping.”
+He asked:
+“Can you fix it?”
+I answered:
+“Dare me.”
+
+⸻
+
+🔥 What followed was 10 weeks of intense, around-the-clock work:
+
+✅ Built a 10-person strike team (5 of mine + 5 of Sun’s best)
+✅ Deleted 30% of the legacy codebase
+✅ Re-architected the multimedia pipeline from scratch
+✅ Delivered smooth, synchronized video playback across platforms
+✅ Wrote 40,000+ lines of test-driven, high-performance code
+✅ Moved essential logic to native code for real-time performance
+✅ Removed single-threaded event loop bottlenecks
+✅ Negotiated out 15% of non-essential features with PMs & partners
+✅ Slept on yoga mats and used shower panels as whiteboards
+✅ Hit code-complete Nov 25, 2008
+✅ Shipped JavaFX 1.0 — on time — Dec 4, 2008
+
+⸻
+
+📈 The impact?
+
+Sun’s stock jumped 51% in 15 days — a $1.08B market cap swing.
+Analysts called it “the first on-time software launch at Sun in over a decade.”
+Just months later, Oracle acquired Sun for $7.4B.
+
+⸻
+
+Would I do it again?
+You already know the answer.
+
+#DareMeToDoItAgain #JavaFX #SunMicrosystems #ProductRescue #EngineeringLeadership #Multimedia #PlatformEngineering #TDD #VideoPipeline #HighPerformance #Java #QuickTime #ExecutionMatters #TechHistory

@@ -1,0 +1,74 @@
+
+Dare me to do it again!
+
+Beyond News Inc. (1996–1997)
+
+I walked away from Apple in June 1996—fresh off rolling out QTML for QuickTime at WWDC—with a head full of big ideas and a gut full of fire. One of those ideas was a consumer shopping engine I’d brainstormed years earlier (see: the DESHAW chapter). With that vision in hand, I teamed up with a former Apple colleague and a one-time Macromedia CEO. Together, we launched into startup mode, refining the pitch and seeking allies for what we cheekily called QE2.
+
+That summer, we crossed paths with Yossi Amram, freshly ousted from Individual Inc after steering it through a successful IPO. Yossi had capital, vision, and a sharp instinct for pivots. Under his influence, we shelved the QE2 shopping engine and became Beyond News Inc—an early interactive news platform with a social media twist. Users could comment on stories and on each other’s commentary. It felt obvious. It felt inevitable. It was June 20, 1996.
+
+Through Yossi, we met Marc Pincus and Sunil Paul—FreeLoader founders turned acquisition veterans. And through Reed Elsevier, who had partnered with Individual Inc, we found ourselves sitting inside Lexis-Nexis headquarters near Cincinnati, Ohio, in September.
+
+Lexis-Nexis, at the time, was the Internet. Or at least more of it than the rest of the world. Ten terabytes of indexed, classified, and curated print journalism—much of it unavailable anywhere online. Their top client? The CIA. Their stack? Custom DASD drivers on an IBM mainframe, powering a bespoke, high-performance database faster than any commercial alternative. Their request? Web crawler capability and a social layer to humanize their pipeline. We signed a $75K contract to prototype the web frontend.
+
+🧃 From Champagne to Ramen
+By mid-December, the prototype was had met its milestones, the invoices were sent—and my bank account was toast. I found out, through my own channels, that Lexis-Nexis had paid the first two milestones. But I hadn’t received a dime. My co-founders? Radio silence. No excuses. No transparency. Just betrayal.
+
+I walked.
+
+On December 24, 1996, I incorporated Charlton Innovations Inc. and lawyered up. I let the silence simmer until New Year’s Day.
+
+🧠 Hardball 101
+When they came crawling back in January, needing my expertise to deliver the Lexis-Nexis prototype, I laid down the terms:
+	•	Prepayment, weekly.
+	•	Vesting now tied to product milestones, not time.
+	•	Physical delivery of share certificates with each completed milestone.
+	•	All work done through my consulting firm—B2B only.
+
+Take it or leave it.
+
+They took it.
+
+I delivered the prototype, then stayed on part-time while juggling new clients (Sun, Magnifi, etc.). In February, they raised a $100K angel round. In June, they closed a $1M venture round, based largely on the Lexis-Nexis relationship. I built manuals, trained teams, extended APIs. Then came the July 4th weekend.
+
+🎆 “Thanks for everything, you’re done now.”
+The new VP of Engineering arrived with an army of 20 hires. My co-founder emailed to say my services were no longer needed. “Termination for convenience.” No final paycheck. No remaining shares. The classic rug pull.
+
+🔁 Déjà QE2
+What I learned weeks later: Lexis-Nexis terminated the deal shortly after I left. One of their engineers told me the way I’d been treated played a part in that decision. The VC was livid, and litigation was in the air. In desperation, the founders pivoted back to the QE2 shopping idea—now renamed C2B Technologies Inc.
+
+I heard nothing more… until July 1998.
+
+📞 “We’d like to buy your shares.”
+A stranger called offering $800,000 for “all your shares in Beyond News.” Suspiciously generous. I called my attorney.
+
+He exercised my shareholder rights, demanded full corporate disclosures, and drafted a conditional sale. Weeks of stalling followed—until another law firm contacted my lawyer. This one represented Inktomi.
+
+They had offered $90 million in stock to acquire C2B… and just realized I still owned 20%. My name wasn’t mentioned during diligence—until someone at Inktomi unearthed me in the cap table. That explained the sudden buyout offer. That explained everything.
+
+🧠 Hardball 2.0
+I reminded my attorney:
+	•	My final invoice had never been paid.
+	•	My final shares had never been delivered.
+	•	And I had a written email from my co-founder confirming “termination for convenience.”
+
+We submitted the email with a legal cover letter citing “excused performance.” The next day, my final share certificate arrived.
+
+I signed off on the acquisition, conditioned on full recognition of my shares. In September 1998, Inktomi closed the acquisition for $150 million in stock. I demanded and received a physical share certificate worth over $30 million.
+
+🛏️ It sat on my nightstand for weeks.
+Surreal. But very, very real.
+
+⸻
+
+Epilogue
+	•	Had I held until Inktomi’s peak 18 months later, that stake would have been worth $300 million. I didn’t. I cashed out earlier.
+	•	Inktomi was eventually acquired by Yahoo! in 2003—for about 1% of its peak value.
+	•	I pulled in over $25 million in 1998 alone, but never made the SJ Mercury News “Top 50 Earners” list. Fine by me—I preferred the privacy.
+	•	C2B never implemented the coolest part of QE2: real-time auctions where sellers bid for buyers. They stopped at price comparison and sprinkled in ads mid-search. They never finished the vision.
+
+But me?
+
+I’d already done the impossible. Twice.
+
+Dare me to do it again.

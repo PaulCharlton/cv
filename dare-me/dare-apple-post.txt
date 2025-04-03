@@ -1,0 +1,42 @@
+
+💥 Dare Me to Do It Again!
+
+In 1994, I joined Apple as Principal Engineer for QuickTime.
+
+Within a month, I fixed the broken Windows 3.1 player in time for WWDC.
+
+Then I went off-script.
+
+Instead of porting QuickTime to Windows, I rebuilt macOS for Intel—solo.
+Millions of lines. ROM, Toolbox, QuickDraw, all reimplemented in portable, thread-safe C/C++.
+400 lines of platform-specific code. That’s it.
+
+🚨 Along the way, I discovered my own code inside Microsoft’s Video for Windows SDK.
+Turns out:
+🔹 A rogue contractor leaked it to Intel
+🔹 Intel passed it to Microsoft
+🔹 Apple sued all three
+
+I became Apple Legal’s technical expert, helped secure a $150M settlement, and led the cross-platform QuickTime effort (code-named QTML) into developer hands.
+
+🎬 Pixar used our SGI port to post-produce Toy Story
+🏆 QuickTime later won an Oscar
+💻 QTML evolved into Carbon
+📱 Carbon made macOS X viable, paving the way for iTunes, iPhone, and AppleTV
+🌐 The QuickTime format became MP4, the backbone of streaming video today
+
+When execs tried to kill QTML to protect Apple hardware margins, I took my MBO straight to CEO Gil Amelio and Chief Counsel Ed Stead.
+We mobilized 60+ CEOs of partner companies to lobby for us.
+Two weeks later, our future was secure.
+
+I left Apple in 1996 after leading the main stage WWDC session on Cross-Platform QuickTime.
+
+One dev.
+Two years.
+Three lawsuits.
+One platform.
+Billions of devices.
+
+Dare me to do it again.
+
+#apple #quicktime #crossplatform #carbon #macosx #streamingvideo #engineeringleadership #techhistory #storytelling #WWDC #daremetodoitagain
