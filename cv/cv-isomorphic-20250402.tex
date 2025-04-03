@@ -26,6 +26,8 @@
 \setlength{\columnsep}{-1pt}
 \usepackage{fontspec}
 \usepackage{emoji}
+\usepackage[normalem]{ulem}  % in the preamble
+
 %----------FONT OPTIONS----------
 % sans-serif
 % \usepackage[sfdefault]{FiraSans}
@@ -164,7 +166,7 @@ Distinguished Engineer and platform strategist operating as a high-leverage indi
 Architect behind foundational technologies that power over \$1T in ARR — including Apple QuickTime, Intuit QuickBooks, and core JVM graphics. Presented on the WWDC main stage and held pivotal roles at Apple, Sun, and Intuit. Now focused on driving end-to-end architecture — from IoT drivers to cloud-native SaaS — with a passion for clean systems and ruthless simplicity.
 }
 \item{
-Recognized force multiplier: delivered 100x gains in reliability, latency, and developer productivity through deep systems expertise, automation, and hands-on mentorship. Led org-wide transformations in companies of 2,000+, directly managing teams up to 200.
+Recognized force multiplier: delivered 100x gains in reliability, latency, and developer productivity through deep systems expertise, automation, and hands-on mentorship. Led org-wide transformations in companies of 2,000+ engineers, directly managing teams up to 200.
 }
 \item{
 Award-winning inventor with multiple patents and a sharp business instinct for IP protection — reclaiming over \$150M in license revenue. Trusted partner in strategy, innovation, and delivery. Former Chief Cloud Officer, CTO, and VP Engineering; now advising VC-backed startups while remaining fully IC by choice.
@@ -331,10 +333,11 @@ Morton, R. W., Chung, J. K., Miller, J. L., Charlton, J. P., \& Fager, R. S. (19
 %
 %-----------PROGRAMMING SKILLS-----------
 \sectionwithnote{Technologies \& Keywords}{Machine Readable}
+\begin{multicols}{4}
 \fontsize{3pt}{4pt}\selectfont{
 \begin{itemize}[leftmargin=0.1in, label={}, itemsep=0pt, parsep=0pt, topsep=0pt, partopsep=0pt]
 \item
-\textbf{\underline{Hardware Interfaces:}} \hspace{0pt}
+\textbf{\uline{Hardware Interfaces:}} \hspace{0pt}
 AGP - Accelerated Graphics Port;
 Centronics - Centronics Parallel Interface;
 EISA - Extended Industry Standard Architecture;
@@ -362,7 +365,7 @@ USB - Universal Serial Bus 1.x, 2.x;
 VLB - VESA Local Bus
 
 \item
-\textbf{\underline{Processors \& Architectures:}} \hspace{0pt}
+\textbf{\uline{Processors \& Architectures:}} \hspace{0pt}
 6502;
 6809;
 8088;
@@ -389,7 +392,7 @@ x86\_32 (IA-32);
 x86\_64 (AMD64)
 
 \item
-\textbf{\underline{Systems \& Platforms:}} \hspace{0pt}
+\textbf{\uline{Systems \& Platforms:}} \hspace{0pt}
 AIX;
 AmigaOS;
 Android;
@@ -426,7 +429,7 @@ Windows 3.1;
 Windows NT
 
 \item
-\textbf{\underline{Drivers \& Low-level Development:}} \hspace{0pt}
+\textbf{\uline{Drivers \& Low-level Development:}} \hspace{0pt}
 Device Tree Overlays (Linux ARM platforms);
 HPUX drivers (68020, C);
 Linux kernel modules (loadable drivers, LKM);
@@ -452,7 +455,7 @@ GRUB bootloader configuration and customization;
 Secure Boot chain validation and integration.
 
 \item
-\textbf{\underline{Programming Languages \& Tools:}}  \hspace{0pt}
+\textbf{\uline{Programming Languages \& Tools:}}  \hspace{0pt}
 .NET;
 6502 assembly;
 6809 assembly;
@@ -460,8 +463,10 @@ Secure Boot chain validation and integration.
 Alpha assembly;
 AMD bit-slice;
 AMD29K assembly;
+Apache Spark;
 Apollo DSEE (Domain Software Engineering Environment);
 ARM assembly;
+AWK;
 bash;
 bison;
 Boost (C++ Libraries);
@@ -473,12 +478,15 @@ C++;
 C++ template metaprogramming;
 Carbon;
 ClearCase;
+COBOL;
 CodeWarrior;
 Cucumber;
 CVS;
 Eclipse (IDE);
 Enterprise Architect (Sparx Systems);
 flex;
+FORTH;
+FORTRAN;
 gcc;
 gdb;
 gem;
@@ -492,6 +500,7 @@ IntelliJ IDEA (IDE);
 Itanium assembly;
 Java;
 JavaScript (browser);
+JCL (Job Control Language);
 JDK (Java Development Kit);
 JetBrains MPS;
 JNI (Java Native Interface);
@@ -527,6 +536,7 @@ Procmon;
 Protocol Buffers (protobuf);
 PsExec;
 Purify;
+Python;
 QTML;
 QuickDraw;
 QuickTime SDK;
@@ -538,17 +548,20 @@ RSpec;
 RS6000 assembly;
 Ruby;
 Salad;
+Scala;
 SCCS (Version Control);
 sed;
 Selenium;
 shell (sh, csh);
 SoftICE;
 SPARC assembly;
+SQL (DDL and DML);
 Subversion (SVN Version Control);
 Swagger (OpenAPI predecessor);
 Sysinternals Suite;
 TI GPL (Graphics Programming Language);
 TMS9900 assembly;
+T-SQL;
 TypeScript;
 UML (Unified Modeling Language);
 Unix utilities (awk, sed, grep);
@@ -577,7 +590,7 @@ yacc;
 yarn;
 Z80 assembly
 \item
-\textbf{\underline{UI \& Graphics:}} \hspace{0pt}
+\textbf{\uline{UI \& Graphics:}} \hspace{0pt}
 AWT (Abstract Window Toolkit);
 Cross-Platform QuickTime;
 Direct2D;
@@ -600,7 +613,7 @@ Swing;
 Windows GUI;
 X11;
 \item
-\textbf{\underline{HID: Graphics, Video\& Sound:}} \hspace{0pt}
+\textbf{\uline{HID: Graphics, Video \& Sound:}} \hspace{0pt}
 DirectX;
 DisplayPort;
 dropping frames;
@@ -624,7 +637,7 @@ video transcoding;
 WebRTC;
 YUV;
 \item
-\textbf{\underline{Statistical \& Optimization Methods:}} \hspace{0pt}
+\textbf{\uline{Statistical \& Optimization Methods:}} \hspace{0pt}
 6-sigma;
 A/B testing;
 gradient ascent;
@@ -639,7 +652,7 @@ simulated annealing;
 stochastic gradient descent;
 SVD (Singular Value Decomposition);
 \item
-\textbf{\underline{Networking \& Protocols:}} \hspace{0pt}
+\textbf{\uline{Networking \& Protocols:}} \hspace{0pt}
 802.11;
 BGP;
 Bluetooth;
@@ -676,7 +689,7 @@ WebSocket;
 Wi-Fi;
 
 \item
-\textbf{\underline{Enterprise \& Legacy Systems:}} \hspace{0pt}
+\textbf{\uline{Enterprise \& Legacy Systems:}} \hspace{0pt}
 AS/400;
 CICS (Customer Information Control System);
 COBOL;
@@ -694,7 +707,7 @@ TPF (Transaction Processing Facility);
 VAX/VMS;
 
 \item
-\textbf{\underline{Project \& Product Experience:}} \hspace{0pt}
+\textbf{\uline{Project \& Product Experience:}} \hspace{0pt}
 Apollo Computer Acquisition;
 Apple StarTrek;
 Beckman;
@@ -727,7 +740,7 @@ Varian;
 Waters HPLC;
 
 \item
-\textbf{\underline{OS Internals \& Concepts:}} \hspace{0pt}
+\textbf{\uline{OS Internals \& Concepts:}} \hspace{0pt}
 Async distributed software;
 bootloaders;
 caching
@@ -747,21 +760,22 @@ system calls;
 virtual memory management;
 
 \item
-\textbf{\underline{Development Methodologies:}} \hspace{0pt}
+\textbf{\uline{Development Methodologies:}} \hspace{0pt}
 Agile;
 Behavior-Driven Development (BDD);
 Documentation-driven design;
 Kanban;
-long locks held across autochanger seeks;
 Model-Driven Development (MDD);
 product management;
 Requirements before Design;
+Six Sigma;
 Scrum;
 Test-Driven Development (TDD);
+Toyota Production System (TPS);
 Waterfall;
 
 \item
-\textbf{\underline{Vintage Computing:}} \hspace{0pt}
+\textbf{\uline{Vintage Computing:}} \hspace{0pt}
 5" Floppy (FM/MFM formatting);
 8" Floppy (MFM formatting);
 Altair 8800;
@@ -783,7 +797,7 @@ TI-99/4A;
 TRS-80;
 
 \item
-\textbf{\underline{Language Support \& Internationalization:}} \hspace{0pt}
+\textbf{\uline{Language Support \& Internationalization:}} \hspace{0pt}
 bidirectional text;
 CJK (Chinese, Japanese, Korean) language support;
 codepage translation;
@@ -816,7 +830,7 @@ variant selectors;
 zero-width joiners;
 
 \item
-\textbf{\underline{Human-Computer Interaction:}} \hspace{0pt}
+\textbf{\uline{Human-Computer Interaction:}} \hspace{0pt}
 command-line interfaces;
 dialog systems;
 eye tracking;
@@ -825,17 +839,24 @@ Speaker-independent speech recognition;
 Speech synthesis;
 touchscreen UI;
 \item
-\textbf{\underline{Cloud Scale Platform Engineering:}} \hspace{0pt}
+\textbf{\uline{Cloud Scale Platform Engineering:}} \hspace{0pt}
 ACME protocol (TLS automation);
+Alerting thresholds for metrics/logs;
+All test stages (unit, integration, e2e) integrated into CI pipelines;
+API backward compatibility;
 Apache Kafka;
 Apache Spark;
-API backward compatibility;
+Architecture Review Board (ARB) \& publishing cadence;
+Archive of CTO/Architecture policies;
 Attribute-based access control (ABAC);
+Audit log long-term retention;
+AuthN vendor policies;
 Blue/green deployments;
 Canary deployments;
+CCPA / GDPR privacy compliance;
+Ceph;
 Centralized log aggregation;
 Centralized policy engine (e.g., OPA);
-Ceph;
 CI/CD enforcement with SAST, DAST, TDD;
 Cloud-init;
 Cloudflare (CDN);
@@ -845,9 +866,17 @@ Container image SemVer tagging;
 Containerd;
 CoreDNS;
 CVE scanning policy;
+Data classification and handling policy;
+Data encryption at rest within storage and databases;
+Data encryption in transit between pods and nodes;
+Decision-Making Process (e.g., DACI);
 Declarative orchestration (e.g., Kubernetes);
+Delegated permissions and admin domains;
+DDoS protection policies;
 Distributed tracing (OpenTelemetry);
+DNS vendors and zone management policies;
 Docker;
+Domain registrar vendors and policies;
 ElasticSearch;
 etcd;
 Feature flag routing;
@@ -857,40 +886,64 @@ Flannel;
 Git commit SHA tagging;
 GitOps change management;
 gRPC;
+Health/liveness/readiness probes;
 Helm;
+Honey Pots;
 Horizontal autoscaling policies;
 Hyperscalers (AWS, GCP, AZURE);
+IDS (Intrusion Detection);
 Immutable audit trails;
 Integration test harness;
+IPS (Intrusion Prevention);
+ISO 27001 / NIST optional benchmarks;
 Istio;
 JWT or SPIFFE/SPIRE identity;
 Kubernetes (K8s);
 Linkerd;
 Load and chaos testing;
 Log redaction and privacy rules;
+Log retention policy;
 Logging access controls;
 Logging format: structured JSON;
+Max payload sizes (upload/request/response);
 Metric ontologies (RED, USE);
+Metrics vendor(s) and retention policy;
 MinIO;
+Minimum unit test coverage threshold (e.g., 90\%);
 mTLS enforcement (Istio, Linkerd);
+Multiple entry points per container allowed;
 Multi-zone / HA deployment policy;
+Network load shaping to gradually shift traffic;
 NGINX;
 One process per container;
 Open Policy Agent (OPA);
 OpenTelemetry;
+OWASP ruleset enforcement (blocking mode only);
 Policy versioning and rollback;
+PostgreSQL;
 Production-like staging environments;
 Prometheus;
 Pulumi;
+Rate limits – global and per-service;
 Redis;
 Regression test suite on merge;
+Registry policies: promotion lifecycle (dev → stage → prod);
+Regular rotation and management of encryption keys: SLA of 5 minutes or less for entire network; Services reload keys upon receiving a specific signal;
+Required DNS records (A, AAAA, CAA, CNAME, NS, PTR, SPF, DKIM, DMARC, MTA-STS, MX etc.);
+Required IPv4 and IPv6 support;
+Required log fields (timestamp, trace\_id, etc.);
+Required security headers (default values);
 Resource quotas and limits;
+RFC Process for architecture decisions;
+Rollback plan required for changes;
 S3;
 SBOM (Software Bill of Materials);
 Schema migration strategy;
+SDK-level log enforcement;
 Secrets management;
 Secure Development Lifecycle (SDL);
 Secure key vault integration;
+Service-level AuthZ routing;
 Service mesh enforcement;
 Session management policies;
 Sharding;
@@ -903,13 +956,83 @@ Terraform;
 TLS cipher suite and protocol policy;
 Token lifecycle and revocation;
 Trace propagation and sampling;
+Transactional or rollback-safe deploys;
+Unified taxonomy \& namespace schema;
 Vault (HashiCorp);
 Versioned architecture standards;
-Zero-downtime deployments;
+Wildcard \& internal DNS policies;
 Zookeeper;
+Zero-downtime deployments;
 
+\item
+\textbf{\uline{IoT edge to cloud:}} \hspace{0pt}
+Access Control (IAM);
+Analytics Services;
+API Gateway;
+Asset Models / Digital Twins;
+Azure Arc;
+Azure Data Explorer (ADX);
+Azure Digital Twins (ADT);
+Azure IoT Central;
+Azure IoT Edge;
+Azure IoT Hub;
+Azure Stream Analytics (ASA);
+Azure Time Series Insights (TSI);
+AWS CloudFormation;
+AWS Greengrass Core;
+AWS Greengrass Lambda Functions;
+AWS IoT Analytics;
+AWS IoT Core;
+AWS IoT Device Defender;
+AWS IoT Device Management;
+AWS IoT Events;
+AWS IoT FleetWise;
+AWS IoT SiteWise;
+AWS Lambda;
+BACNET;
+Battery Management (edge);
+Data Brokers (MQTT / AMQP / HTTP);
+Device Firmware / RTOS;
+Device Health Monitoring;
+Device Identity Registry;
+Device Provisioning Service (DPS);
+Digital Twin Modeling Language (DTDL);
+Edge Gateway / Industrial PC;
+Edge Impulse;
+Edge ML Frameworks (TensorFlow Lite);
+Edge Runtime (Azure IoT Edge / Greengrass Core);
+Factory Keyed (Zero Trust);
+Firmware Over-the-Air (FOTA);
+Function-as-a-Service (FaaS);
+gRPC / REST APIs;
+Hardware Security Module (HSM / TPM);
+Ingestion Pipelines;
+KubeEdge;
+Local Message Broker (e.g., Mosquitto, Greengrass Broker);
+Local ML Inference;
+Logging and Metrics Collection;
+Mesh Wireless (BLE, WiFi);
+Message Queues (MQTT, Kafka, NATS, RabbitMQ);
+Microcontroller / SoC;
+Network Protocols (MQTT, CoAP, HTTP);
+Over-the-Air Updates (OTA);
+PLC / SCADA Integration;
+Remote Management Tools;
+Rule Engines;
+Security Policies (IAM, RBAC);
+Sensor Drivers;
+Sensor Modules;
+Stream Processing Frameworks;
+Telemetry Collection;
+Telemetry Routing;
+Time Series Database (TSDB);
+TLS Mutual Authentication;
+Twin Synchronization;
+Visualization Dashboards;
+Workload Orchestration (Kubernetes, ECS, AKS);
 \end{itemize}
 }
+\end{multicols}
 
 % %-----------INVOLVEMENT---------------
 % \section{Leadership / Extracurricular}
