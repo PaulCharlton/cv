@@ -5,7 +5,7 @@ I Automated a Biomedical Research Lab at 14—Using Voice Control, in Total Dark
 
 While most kids my age were grappling with freshman year of high school and puberty, I was a paid researcher at the University of Virginia School of Medicine, retrofitting legacy lab equipment with custom-built digital interfaces and writing voice-controlled automation software—in assembly language.
 
-By 14, I had integrated 1970s analog lab hardware with early microcomputers via GPIB, S-100, and 6502 assembly. I designed and built A/D and D/A converters, rewired status lamps into TTL latches, and created fully programmable experiment orchestration—without disturbing the lightless environment required for vision research.
+By 14, I had integrated 1970s analog lab hardware with early microcomputers via GPIB, S-100, and 6502 assembly. I designed and built with A/D and D/A converters, rewired status lamps into TTL latches, and created fully programmable experiment orchestration—without disturbing the lightless environment required for vision research.
 
 Because human operators couldn’t see, I built a voice feedback system using pre-recorded snippets—and a speaker-independent voice recognition system using breath pause detection and vector quantization over a 70-word dictionary.
 
