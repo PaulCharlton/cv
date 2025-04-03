@@ -1,0 +1,95 @@
+### 🚀 Dare Me to Do It Again: HP, NASA, and a Dozen Driver Stacks (1988–1990)
+
+Fresh out of RPI, I joined Hewlett-Packard’s Storage and Scanner Division in Greeley, Colorado.
+
+Clean air. Big sky. No nonsense.
+
+Every HP employee could pitch new products, estimate ARR/ROI, and recruit engineers from *any* team—even if a project was months from launch. No sacred cows. Just numbers.
+
+Management were facilitators, not gatekeepers.
+
+I jumped in headfirst.
+
+---
+
+🔁 **First mission:** Build the full **SCSI/SCSI-II DASD and Autochanger stack** for HPUX and MPE.
+- Written in **C** and **Pascal**
+- Included **boot support** for HP9000 from SCSI
+- Nobody else had done DASD drivers for preemptive OSes
+
+🔧 **Next:** HP’s first **in-house SCSI-II VLSI chip**.
+- Replaced 3rd-party chipsets
+- I wrote the **entire test vector suite**
+- ✅ **Worked on the first tape-out**
+
+🚀 **Then came NASA.**
+They wanted to recover Apollo and Mercury flight telemetry from aging magnetic tapes.
+
+These were **non-standard formats**: NRZ, 7-bit, Manchester, diagonal domain…
+Most tapes were deteriorated, some scrambled by "write-through", others water damaged.
+
+I:
+- Overrode the tape drive's internal data separator
+- Streamed raw analog data to HPUX
+- Wrote custom decoders per manufacturer
+- Built a plug-in decoder architecture
+
+Recovered ~20% of the archive. It was like exhuming lost science.
+
+---
+
+💬 **Then came Apollo.**
+After HP acquired Apollo Computer, we had to integrate our SCSI storage stack into their **DOMAIN OS**.
+
+Schedule? Brutal.
+- **2 weeks on-site near Boston**
+- **1 week off** back in Colorado
+
+Apollo's OS was all **Pascal**.
+Lucky for me: I'd already written Pascal drivers for MPE and HP boot ROMs.
+
+We used their incredible toolchain: **DSEE**
+- Integrated project mgmt + version control
+- Better than anything I’ve seen since
+(FYI: DSEE's team left, founded **Atria**, built **ClearCase**, acquired by IBM.)
+
+We finished the port in a month.
+
+Except one thing.
+
+Every so often, accessing the autochanger would **freeze the workstation for 10–15 seconds**.
+Apollo's OS team said: "It’s your bug."
+
+I disagreed. And proved it.
+
+Wrote custom **stack walkers and mutex reflectors**.
+Traced it to a mutex deep in their kernel.
+Patched it. Tested it. Shipped it.
+
+Apollo team finally admitted it.
+
+---
+
+And while all this was happening?
+My manager would find me at 1pm and say:
+> "You've already done 8 hours. Go live your life."
+
+I’d spend Colorado evenings hiking a **1,350-acre park**, while my ASICs simulated in silence.
+
+---
+
+Today you’d call this full-stack, cross-functional, edge-to-core R&D.
+
+Back then? I just called it fun.
+
+**Dare me to do it again?**
+I’ll patch your OS, reverse your tapes, and ship your silicon...
+**before your R&D team finishes their staff meeting.**
+
+---
+
+💬 Got war stories from the early days of Unix, SCSI, or Apollo workstations?
+🔁 Share this with your favorite ex-HP, NASA, or hardware hacker.
+👥 Tag a colleague who touched ClearCase, DSEE, or anything that booted from tape.
+
+#daremetodoitagain #hewlettpackard #pascal #scsi #hpux #apollo #clearcase #vlsi #asics #drivers #hardwarehacking #nasa

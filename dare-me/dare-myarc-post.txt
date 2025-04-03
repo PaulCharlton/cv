@@ -1,0 +1,41 @@
+🔥 Dare me to do it again! — How I designed a home computer, wrote the OS, and built custom ASICs from scratch — all before graduation.
+
+From 1985–1989, I went full tilt with Myarc and the TI-99/4A community.
+✅ Disassembled buggy ROMs.
+✅ Open-sourced firmware patches.
+✅ Unlocked massive performance boosts on disk controllers.
+That alone earned me a seat at the table for Myarc’s next-gen machine: a 16-bit TI-99/4A-compatible computer with virtual memory and a real OS.
+
+I didn’t just join the project — I became the project:
+
+⚙️ Designed the ASIC (4,000 gate equivalents) using Mitsubishi’s tools.
+✍️ Wrote 50,000 lines of assembler for the OS (MDOS) with multitasking, TI-99/4A emulation, device drivers, and memory paging.
+🛠 Built the dev toolchain (assembler, linker, librarian, make, and even a C compiler).
+🌐 Demoed the Geneve 9640 across the US and Germany.
+💥 And when the first chip tape-out failed due to a vendor timing error? I proved it, got a free re-run, and shipped working silicon.
+
+I did all of this while carrying 21 academic credits at RPI.
+
+📸 Mainbyte Geneve Image
+📖 More Geneve info (99er.net)
+📜 Wikipedia - Geneve 9640 | MDOS
+
+⸻
+
+💬 Your turn.
+If you:
+	•	Wrote Z80, 6502, TMS9900, or 8086 assembler
+	•	Bent SCSI or DRAM to your will
+	•	Built your own tools because no one else had
+	•	Reverse engineered your way out of a corner
+	•	Bootstrapped a system before breakfast
+
+…I want to hear from you.
+Tag your retro friends, comment with a war story, or swap links to your old-school triumphs.
+
+👇 Let’s fill this thread with boot ROMs, burned fingers, and beautiful hacks.
+Because I’m still at it — and yes:
+
+👉 Dare me to do it again.
+
+#RetroComputing #AssemblyLanguage #OSDev #Geneve9640 #MDOS #HomebrewHardware #TMS9900 #TI994A #EDATools #MakeItWork #DareMeToDoItAgain #TechHistory

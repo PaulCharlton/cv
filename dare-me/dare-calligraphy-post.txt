@@ -1,0 +1,45 @@
+🧠 Dare Me to Do It Again: Digitizing Calligraphy with NTSC + a TI-99/4A (1983)
+
+In the early ’80s, commercial A/D converters weren’t fast enough to digitize a full video frame at 1/60 sec.
+
+So I built one.
+
+📖 The goal? Typeset a calligraphic book — “A Miracle of Virginia: The School for Statesmen” — using a custom font captured from handwritten glyphs.
+
+I wired up a MATV-0816 A/D converter to a TI-99/4A, and clocked it with a 12-bit programmable counter tied to each NTSC scanline. Once per video field (1/60 sec), I scanned a vertical slice of the image one pixel at a time — sampling at ~16 kHz to capture a high-res column using hand-tuned TMS9900 assembly.
+
+⚠️ Gotchas included:
+	•	Detecting and compensating for interlaced video odd-field jitter
+	•	Modeling and subtracting background light gradients
+	•	Doing vectorization and edge detection in TI BASIC 😳
+
+Result? A 525x4096px high-fidelity 8-bit scan per glyph.
+
+⸻
+
+🖋️ Once digitized, I transferred the raster images to a KayPro II running CP/M using a custom serial protocol I wrote in Z80 and TMS9900 assembly.
+
+From there:
+	•	Added kerning/spacing hints by hand
+	•	Used a font layout tool called FancyFonts
+	•	Printed each page on an Epson RX80 dot matrix, with pixel-aligned overstrikes to get true blacks
+
+📦 The book was published in January 1984 — the first time this kind of capture+render pipeline was done entirely outside a mainframe or professional typesetter.
+
+It was a one-off miracle of homebrew imaging.
+And yes — I’d do it again.
+
+⸻
+
+📸 Peek inside:
+“A Miracle of Virginia” – available on Amazon
+
+📄 Hardware nerds: MATV-0816 datasheet
+
+⸻
+
+💬 Ever reverse-engineered analog video for a digital project?
+👥 Tag someone who ran CP/M or built real-time hardware before SDR was a thing.
+🔁 Share this with your favorite retrocomputing hacker.
+
+#daremetodoitagain #retrocomputing #digitization #ntsc #ti994a #kaypro #z80 #cpm #assemblylanguage #fontdesign #digitizing #signalprocessing #epson #1980sengineering #matv0816

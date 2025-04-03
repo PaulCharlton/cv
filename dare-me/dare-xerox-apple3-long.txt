@@ -1,0 +1,39 @@
+💥 Dare Me to Do It Again!
+
+Homebrew Laser Printer – Summer 1982
+
+What happens when a medical graphics vendor asks if I can turn his Xerox 5700 floor copier into a laser printer controlled by an Apple III?
+
+🔧 Challenge accepted.
+
+I had zero prior experience with either machine. So I dissected both. Turns out the Xerox had:
+	•	A digitally stepped laser drum
+	•	A simple line buffer board for raster data
+	•	A clear separation between optics, motor, and logic
+
+Over the next few weekends, I built a GPIB-controlled raster interface from scratch using a Commodore PET and breadboards. Once I got it to print digital graphics, I moved to wire-wrapped circuit boards and began integrating with the Apple III.
+
+Apple, of course, wouldn’t give me the specs.
+So I reverse engineered their PRN driver, added GPIB support, and hijacked the OS to route raster data directly into the Xerox.
+
+✅ First weekend: made it print.
+✅ Next few weekends: made it scan.
+
+I rigged up a color scanning system by inserting darkroom color separation filters, capturing each layer via raster reads into the Apple III, and aligning color layers using crosshair registration marks. I even wrote a trapezoidal correction algorithm to fix optical drift from imperfect filter placement.
+
+The result?
+A full-blown digital color raster scanner and printer rigged out of:
+	•	📼 A Xerox 5700 copier
+	•	🍏 An Apple III
+	•	🧠 Reverse-engineered drivers
+	•	🔌 GPIB hacks
+	•	🔁 Edge detection & transform math
+	•	🎞️ Final output on 35mm film
+
+I built all of it in about 12 weekends, collaborating with a graphics shop that was printing 4Kx4K raster images to film.
+
+📸 At 300 dpi and 512x512 color, this thing wasn’t just cool — it was 10 years ahead of its time.
+
+So…
+Dare me to do it again?
+I’ll reverse-engineer your secrets, hack your hardware, and outship your roadmap — before your R&D team gets out of their staff meeting.

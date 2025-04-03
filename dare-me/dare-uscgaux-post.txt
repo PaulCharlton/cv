@@ -1,0 +1,28 @@
+🚨 Dare me to do it again!
+
+Coast Guard Auxiliary | Director, Software Systems | 2010–2014
+
+In 2010, I joined the U.S. Coast Guard Auxiliary to train and become a coxswain—search and rescue, radio ops, night patrols on SF Bay. That alone was worth the uniform.
+
+But a few patrols later, I got invited upstairs—first as Branch Chief, Measurements, then Division Chief, and finally as Director of Computer Software & Systems (DIR-C), running the national software infrastructure for 30,000+ volunteers.
+
+🧠 I rebuilt the entire architecture—servers, security, access control, backup, redundancy—and cut costs by 90%.
+
+📉 Reduced department size from 50 to 5. Still covered 24/7 ops with a 10-minute SLA. Ask me about that pager life.
+
+🔐 Rolled out zero-trust security, modernized AuthN/AuthZ, encrypted sync with Active Duty databases—while keeping it volunteer-driven and field-resilient.
+
+📝 Rolled out a nationwide self-service mission reporting system, eliminating 50,000+ hours/month of manual toil and improving reporting compliance across every flotilla.
+
+📊 Automated two-way data sync with the Active Duty Coast Guard’s legacy systems. No API access? No problem. We used PGP over email with daily jobs that crushed what used to take months of manual toil.
+
+And yes, I still did SAR patrols. Still got wet. Still stayed sharp.
+
+⸻
+
+💬 Your turn. Ever modernize a massive org on nights and weekends? Run ops with zero downtime and no budget?
+
+Tag a Coastie, a sysadmin, or anyone who’s ever stood a midnight watch for a mission bigger than themselves.
+🫡👇 Drop your best volunteer or govtech war story in the comments. Let’s see who’s really done the work.
+
+#DareMeToDoItAgain #USCGAux #SAR #CyberSecurity #DigitalTransformation #VolunteerTech #GovTech #OpsLife #ZeroTrust #LeadershipByDoing #PagerDuty #CoastGuard #MissionReady

@@ -1,0 +1,84 @@
+
+🔥 Dare me to do it again!
+Patents, precision optics, and a legacy of getting ripped off.
+
+Let me tell you why I don’t romanticize patents.
+
+Not because I don’t understand them.
+Because I do.
+
+I grew up watching my father change the world of telescope optics.
+He invented a mirror grinding system with 40nm precision — twenty times better than anything before.
+He replaced harmonic gear-driven garbage with belt-driven irrationality.
+Yes, irrational math — to break Lissajous distortion cycles and create true, sub-wavelength smoothness.
+It worked. It was patented (USPTO: 3,141,265).
+Factories stole it within months.
+He watched them do it — walked past machines running his design.
+He never saw a cent.
+
+Welcome to the real world.
+
+“He who has the gold rules.”
+— a wise attorney I once paid too much
+
+So yeah… I don’t believe in patents.
+I believe in execution. In legacy. In undeniable impact.
+
+Still, I’ve filed a few.
+A couple ended up under Apple’s name.
+You might recognize them — they’re still shaping the way you experience media today.
+
+⸻
+
+🎯 US Patent 5,875,354 — Real-time AV Sync via Clock Drift Correction
+
+Still used in every streaming platform you’ve ever touched.
+Netflix, Zoom, YouTube, Twitch, OBS, you name it.
+If your video doesn’t drift from your audio? Thank this one.
+
+Dynamic, feedback-looped sample rate conversion for multiple unsynchronized clocks.
+Sounds sexy? Because it is.
+
+⸻
+
+🧱 US Patent 5,825,359 — Compositing and Display Arbitration
+
+Invented window manager compositing before Apple, Microsoft, or Linux made it mainstream.
+Two queues: one for drawing, one for waiting.
+No flicker. No race conditions.
+Just beautiful, orderly pixels.
+
+Modern GPU compositors still follow this blueprint.
+macOS Quartz. Windows DWM. Wayland. Even Citrix.
+
+⸻
+
+🖼️ US Patent 5,949,434 — Anti-Banding Image Scaling
+
+Invented adaptive pseudo-random scaling before AI did.
+Solves the same problem DLSS, FSR, and Apple Neural Engine attack today:
+→ Make things bigger without making them ugly.
+
+We did it with lookup tables and a modded Bresenham.
+Now they call it stochastic sampling in AI super-resolution.
+
+⸻
+
+💡 Want to talk about foresight?
+I wasn’t trying to build hype.
+I was solving problems that weren’t trendy yet.
+
+And that’s the lesson.
+
+If your invention’s value depends on enforcement? You’re already playing defense.
+
+If you want to win —
+Build things the world needs, not just things it protects.
+
+⸻
+
+👊 Have a story of your own invention getting stolen, buried, or rebranded by BigCo?
+🎯 Tag someone who’s survived the patent trap.
+💬 Drop your war story in the comments. Let’s keep this real.
+
+#DareMeToDoItAgain #Patents #Invention #EngineeringTruth #Streaming #AudioVideoSync #ImageProcessing #DLSS #Apple #GPU #LegacyOverLitigation #BuiltDifferently
