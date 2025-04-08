@@ -2,15 +2,15 @@
 
 Back in '82, a graphics shop owner asked me if I could turn his Xerox 5700 floor copier into a laser printer controlled by an Apple III.
 
-I’d never touched either machine before.So I took them apart.
+I’d never touched either machine before. So I took them apart.
 
 🔍 Inside the Xerox:• Digitally stepped laser drum• Raster line buffer• Discrete control board = hackable
 
-💪 On a few weekends using a Commodore PET and GPIB breadboards, I had it raster-printing digital images.Then I reverse engineered Apple's PRN driver, built a custom GPIB controller, and hijacked their OS to push bitmaps directly from the Apple III to the Xerox.
+💪 On a few weekends using a Commodore PET and GPIB breadboards, I had it raster-printing digital images. Then I reverse engineered Apple's PRN driver, built a custom GPIB controller, and hijacked their OS to push bitmaps directly from the Apple III to the Xerox.
 
 💡 But I didn’t stop there.
 
-I realized the Xerox drum and buffer could be reused in reverse to scan full-page raster images.Using darkroom color separation filters and edge-detected registration marks, I captured and aligned multiple passes into a full color composite, pixel-corrected with trapezoidal transforms.
+I realized the Xerox drum and buffer could be reused in reverse to scan full-page raster images. Using darkroom color separation filters and edge-detected registration marks, I captured and aligned multiple passes into a full color composite, pixel-corrected with trapezoidal transforms.
 
 The images were then imported into the Apple III’s 4K x 4K image system and printed to 35mm film.
 
@@ -20,9 +20,9 @@ The images were then imported into the Apple III’s 4K x 4K image system and pr
 
 ⚙️ All built in about 12 weekends — from nothing but schematics, hex dumps, and sheer nerve.
 
-Today you’d call it a startup.Back then, it was just a dare.
+Today you’d call it a startup. Back then, it was just a dare.
 
-And yes — I’d do it again.Faster than your R&D team can finish their staff meeting.
+And yes — I’d do it again. Faster than your R&D team can finish their staff meeting.
 
 💬 Got a wild hack from the 80s, 90s, or early 2000s? I want to hear it.
 🔁 Share this with your favorite retro hardware nerd.

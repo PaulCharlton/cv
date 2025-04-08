@@ -1,0 +1,82 @@
+# Dare Me to Do It Again:
+## The Hidden History of QTML and the Cross-Platform Future That Saved Apple
+
+### Author: [Redacted by Request]
+
+### TL;DR:
+Between 1994 and 1996, I led the design and implementation of QTML (QuickTime Media Layer) at Apple. QTML enabled full cross-platform QuickTime across Mac, Windows, and SGI IRIX. By personally porting the entire macOS Toolbox and QuickTime stack to Intel and other architectures, I laid the technical foundation for Carbon, which allowed legacy macOS applications to run on Mac OS X. This work not only helped Apple survive the pre-NeXT transition chaos but directly influenced the modern multimedia landscape, from iTunes to MP4 streaming.
+
+---
+
+### Chapter 1: Earthquake and Destiny
+
+On January 17, 1994, I flew out to Cupertino for an on-site interview with the QuickTime team at Apple Computer. That night, the Northridge earthquake jolted me awake in my room at the Cupertino Inn. It was a literal seismic foreshadowing of the ground-shaking changes ahead — both for me and Apple.
+
+The QuickTime team had just lost some senior talent to Bruce Leak’s new game venture. Apple was stuck with a fragile QuickTime Player for Windows, outsourced to a questionable third-party contractor. They invited me to fix it. I accepted — once Apple navigated its internal hiring moratoriums.
+
+---
+
+### Chapter 2: From Porting to Platform
+
+My official start at Apple was April 1994. By May’s WWDC, I had already stabilized and updated the QuickTime 1.x Player for Windows. But as I dug into the codebase, it became clear: Porting QuickTime piecemeal was a dead end.
+
+Instead, I pivoted: port the entire **macOS** to Intel — from the boot ROM and Toolbox APIs to the QuickDraw 2D engine. It was a radical move. But it was the only way to make QuickTime truly cross-platform.
+
+Using the Inside Macintosh books as my specs, I rewrote the Toolbox in C, made it thread-safe, and built a real preemptive runtime. I used a forgotten QuickDraw 2D C implementation from the StarTrek project as a springboard. My oscilloscope-assisted profiling of jitter and frame drops even earned me a sideways equipment procurement through our marketing budget.
+
+---
+
+### Chapter 3: The Code Theft That Sparked a Lawsuit
+
+In late 1994, I discovered something disturbing: portions of my Apple-authored code were appearing in Microsoft’s Video for Windows SDK. Turns out the third-party contractor who’d built the early QuickTime Player for Windows had retained access to Apple’s source code and given it to Intel — who gave it to Microsoft.
+
+Apple filed suit. I became a key technical advisor to Apple Legal. I spent months working with attorneys and attending depositions in Beaverton and Redmond. Eventually, Apple added Intel and Microsoft to the case. That lawsuit would become a $150M settlement linchpin for Apple’s survival.
+
+---
+
+### Chapter 4: Introducing QTML
+
+By early 1995, my port of macOS and QuickTime to Intel and IA-32 was complete. Just 400 lines of platform-specific code. Every bit of the old single-threaded Mac runtime was now a fully preemptive, multithreaded, endian-safe engine.
+
+We branded it **QTML — QuickTime Media Layer** — and began distributing beta builds to Adobe, Broderbund, and others. QTML allowed developers to compile their Mac apps for Windows (and later SGI IRIX) with minimal changes. All they had to do was endian-correct their persisted data structures.
+
+Internally, no one outside QuickTime knew about QTML — not until management changes in early 1996 blew the lid off. When senior execs realized I’d done what 300 engineers on Project StarTrek couldn’t, panic set in. Hardware groups feared cannibalization. My entire reporting chain resigned.
+
+---
+
+### Chapter 5: Lobbying the CEO
+
+With no manager left between me and Gil Amelio, I scheduled my monthly MBO directly with the CEO. I laid out the situation: QTML was real, it worked, and it was the best shot Apple had at keeping its developer base intact during the platform transition. Kill it, and I’d walk — and so would our legal momentum.
+
+Amelio hesitated. I briefed Ed Stead (Apple’s Chief Legal Officer), then our marketing team swung into action. They had our beta customers — over 60 of them — flood Amelio with calls. Within two weeks, Amelio and Stead personally guaranteed the continuation of the QTML initiative.
+
+---
+
+### Chapter 6: The WWDC Reveal
+
+At **WWDC 1996**, I took the stage in the main hall and presented **Cross-Platform QuickTime and QTML** to over 1000 developers. I walked them through the porting process, the benefits of the media layer architecture, and the future of Mac application portability.
+
+With that public reveal, my job was done. I left Apple in June 1996 to co-found a startup.
+
+---
+
+### Epilogue: QTML’s Lasting Legacy
+
+- QTML became the technical foundation of **Carbon**, which allowed classic Mac apps to run on OS X.
+- Without QTML, **Mac OS X would have failed** to bring over its existing developer ecosystem.
+- The Microsoft/Intel lawsuit was settled for **$150M**, along with a 5-year MS Office commitment and default bundling of Internet Explorer.
+- QuickTime went on to win an **Academy Award**.
+- The **QuickTime file format** became the basis for **MP4**, powering streaming media to this day.
+- QTML morphed into **iTunes infrastructure** and today powers all Apple audio/video devices.
+
+**Dare me to do it again? I already did.**
+
+---
+
+**References & Links**
+1. [Wikipedia – QuickTime 2.x](https://en.wikipedia.org/wiki/QuickTime#QuickTime_2.x)
+2. [US Patent 5,875,354](https://patents.google.com/patent/US5875354A/en?oq=US5875354A)
+3. [US Patent 5,825,359](https://patents.google.com/patent/US5825359A/en?oq=US5825359A)
+4. WWDC 1995 – Main Hall: “QuickTime” (Tech Lead, QuickTime for Windows)
+5. WWDC 1996 – Main Hall: “Cross-Platform QuickTime” (Lead Presenter, QTML)
+

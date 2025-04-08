@@ -3,7 +3,7 @@ How I outsmarted IBM, modernized a global bank, and built online banking before 
 
 In 1990, Chase Manhattan Bank hired me as Director of Advanced Technology. My job? Redesign everything in the retail bank that didn’t run on a mainframe or VAX. Translation: I was handed the chaos—and expected to bring order.
 
-🔥 I overhauled the court-ordered levy system, reducing risk of multimillion-dollar penalties. Paper-based processing became real-time. 3 days → 2 hours. Failover. Redundancy. Double-keyed validation. Bulletproof.
+🔥 I overhauled the system for court-ordered levies , reducing risk of multimillion-dollar penalties. Paper-based processing became real-time. 3 days → 2 hours. Failover. Redundancy. Double-keyed validation. Bulletproof.
 
 🔥 I digitized the central cash vault, twelve stories underground, 80+ million in daily ATM cash, and literal gold bars. I tracked armored transfers, logged every shrink-wrapped $100K bundle, and reconciled vault inventory in real time.
 
@@ -11,7 +11,7 @@ In 1990, Chase Manhattan Bank hired me as Director of Advanced Technology. My jo
 
 🔥 I reverse-engineered SNA LU6.2 comms, built Windows 3.1 online banking for VIP clients (some were nation-states), and integrated CICS with dial-up, secure wire auth, and GUI workflows—before “online banking” even had a name.
 
-🔥 When a core dump leaked every private key for high-value wire transfers, I quietly rebuilt the system and launched a secret global key swap… starting with billion-dollar clients. One of the accounts? Tied to Iran-Contra. No one flinched.
+🔥 When a core dump leaked every private key for high-value wire transfers, I quietly restored the system and launched a secret global key swap… starting with billion-dollar clients. One of the accounts? Tied to Iran-Contra. No one flinched.
 
 🔥 I beat the IBM mainframe DDA batch posting system. 10M accounts. 600K transactions. Mainframe: 19 mins. My PC: 67 seconds in Borland C++. On a PS/2 tower. Yes, really.
 
