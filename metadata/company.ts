@@ -112,7 +112,7 @@ export const Companies: Record<CompanyName, Company> = {
     homepage: "https://www.rpi.edu",
   },
   "SGI": {
-    name: "Silicon Graphics Inc",
+    name: "SGI",
     file: "sgi.webp",
     homepage: "https://www.sgi.com",
   },
