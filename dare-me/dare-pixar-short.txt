@@ -1,0 +1,68 @@
+Dare Me to Do It Again: The Day Pixar Showed Me the Future (and Then Some)
+
+In 1988, I was invited to a quiet building in Novato.
+
+Not the famous Pixar campus. Not yet.
+This was something more like a technical monastery.
+
+Pixar had just been acquired by Steve Jobs.
+RenderMan was still raw.
+“Tin Toy” hadn’t yet won its Oscar.
+
+I thought I was there to talk about animation tech.
+Tony Apodaca and I knew each other from the RPI graphics lab.
+Instead, they brought me into a back room — and showed me something no outsider was supposed to see.
+
+A classified image stitching project.
+Thousands of overlapping satellite photos.
+Custom silicon. Real-time VLSI acceleration.
+
+Then they showed me the images.
+
+Subcentimeter resolution.
+I saw fingers. The claws of a claw hammer.
+In 1988.
+
+The public was still thinking in Landsat-scale 3-meter blocks.
+But I knew from friends at Perkin-Elmer — where Hubble’s mirrors were born — that this only made sense if someone had pointed that tech downward.
+
+Pixar — yes, that Pixar — was building reconnaissance pipelines in hardware.
+And they were asking if I could help architect it.
+
+I stepped aside.
+
+Not out of fear.
+But because something quieter tugged at me — a rhythm from my semi-rural upbringing in Virginia. The pace, the density — it didn’t fit. Not then.
+
+But I walked away changed.
+
+I’d glimpsed a triangulation:
+🎬 Hollywood
+💻 Silicon Valley
+🛰️ The black-budget aerospace frontier
+
+All converging in a sterile room in Novato.
+
+Pixar was never just a movie studio.
+It was something else entirely.
+
+Years later, I crossed paths again:
+🎥 Toy Story post-production with my QuickTime team at Apple.
+☁️ Render-farm reviews at Disney Studios.
+🧩 Reconnected with Micky Mantle, who helped ship Myst.
+
+I never joined Pixar.
+But I stood on the edge of their future — more than once.
+
+Dare me to do it again?
+I’d go back in a heartbeat.
+Not for the job —
+But for that moment.
+That clarity.
+That quiet sense of history unfolding.
+
+⸻
+
+💬 Have you ever stepped aside from something world-changing — and still known it shaped you?
+
+#DareMe #Pixar #RenderMan #VLSI #ReconTech #PerkinElmer #CareerPath #QuietDecisions #SatelliteTech #TechHistory #Storytelling #Apple #QuickTime

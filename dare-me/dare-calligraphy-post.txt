@@ -13,7 +13,7 @@ I wired up a MATV-0816 A/D converter to a TI-99/4A, and clocked it with a 12-bit
 	•	Modeling and subtracting background light gradients
 	•	Doing vectorization and edge detection in TI BASIC 😳
 
-Result? A 525x4096px high-fidelity 8-bit scan per glyph.
+Result? A 525x1024px high-fidelity 8-bit scan per glyph.
 
 ⸻
 
@@ -42,4 +42,5 @@ And yes — I’d do it again.
 👥 Tag someone who ran CP/M or built real-time hardware before SDR was a thing.
 🔁 Share this with your favorite retrocomputing hacker.
 
+https://paul-charlton.vercel.app/story/46
 #daremetodoitagain #retrocomputing #digitization #ntsc #ti994a #kaypro #z80 #cpm #assemblylanguage #fontdesign #digitizing #signalprocessing #epson #1980sengineering #matv0816

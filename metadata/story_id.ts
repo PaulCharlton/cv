@@ -17,7 +17,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1975-2025", // So that it appears first on the story list page all the time
     summary: "",
     company: undefined,
-    coolness: 200,
+    coolness: 2000,
     id: 42,
   },
   "deshaw.md": {
@@ -26,7 +26,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1992-1994",
     summary: "",
     company: Companies["D. E. Shaw"],
-    coolness: 99,
+    coolness: 990,
     id: 25,
   },
   "chasebank.md": {
@@ -35,7 +35,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1990-1992",
     summary: "",
     company: Companies["J.P. Morgan"],
-    coolness: 98,
+    coolness: 980,
     id: 17,
   },
   "apple.md": {
@@ -44,7 +44,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1994-1996",
     summary: "",
     company: Companies.Apple,
-    coolness: 97,
+    coolness: 970,
     id: 11,
   },
   "c2btech.md": {
@@ -53,8 +53,17 @@ export const StoryMap: Record<string, Story> = {
     date: "1997-1998",
     summary: "",
     company: undefined,
-    coolness: 96,
+    coolness: 960,
     id: 16,
+  },
+  "sgi.md": {
+    filename: "sgi.md",
+    title: "Silicon Graphics",
+    date: "2014",
+    summary: "C-Level Revenue Impact",
+    company: Companies["SGI"],
+    coolness: 955,
+    id: 63,
   },
   "JavaSoft.md": {
     filename: "JavaSoft.md",
@@ -62,7 +71,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1997",
     summary: "",
     company: Companies["Sun Microsystems"],
-    coolness: 95,
+    coolness: 950,
     id: 5,
   },
   "fastterm.md": {
@@ -71,7 +80,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1984-1986",
     summary: "",
     company: undefined,
-    coolness: 94,
+    coolness: 940,
     id: 30,
   },
   "cisco_ios.md": {
@@ -80,7 +89,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2008",
     summary: "",
     company: Companies.Cisco,
-    coolness: 93,
+    coolness: 930,
     id: 20,
   },
   "cyber_currency_101.md": {
@@ -89,7 +98,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2018",
     summary: "",
     company: undefined,
-    coolness: 92,
+    coolness: 920,
     id: 23,
   },
   "best_day.md": {
@@ -98,7 +107,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2005",
     summary: "",
     company: undefined,
-    coolness: 91,
+    coolness: 910,
     id: 14,
   },
   "Intuit.md": {
@@ -107,7 +116,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2005-2007",
     summary: "",
     company: Companies["Intuit"],
-    coolness: 90,
+    coolness: 900,
     id: 3,
   },
   "hewlettpackard.md": {
@@ -116,7 +125,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1988-1990",
     summary: "",
     company: Companies["Hewlett-Packard"],
-    coolness: 89,
+    coolness: 890,
     id: 38,
   },
   "UVA.md": {
@@ -125,7 +134,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1979-1986",
     summary: "",
     company: Companies["University of Virginia"],
-    coolness: 88,
+    coolness: 880,
     id: 9,
   },
   "rpi.md": {
@@ -134,7 +143,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1984-1988",
     summary: "",
     company: Companies["Rensselaer Polytechnic Institute"],
-    coolness: 87,
+    coolness: 870,
     id: 55,
   },
   "USCGAux.md": {
@@ -143,7 +152,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2010-2014",
     summary: "",
     company: Companies["U.S. Department of Homeland Security"],
-    coolness: 86,
+    coolness: 860,
     id: 8,
   },
   "netflix_prize.md": {
@@ -152,7 +161,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2008",
     summary: "",
     company: Companies.Netflix,
-    coolness: 85,
+    coolness: 850,
     id: 48,
   },
   "beyondnews.md": {
@@ -161,7 +170,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1996-1997",
     summary: "",
     company: undefined,
-    coolness: 84,
+    coolness: 840,
     id: 15,
   },
   "resultsbyiq.md": {
@@ -170,7 +179,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2014",
     summary: "",
     company: Companies["Hewlett-Packard"],
-    coolness: 83,
+    coolness: 830,
     id: 54,
   },
   "electrofiberoptic.md": {
@@ -179,7 +188,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1990",
     summary: "",
     company: undefined,
-    coolness: 82,
+    coolness: 820,
     id: 27,
   },
   "asic1.md": {
@@ -188,7 +197,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1986",
     summary: "",
     company: Companies["Myarc Computers Inc."],
-    coolness: 81,
+    coolness: 810,
     id: 12,
   },
   "asic2.md": {
@@ -197,7 +206,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1987",
     summary: "",
     company: Companies["Myarc Computers Inc."],
-    coolness: 80,
+    coolness: 800,
     id: 13,
   },
   "compuserve.md": {
@@ -206,7 +215,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1983-1990",
     summary: "",
     company: Companies["CompuServe"],
-    coolness: 79,
+    coolness: 790,
     id: 22,
   },
   "JavaFX.md": {
@@ -215,7 +224,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2008",
     summary: "",
     company: Companies["Oracle Corporation"],
-    coolness: 150,
+    coolness: 1500,
     id: 4,
   },
   "valueclick.md": {
@@ -224,7 +233,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2012",
     summary: "",
     company: undefined,
-    coolness: 77,
+    coolness: 770,
     id: 57,
   },
   "genasm.md": {
@@ -233,7 +242,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1989",
     summary: "",
     company: undefined,
-    coolness: 76,
+    coolness: 760,
     id: 32,
   },
   "genlib.md": {
@@ -242,7 +251,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1989",
     summary: "",
     company: undefined,
-    coolness: 75,
+    coolness: 750,
     id: 33,
   },
   "genlink.md": {
@@ -251,7 +260,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1989",
     summary: "",
     company: undefined,
-    coolness: 74,
+    coolness: 740,
     id: 34,
   },
   "genmake.md": {
@@ -260,7 +269,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1989",
     summary: "",
     company: undefined,
-    coolness: 73,
+    coolness: 730,
     id: 35,
   },
   "genref.md": {
@@ -269,7 +278,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1989",
     summary: "",
     company: undefined,
-    coolness: 72,
+    coolness: 720,
     id: 36,
   },
   "home_construction.md": {
@@ -278,7 +287,7 @@ export const StoryMap: Record<string, Story> = {
     date: "Unknown",
     summary: "",
     company: undefined,
-    coolness: 71,
+    coolness: 710,
     id: 39,
   },
   "laser-printer.md": {
@@ -287,7 +296,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1982",
     summary: "",
     company: undefined,
-    coolness: 70,
+    coolness: 700,
     id: 44,
   },
   "magnifi.md": {
@@ -296,7 +305,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1997",
     summary: "",
     company: undefined,
-    coolness: 69,
+    coolness: 690,
     id: 45,
   },
   "miracleofvirginia.md": {
@@ -305,7 +314,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1984",
     summary: "",
     company: undefined,
-    coolness: 68,
+    coolness: 680,
     id: 46,
   },
   "Myarc.md": {
@@ -314,7 +323,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1985-1989",
     summary: "",
     company: Companies["Myarc Computers Inc."],
-    coolness: 67,
+    coolness: 670,
     id: 6,
   },
   "national_merit.md": {
@@ -323,7 +332,7 @@ export const StoryMap: Record<string, Story> = {
     date: "Unknown",
     summary: "",
     company: undefined,
-    coolness: 66,
+    coolness: 660,
     id: 47,
   },
   "PaperRoute.md": {
@@ -332,7 +341,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1976-1983",
     summary: "",
     company: undefined,
-    coolness: 65,
+    coolness: 650,
     id: 7,
   },
   // The following items appear in StoryMap but not in storyRankings
@@ -343,7 +352,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 1,
   },
   "IdeaLab.md": {
@@ -352,7 +361,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 2,
   },
   "acuity_brands.md": {
@@ -361,7 +370,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 10,
   },
   "cinnovations.md": {
@@ -370,7 +379,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 18,
   },
   "ciq.md": {
@@ -379,7 +388,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 19,
   },
   "codereports.md": {
@@ -388,7 +397,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 21,
   },
   "dax.md": {
@@ -397,7 +406,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 24,
   },
   "digitalinsight.md": {
@@ -406,7 +415,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 26,
   },
   "element_analytics.md": {
@@ -415,7 +424,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 28,
   },
   "f5_networks.md": {
@@ -424,7 +433,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 29,
   },
   "forticom.md": {
@@ -433,7 +442,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 31,
   },
   "gimps.md": {
@@ -442,7 +451,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 37,
   },
   "independa.md": {
@@ -451,7 +460,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 40,
   },
   "intacct.md": {
@@ -460,7 +469,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 41,
   },
   "iot4ai.md": {
@@ -469,7 +478,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 43,
   },
   "neustar.md": {
@@ -478,7 +487,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 49,
   },
   "open_source.md": {
@@ -487,7 +496,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 50,
   },
   "permissionTV.md": {
@@ -496,7 +505,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 51,
   },
   "recommendations_raw.md": {
@@ -505,7 +514,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 52,
   },
   "recommendations_summary.md": {
@@ -514,7 +523,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 53,
   },
   "swiftboot.md": {
@@ -523,7 +532,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 56,
   },
   "wikipedia.md": {
@@ -532,7 +541,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 58,
   },
   "context_quotes.md": {
@@ -541,7 +550,7 @@ export const StoryMap: Record<string, Story> = {
     date: "",
     summary: "",
     company: undefined,
-    coolness: 1,
+    coolness: 10,
     id: 59,
   },
   "pixar.md": {
@@ -550,7 +559,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1988, 1995, 2010",
     summary: "",
     company: Companies.Pixar,
-    coolness: 59,
+    coolness: 590,
     id: 60,
   },
   "patents.md": {
@@ -559,7 +568,7 @@ export const StoryMap: Record<string, Story> = {
     date: "1998, 1999",
     summary: "",
     company: Companies.Apple,
-    coolness: 45,
+    coolness: 450,
     id: 61,
   },
   "gtoc.md": {
@@ -568,7 +577,7 @@ export const StoryMap: Record<string, Story> = {
     date: "2010-2015",
     summary: "",
     company: Companies["European Space Agency"],
-    coolness: 44,
+    coolness: 440,
     id: 62,
   },
 };

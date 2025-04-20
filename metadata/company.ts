@@ -14,6 +14,7 @@ export type CompanyName =
   | "Morgan Stanley"
   | "Michigan State University"
   | "Rensselaer Polytechnic Institute"
+  | "SGI"
   | "Stanford University"
   | "Sun Microsystems"
   | "University of Chicago"
@@ -109,6 +110,11 @@ export const Companies: Record<CompanyName, Company> = {
     name: "Rensselaer Polytechnic Institute",
     file: "rpi.png",
     homepage: "https://www.rpi.edu",
+  },
+  "SGI": {
+    name: "Silicon Graphics Inc",
+    file: "sgi.webp",
+    homepage: "https://www.sgi.com",
   },
   "Stanford University": {
     name: "Stanford University",

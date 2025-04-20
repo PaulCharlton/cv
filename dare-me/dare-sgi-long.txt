@@ -1,0 +1,148 @@
+# Dare Me to Do It Again: How I Saved SGI’s CXFS—and Its Customers 💾🔥
+
+> *"Legacy is my edge. Complexity sharpens my blade. I don't just bring systems back to life—I make them tell the truth."* 🗡️
+
+### Prelude: Holding Up the Sky ☁️🛠️
+
+This story isn’t about code. It’s about **customers walking out the door** 🚪, and the desperate call that came when **SGI’s media and entertainment sales pipeline was collapsing** 📉.
+
+After SGI was acquired by Rackable, the CXFS engineering team had no one left who could support macOS or Windows. **Meanwhile, NetApp was devouring their client base**, offering cross-platform storage that "just worked"—while CXFS clients were breaking, silently corrupting files, or outright failing to interoperate across platforms. 😬💣
+
+SGI brought me in as a **principal consulting engineer**—not to experiment, but to **save revenue** 💰.
+
+My original mandate: resurrect the macOS and Windows CXFS clients before more M&E accounts were lost. 🧟‍♂️💻
+
+What I ended up doing was more than a port. I unearthed decades of drift, rot, and false assumptions. And I gave CXFS a soul. 🧬
+
+I gave it **truth**—across architectures, platforms, and every byte of Unicode. ✨
+
+### Act I: Rescuing the Sales Pipeline 💼🩺
+
+SGI didn’t bring me in for the code. They brought me in for the clients.
+
+After the Rackable acquisition, SGI had no macOS or Windows kernel engineers left. CXFS was collapsing under its own history. Meanwhile, NetApp was walking into SGI’s media and entertainment accounts and walking out with signed POs 🧾✍️.
+
+The M&E sales team made the call. I got the brief: *“Resurrect the CXFS clients. Stop the bleeding. Make us competitive again.”* 🆘
+
+What I did instead? I gave CXFS truth — byte for byte, across every OS it touched. 🧠🧵
+
+### Act II: Resurrecting the Rot ⚰️🧰
+
+My contract was scoped for 12 months. I was hired as a principal consulting engineer to fix what no one else could. 🧙‍♂️
+
+**Months 1–3**: I resurrected the macOS and Windows 32-bit CXFS client drivers. The codebase hadn’t built in years. Preprocessor hell. Kernel drift. ABI misalignment. And yet, I got it running—clean and stable—on platforms SGI hadn’t touched in a decade. ⚙️🧼
+
+**Months 4–6**: I rebuilt the entire thing for 64-bit. New drivers. New interface layers. Full support for Vista, NT, and modern macOS. 💪🧱
+
+I had delivered the entire scope **in half the contracted time.** ⏱️✅
+
+### Act III: The Unicode Abyss 🕳️🔤
+
+With six months left, I asked myself: *What’s still broken?* 🤔
+
+A file written by a Windows client couldn’t be found by a macOS editor.
+A file listed by a Linux node was unreadable by a Windows app.
+
+I dug deeper. I pulled every broken filename, every ghost file, every mismatch. 🧟‍♀️🕵️‍♂️
+
+And there it was: **Unicode canonical equivalence.** 🔍💥
+
+- Windows clients sent UTF-16 with no normalization.
+- macOS enforced NFD on UTF-8.
+- Linux was raw bytes.
+- XFS? It just stored whatever it was given. 🤷‍♂️
+
+This was never going to work across platforms unless I intervened at the semantic level. 🧼🛡️
+
+### Act IV: Building the Truth Engine ⚙️📐
+
+I didn’t just rely on conventions or developer discipline. I enforced encoding correctness **at compile time** 🧾🔒. Each encoding mode—raw UTF-8, UTF-16 mixed, UTF-16 NFD+PUA, UTF-8 on-disk—had its own unique C type. The compiler would reject any attempt to mix representations incorrectly. Compare functions only accepted the specific, pre-normalized `UTF16_NFKD` type. Memory and disk handling code required explicit conversion steps between `UTF16_NFD_PUA` and `UTF8_NFD_PUA`, enforced by the type system. This prevented subtle bugs, avoided normalization mismatches, and made correctness unskippable. 🧠💡
+
+I built a **Unicode fidelity engine** into CXFS.
+
+1. **Preserve the syscall**: The original UTF-8 input—including `/`—was sacred. 🙏
+2. **Convert to UTF-16**: Normalize everything in a structure-friendly encoding.
+3. **Tag using Private Use Area (PUA)**: Every canonical or compatibility variant got a unique marker—**before** normalization. 🏷️
+4. **Escape existing PUA values**: If the syscall stream already contained PUA characters, I escaped them into a reserved PUA range of my own, so I could safely distinguish between user input and driver-added tags. 🔐
+5. **Normalize to NFD (or NFKD) + PUA**: All **in-memory structures used UTF-16 (ISA-endian), normalized to NFD with layered PUA tags**. 🧠
+6. **Persist as UTF-8 NFD + PUA**: All **on-disk representations** were stored as UTF-8, also NFD + escaped PUA, preserving fidelity with byte-for-byte reversibility. 💾
+7. **Compare using NFKD + locale**: Equality was meaningful, culturally aware, and correct. 🌍
+8. **Round-trip**: When a client listed or opened a file, I reversed the PUA mapping to return the **exact bytes** they originally provided, including any pre-existing PUA codepoints. 🌀
+
+I didn't just preserve identity—I preserved *intent*. Byte-for-byte, every name was recoverable. No false positives. No silent collapses. No ghost files. 🧾✅
+
+### Act V: VFS Pivot Point 🔁🧱
+
+In macOS, Windows, and Linux, the syscall went to VFS. But **clustered XFS took over after mount point resolution**. 🗂️
+
+The kernel walked `/xfs_cluster`, then said, "You're on your own." 😅
+
+And I was. My driver received the full remaining path—**slashes and all**—and I preserved them without compromise. I decoded it. I tagged it. I *remembered it*. If it already had PUA codepoints from the user, I escaped them into my own internal PUA band before applying my normalization tags. 🧙‍♂️🪄
+
+All in-memory representations were kept in UTF-16 (ISA-endian), normalized to NFD + PUA. All on-disk storage was encoded in UTF-8, also normalized to NFD + PUA. This clear and deliberate separation ensured correct behavior regardless of ABI, endianess, or syscall origin. 🧩🛠️
+
+Canonicality didn't just happen at the segment level. It happened at the **semantic boundary** between user and cluster. 🧱🔤
+
+And what syscall provided, **syscall got back**. 🎯
+
+### Act VI: Locking the World 🔐🌍
+
+And then came file locking.
+
+Windows and macOS clients locked files from `0` to `omega`. Always. They didn’t know any better. 🤷‍♂️
+
+Linux clients, however, used **byte-range locks**—cluster-aware, fine-grained, and correct. 🧬
+
+So I built in logic to track and translate:
+- Windows/mac clients implicitly held whole-file locks.
+- Linux clients played nice with ranges.
+
+No collisions. No corruption. Just **documented behavioral boundaries**. 🧾🚧
+
+### Act VII: The Code That Never Saw Daylight 🌑🗃️
+
+CXFS was proprietary. Always was.
+
+I had to treat the open-source XFS tree as upstream, and **maintain my changes downstream**, as long as the community didn't accept my patches.
+
+My **Unicode wizardry?** It's probably still there. ✨🔧
+
+Today, **HPE owns the last living copy of CXFS**, maintained by **a single engineer I worked with**. It’s frozen in place. Legacy-bound. But still running—in data centers, on military ships, and maybe even on a few SGI racks with blinking lights. 🚢🧊
+
+You won't find my name on a GitHub commit. But if you've ever opened a file on CXFS from a different OS and had it *just work*, that was me. 🫡
+
+### Act VIII: The Quiet Mic Drop 🎤😎
+
+What no one at SGI ever knew — and what I’ve never told anyone until now — is this:
+
+They were ecstatic with my work. My weekly productivity. My collaboration with the test team. I was delivering more each week than most of their full-time engineers. 📈👏
+
+They assumed I was working 40 hours a week.
+
+I wasn’t. 🧘‍♂️🌍
+
+I was a digital nomad. Coding from beach cafés around the world. Most weeks, I logged **10–15 hours total**. ☕🌴
+
+My contract was fixed-term, fixed-price, results-based. And I delivered. Consistently. Quietly. Completely. 💼💡
+
+Legacy is my edge. **Toe shoes optional.** 🦶👟
+
+### Coda: The Dare 🎯🔥
+
+> “Legacy is not a curse. It's leverage. The past doesn't scare me—it sharpens me.” 🧠⚔️
+
+Dare me to do it again?
+
+I already did. ✅
+
+Now let’s talk about open-sourcing it. 🗝️👐
+
+Let’s free the code. 🔓
+
+Let’s let my friend walk away from the job of maintaining a fossil. 🪦👋
+
+Let’s show the world what **Unicode truth** looks like—byte for byte, name for name, syscall in to syscall out. 🔤💥📜
+
+—**[The Techguru]**
+
+

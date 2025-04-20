@@ -1,0 +1,43 @@
+
+Dare Me to Do It Again: The Day Pixar Showed Me the Future (And Then Some)
+
+In the spring of 1988, before the Loma Prieta earthquake and while the Embarcadero Freeway still sliced across San Francisco’s waterfront, I got a call that felt a little like stepping into the future. Tony Apodaca, then one of Pixar’s key technologists and the principal architect behind RenderMan, invited me to interview at their offices — not the famous Emeryville campus that came later, but a quiet, tucked-away building in Novato. A kind of technical monastery, humming with ideas.
+
+Pixar had only recently been acquired by Steve Jobs for $10 million — chump change in hindsight, but a bold and risky bet at the time. The team was lean, legendary, and laser-focused. I thought I was being brought in to join their animation R&D efforts. Tony and I had shared time in the graphics lab at RPI, so I figured it would be about shaders, rendering algorithms, maybe a little deep math with Bill Reeves.
+
+But when I arrived, I met Micky Mantle, head of engineering. And he had something else in mind.
+
+What followed wasn’t a job interview so much as a quiet initiation. I was walked through their hardware labs. I met a handful of hardware and low-level systems designers. I saw a pre-release NeXT computer — Jobs’ other startup — sitting quietly on a workbench. I was shown a rough cut of “Tin Toy”, still months away from the Academy Award that would put Pixar on the map.
+
+And then they showed me the secret project.
+
+It wasn’t about movies. It was a classified image stitching system, co-developed with Hughes Aircraft. The goal was to take thousands of overlapping satellite photographs, detect shared features, and use custom VLSI hardware to stitch them into seamless, high-resolution composite maps — in real time. Rotation, translation, scaling — all in silicon. They were trying to compress what took hours of compute into something operationally instantaneous.
+
+Then they showed me the images.
+
+I saw fingers on hands. The claws of a claw hammer. This was 1988. The general public still thought in terms of 3-meter Landsat squares. But what I saw was sub-centimeter resolution — the kind of thing that only made sense if someone had pointed a Hubble-class telescope downward. And given what I knew from friends at Perkin-Elmer, where those mirrors were born, I had no doubt that’s exactly what had happened.
+
+Pixar — the desk lamp studio — was quietly building a hardware pipeline for reconnaissance imagery. And they were asking if I could help architect that system. Could we push the pipeline into silicon? Could we outpace the Motorola CISC processors driving their current compute cluster by orders of magnitude?
+
+I didn’t pursue this job further — I stepped aside.
+
+I’d done it before. I turned away from MIT. Sidestepped Caltech. Declined a dozen offers from Silicon Valley firms and even AMD in Texas. Not out of fear. But because something deeper always tugged at me — a quiet instinct born from a semi-rural upbringing in Virginia. The hustle and density of the Valley, the pace of places like Marin or Austin — it never quite fit the rhythm of my soul at that moment in time. It was too much change, too fast. Too many sharp edges.
+
+So I didn’t finish the process. I didn’t lean in.
+
+But I walked away changed.
+
+I had caught a glimpse of something extraordinary — a strange triangulation of Hollywood, Silicon Valley, and the black-budget frontier of aerospace — all converging in a quiet room in Novato. That day, I realized Pixar was never just a movie studio. It was something else entirely.
+
+Seven years later, I found myself in their orbit again. My QuickTime team at Apple worked with Pixar on Toy Story post-production, and on the tricky CD-ROM game version.
+Fifteen years after that, I was brought in again — this time to Disney Studios in Glendale, reviewing Pixar’s render farm architecture as they scaled into the cloud era.
+In between, I reconnected with Micky Mantle, now at Broderbund, helping ship Myst and supporting my team during the early development of QuickTime for Windows and the QTML framework.
+
+I never joined Pixar. But I stood at the edge of their early future — more than once — and saw that their ambitions extended far beyond animation. They were already mapping the world in ways most people wouldn’t understand for decades.
+
+Dare me to do it again?
+I’d go back to Novato in a heartbeat.
+Not for the job —
+but for the chance to stand, once again,
+right on the edge of history —
+quietly, attentively, just as I was.

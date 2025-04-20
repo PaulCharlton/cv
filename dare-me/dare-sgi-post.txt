@@ -1,0 +1,49 @@
+Dare Me to Do It Again 🔥
+How I saved SGI’s media & entertainment business — and rewrote Unicode truth into a clustered filesystem.
+
+After the Rackable acquisition, SGI’s media & entertainment (M&E) sales pipeline was collapsing. NetApp was eating their lunch with cross-platform storage that “just worked.”
+
+SGI had no macOS or Windows kernel engineers left. Their cross-platform filesystem, CXFS, had rotted beyond usability.
+
+🎯 I was brought in as a principal consulting engineer on a 12-month contract. The ask:
+Resurrect the macOS and Windows CXFS clients and stop the bleeding.
+
+✅ In 3 months, I delivered clean 32-bit client drivers on both platforms.
+✅ In the next 3, I delivered full 64-bit builds for Vista, NT, and modern macOS.
+⚡ Ahead of schedule, across all ABIs.
+
+Then I asked: What else is broken?
+
+🔍 Files written by a Windows client couldn’t be read by a Mac. Filenames silently disappeared across platforms. Linux nodes saw ghosts.
+
+What I found was deep: broken Unicode normalization.
+
+So I built a Unicode truth engine:
+
+🔹 Compile-time type safety: each encoding had its own C type
+🔹 UTF-16 in-memory (ISA-endian), UTF-8 on disk
+🔹 PUA tagging before NFD normalization
+🔹 Escaping of pre-existing PUA codepoints
+🔹 Round-trip safe: syscall in → syscall out, no lossy transform
+🔹 Comparison via NFKD + locale
+🔹 All paths reversible, all identity preserved
+
+📂 If it entered with slashes, raw bytes, or encoded tags — it came back the same way.
+
+Even file locking worked: Windows/mac clients locked full-file; Linux clients used byte-range. My logic handled both.
+
+Oh — and I did it all working 10–15 hours a week from beach cafés as a digital nomad. My contract was results-based. SGI thought I was working 40+ hours a week. I was just focused, fast, and sharp.
+
+That code? Still running.
+🛡️ Military. 🎬 Media. 🚢 Navy ships. Maybe even 🛰️ in orbit.
+
+📣 HPE owns CXFS now. One engineer keeps it alive.
+I say: open-source it.
+
+Free the code.
+Free my colleague.
+Let Unicode speak truth — across all platforms, all time.
+
+Dare me to do it again.
+
+#Unicode #CXFS #LegacySystems #DigitalNomad #OpenSource #FileSystems #DareMe #Engineering #Interop #SGI
