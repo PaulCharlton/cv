@@ -46,4 +46,5 @@ Let Unicode speak truth — across all platforms, all time.
 
 Dare me to do it again.
 
+https://techguru.byiq.org/story/63
 #Unicode #CXFS #LegacySystems #DigitalNomad #OpenSource #FileSystems #DareMe #Engineering #Interop #SGI

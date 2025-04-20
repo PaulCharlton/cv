@@ -1,0 +1,102 @@
+@startuml
+skinparam packageStyle rectangle
+title Clustered XFS: VFS Delegation and Round-Trip Unicode Fidelity
+
+' Color settings for different UTF stages
+skinparam object {
+  BackgroundColor<<syscall>> green
+  BackgroundColor<<utf16>>   lavender
+  BackgroundColor<<utf16-pua>>   khaki
+  BackgroundColor<<utf16-nfd-pua>>   moccasin
+  BackgroundColor<<utf16-nfkd-pua>>   thistle
+  BackgroundColor<<utf8-nfd-pua>>   palegreen
+}
+
+package "Syscall Layer (Userland)" {
+  object SyscallInput <<syscall>>
+  note right of SyscallInput
+    open("/xfs_cluster/alice/docs/file.txt")
+  end note
+}
+
+package "VFS Dispatch Layer" {
+  object VFS <<syscall>>
+  note right of VFS
+    Resolves mount point "/xfs_cluster"
+    Delegates remaining path to FS driver
+  end note
+}
+
+package "Clustered XFS Driver" {
+    object RawPath <<native>>
+    note right of RawPath
+    Raw input from syscall
+    Native path - includes "/"
+    NT:[utf16-le - no BOM - case insensitive]
+    MacOS:[utf8-nfd - case depends on fs mount]
+    Linux:[bytes - case depends on fs mount]
+    end note
+
+  object UTF16Mixed <<utf16>>
+  note right of UTF16Mixed
+    Decoded UTF-16
+    no BOM
+    (mixed normalization)
+  end note
+
+  object PUATagged <<utf16-pua>>
+  note right of PUATagged
+    PUA-injected
+    BOM escaped with XFS PUA
+    user PUA escaped with XFS PUA
+    XFS PUA tag for native case sensitivity policies [CI/CS]
+    (pre-normalized)
+  end note
+
+  object UTF16_NFD_PUA <<utf16-nfd-pua>>
+  note right of UTF16_NFD_PUA
+    Normalized NFD
+    with PUA tagging
+  end note
+
+  object NFKD_Compare <<utf16-nfkd-pua>>
+  note right of NFKD_Compare
+    Transient NFKD
+    Comparison policy: CS/CS, CS/CI, CI/CS, CI/CI
+    (driven by XFS PUA tags for case sensitivity)
+    locale-aware compare only
+  end note
+
+  object DiskUTF8 <<utf8-nfd-pua>>
+  note right of DiskUTF8
+    Persisted as UTF-8-NFD-PUA
+  end note
+
+  object ReaddirOut <<native>>
+  note right of ReaddirOut
+    TRUTH
+    Reconstructed Native path
+    NT:[utf16-le - no BOM - case insensitive]
+    MacOS:[utf8-nfd - case depends on fs mount]
+    Linux:[bytes - case depends on fs mount]
+    with original syscall fidelity
+  end note
+}
+
+SyscallInput --> VFS : syscall invoked
+VFS --> RawPath : post-mount path
+RawPath --> UTF16Mixed : convert to UTF-16
+UTF16Mixed --> PUATagged : inject PUA
+PUATagged --> UTF16_NFD_PUA : normalize (NFD)
+UTF16_NFD_PUA --> NFKD_Compare : for compare/sort
+UTF16_NFD_PUA --> DiskUTF8 : persist to disk
+DiskUTF8 --> ReaddirOut : restore original syscall format
+ReaddirOut --> SyscallInput : round-trip complete
+
+note bottom
+  VFS resolves only the mount point.
+  Clustered XFS owns the remaining path segment.
+  Unicode normalization, PUA tagging,
+  and round-trip identity are driver-enforced.
+end note
+@enduml
