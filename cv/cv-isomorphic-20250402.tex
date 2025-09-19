@@ -20,7 +20,17 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
+% --- begin: FA4→FA5 external-link shim ---
+\makeatletter
+\@ifundefined{faExternalLink}{
+    \newcommand{\faExternalLink}{\faIcon{external-link-alt}}
+}{
+    \renewcommand{\faExternalLink}{\faIcon{external-link-alt}}
+}
+\makeatother
+% --- end: FA4→FA5 external-link shim ---
+
 \usepackage{multicol}
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
@@ -109,6 +119,18 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+\IfFontExistsTF{Symbola}{
+    \newfontfamily\LinkFont{Symbola}[Scale=MatchLowercase]
+}{
+    \IfFontExistsTF{Noto Emoji}{
+        \newfontfamily\LinkFont{Noto Emoji}[Scale=MatchLowercase]
+    }{
+        \newfontfamily\LinkFont{Unifont}[Scale=MatchLowercase] % optional fallback
+    }
+}
+
+\newcommand{\linkglyph}{{\LinkFont\symbol{"1F517}}}
+
 % Patch section to include right-aligned subtitle
 \newcommand{\sectionwithnote}[2]{%
 \section[#1]{%
@@ -182,7 +204,7 @@ Award-winning inventor with multiple patents and a sharp business instinct for I
 {\href{https://www.virginia.edu/}{University of Virginia - School of Medicine~\faExternalLink}
 \quad\small
 \textit
-{\href {https://paul-charlton.vercel.app/story/9}{[Full Story]~{\fontspec{Symbola}\symbol{"1F517}}}}
+{\href {https://paul-charlton.vercel.app/story/9}{[Full Story]~{\linkglyph}}}
 }
 {1979 - 1986}
 {Researcher}
@@ -195,7 +217,7 @@ Youngest paid researcher at UVA School of Medicine at 14, recruited after scorin
 {\href{https://www.deshaw.com}{D.E. Shaw \& Co.~\faExternalLink}
 \quad\small
 \textit
-{\href {https://paul-charlton.vercel.app/story/25}{[Full Story]~{\fontspec{Symbola}\symbol{"1F517}}}}
+{\href {https://paul-charlton.vercel.app/story/25}{[Full Story]~{\linkglyph}}}
 }
 {November 1992 -- April 1994}
 {Technology Specialist}
@@ -208,7 +230,7 @@ At D. E. Shaw, I joined as employee \#24 and led engineering for Jeff Bezos’s 
 {\href{https://www.apple.com}{Apple Computer Inc.~\faExternalLink}
 \quad\small
 \textit
-{\href{https://paul-charlton.vercel.app/story/11}{[Full Story]~{\fontspec{Symbola}\symbol{"1F517}}}}
+{\href{https://paul-charlton.vercel.app/story/11}{[Full Story]~{\linkglyph}}}
 }
 {April 1994 -- June 1996}
 {Principal Engineer}
@@ -221,7 +243,7 @@ I led the cross-platform port of QuickTime and macOS from proprietary Apple hard
 {\href{https://www.chase.com}{Chase Manhattan Bank~\faExternalLink}
 \quad\small
 \textit{
-\href{https://paul-charlton.vercel.app/story/17}{[Full Story]~{\fontspec{Symbola}\symbol{"1F517}}}}
+\href{https://paul-charlton.vercel.app/story/17}{[Full Story]~{\linkglyph}}}
 }
 {June 1990 -- November 1992}
 {Director of Advanced Technology Lab}
@@ -234,7 +256,7 @@ I modernized Chase’s retail and back-office banking systems, replacing paper-b
 {\href{https://www.oracle.com/sun}{Sun Microsystems~\faExternalLink}
 \quad\small
 \textit{
-\href{https://paul-charlton.vercel.app/story/4}{[Full Story]~{\fontspec{Symbola}\symbol{"1F517}}}}
+\href{https://paul-charlton.vercel.app/story/4}{[Full Story]~{\linkglyph}}}
 }
 {2008}
 {Principal Consulting Engineer}
@@ -247,7 +269,7 @@ In under 10 weeks, I led a 10-person team to rescue and deliver JavaFX 1.0 on ti
 {\href{https://www.oracle.com/sun}{Sun Microsystems - JavaSoft~\faExternalLink}
 \quad\small
 \textit{
-\href{https://paul-charlton.vercel.app/story/5}{[Full Story]~{\fontspec{Symbola}\symbol{"1F517}}}}
+\href{https://paul-charlton.vercel.app/story/5}{[Full Story]~{\linkglyph}}}
 }
 {1997}
 {Principal Consulting Engineer}
@@ -260,7 +282,7 @@ As Principal Consulting Engineer, I rearchitected and optimized the Java2D subsy
 {\href{https://www.hp.com}{Hewlett-Packard~\faExternalLink}
 \quad\small
 \textit{
-\href{https://paul-charlton.vercel.app/story/38}{[Full Story]~{\fontspec{Symbola}\symbol{"1F517}}}}
+\href{https://paul-charlton.vercel.app/story/38}{[Full Story]~{\linkglyph}}}
 }
 {June 1988 -- May 1990}
 {Hardware and Software Engineer}

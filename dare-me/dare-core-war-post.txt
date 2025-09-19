@@ -1,0 +1,67 @@
+Core Wars
+
+Where memory is the battlefield, and code is the blade.
+
+They taught us war in Scientific American —
+not with tanks, but with REDCODE,
+not with bombs, but with MOV, JMP, and SPL.
+A battlefield measured in memory cells,
+where every instruction was a soldier,
+every cycle a heartbeat.
+
+Core Wars.
+
+Blue vs Red.
+White vs Black.
+Light vs Shadow.
+
+I wrote programs that replicated like viruses,
+forked like hydras, bombed like gods.
+They spiraled through core with perfect tempo,
+seeding traps, cloaking with nulls,
+hunting the faint signature of a rival process
+two hundred instructions to the left.
+
+He wrote them too.
+But not from a textbook.
+He came from headlines —
+one of the 414,
+the teenage ghosts who cracked DOE labs,
+nudged Sloan-Kettering’s mainframe,
+and left sysadmins praying to unknown gods.
+
+He wrote with entropy.
+I wrote with balance.
+He wanted annihilation.
+I wanted elegance.
+
+But both of us understood:
+
+In Core Wars, victory isn’t surviving —
+it’s outlasting in silence,
+watching your opponent die one cycle at a time,
+overwritten by your own shadow.
+
+Because this wasn’t just a game.
+It was a philosophy:
+that every system could be mapped,
+that every architecture could be subverted,
+that every war begins
+when one instruction reaches into the wrong space
+and whispers:
+
+“You don’t belong here.”
+
+Core Wars wasn’t fiction.
+It was the future — and it’s still running.
+
+Dare me to do it again — I’ve already won battles you didn’t know were running.
+
+https://techguru.byiq.org
+
+#CoreWars #DareMeToDoItAgain #RedcodeRedux #MemoryIsTheBattleground
+#WhiteHatBlackHat #LightVsShadow #DigitalWarfare #CycleByCycle
+#414Crew #InstructionByInstruction #GhostsInTheMainframe
+#SystemMindset #Hackcraft #LegacyOps #MentorVsMirror
+#OverwriteToWin #CodeAsWeapon #SpectrePrologue
+#VintageCybercraft #REDCODEResurrected #EchoInTheCore

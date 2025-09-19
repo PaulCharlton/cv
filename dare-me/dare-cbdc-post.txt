@@ -1,0 +1,41 @@
+Dare Me To Do It Again: CBDC 2018
+
+I was asked to build a nation’s digital currency. I said no.
+
+In 2018, I was invited by a senior figure in the government of a BRICS nation to architect their Central Bank Digital Currency.
+
+This wasn’t theoretical. I reviewed requirements. I met with key members of the Prime Minister’s administration. I was ready to deliver a system that would define their digital M0 — the foundation of sovereign money in the 21st century.
+
+But I had two conditions:
+	1.	Absolute anonymity for users.
+Not pseudonymity. Not “private unless flagged.”
+True, cryptographically enforced anonymity.
+Because without private money, there is no economic freedom.
+	2.	Full control of national infrastructure.
+	•	Retain digital sovereignty.
+	•	Don’t outsource the DNS root.
+	•	Don’t outsource the national CA.
+	•	And above all: adopt post-quantum encryption and zero-trust security.
+
+I wasn’t going to build a digital monetary base on a compromised substrate. When someone eventually stole billions, I wasn’t going to be the architect blamed for the breach.
+
+They declined.
+
+The PM’s cybersecurity chief asked me to “show him” what I meant.
+
+I asked for permission.
+
+Two minutes later, I had root on one of the nation’s primary DNS servers.
+
+We both understood what that meant.
+
+I thanked him for the tea — and walked away from the deal.
+
+Because I don’t build systems I can’t stand behind.
+
+👉 More systems I’ve said yes — or no — to:
+🌐 techguru.byiq.org
+
+⸻
+
+#DareMeToDoItAgain #CBDC #DigitalM0 #DigitalSovereignty #Cybersecurity #PostQuantum #ZeroTrust #AnonymousMoney #InfrastructureMatters #DNS #RootOfTrust #NationalCA #BRICS #TechLeadership #EthicalEngineering

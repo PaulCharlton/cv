@@ -1,0 +1,46 @@
+Dare Me to Do It Again!
+
+It’s still alive. Still shipping. GlyphVector.
+Forged below the bedrock — where platforms are shaped.
+
+In 1997, Java needed more than a patch.
+It needed a tectonic shift in how it rendered text and graphics.
+
+As Principal Consulting Engineer at JavaSoft, I rearchitected the Java2D rendering pipeline from scratch.
+
+🔧 40× glyph rendering speedup — from ~5,000 glyphs/sec to over 200,000/sec
+🧠 5× faster Intel x86 bytecode interpreter, pipelined using techniques from my Apple QuickTime codec days
+📐 Designed and named GlyphVector, FontRenderContext, and core sun.java2d.loops classes
+
+This wasn’t a fix. It was platform surgery. And that code?
+
+It still ships in every Android device today.
+According to git blame, most of those interfaces haven’t changed in 18 years.
+Because I got it right.
+
+⸻
+
+🪶 I tucked my name just below the auto-shear line in the source:
+
+/* @author Charlton Innovations, Inc. */
+
+And in the official JDK 1.2 demo, my name rolls by with the legends:
+
+"Paul Charlton",
+
+⸻
+
+🧾 The receipts are still live:
+
+→ GlyphVector.java
+→ FontRenderContext.java
+→ Portfolio: https://techguru.byiq.org
+
+⸻
+
+🔥 Dare me to do it again.
+If your system needs to move from sluggish to sovereign,
+from screen artifacts to tectonic clarity —
+I’ve done it before. I still know how.
+
+#java #jdk #android #glyphvector #fonts #raster #performanceengineering #quicktime #intel #x86 #softwarearchitecture #opensource #legacycode #daremetodoitagain #forgedinthebedrock

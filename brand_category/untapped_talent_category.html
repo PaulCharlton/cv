@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Invisible Architect — Empires Built in Code</title>
+    <meta name="description" content="A boardroom‑ready, one‑page dossier pitching why legacy talent agencies should represent elite technologists — the architects behind trillion‑dollar industries." />
+    <style>
+        :root{
+            --bg: #0b0c10;
+            --panel: #111218;
+            --text: #e8eefb;
+            --muted: #9fb0c5;
+            --accent: #8ab4ff;
+            --line: #1b1f2a;
+            --shadow: rgba(0,0,0,.35);
+            --good: #2bd576;
+            --warn: #ffd86b;
+        }
+        *{box-sizing:border-box}
+        html,body{height:100%}
+        body{
+            margin:0;
+            font: 16px/1.5 Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+            color:var(--text);
+            background: radial-gradient(1200px 800px at 20% -10%, #162038, transparent 60%),
+            radial-gradient(900px 700px at 120% 10%, #141a2a, transparent 60%),
+            var(--bg);
+        }
+        a{color:var(--accent); text-decoration: none}
+        a:hover{text-decoration: underline}
+
+        .wrap{max-width:1100px; margin:0 auto; padding:28px 20px 80px}
+
+        /* HERO */
+        .hero{
+            position:relative; overflow:hidden; border-radius:24px; padding:56px 28px;
+            background: linear-gradient(135deg, rgba(24,29,48,.85), rgba(16,18,28,.85)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="%23121a2a"/><stop offset="100%" stop-color="%230e111a"/></linearGradient></defs><rect width="100%" height="100%" fill="url(%23g)"/><g opacity="0.25" stroke="%238ab4ff" stroke-width="0.6"><path d="M0 820 C300 760 500 700 800 740 S1200 860 1600 800" fill="none"/><path d="M0 640 C320 620 520 540 820 560 S1180 680 1600 660" fill="none"/><path d="M0 480 C320 480 520 440 840 440 S1180 520 1600 520" fill="none"/></g></svg>') center/cover no-repeat;
+            box-shadow: 0 20px 60px var(--shadow);
+            text-align:center;
+        }
+        .hero h1{font-size: clamp(36px, 6vw, 64px); line-height:1.05; margin:0; letter-spacing:-.02em}
+        .hero p{margin:18px auto 0; color:var(--muted); max-width:760px; font-size: clamp(16px, 2.2vw, 20px)}
+
+        /* EXPANDERS */
+        .deck{margin-top:36px}
+        details{
+            border:1px solid var(--line);
+            border-radius:16px;
+            background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00));
+            box-shadow: 0 10px 28px var(--shadow);
+            margin:14px 0; overflow:hidden; transition: border-color .2s ease;
+        }
+        details[open]{border-color:#22304a}
+        summary{list-style:none; cursor:pointer; padding:18px 22px; display:flex; align-items:center; gap:14px}
+        summary::-webkit-details-marker{display:none}
+
+        .chip{font-size:12px; padding:4px 10px; border-radius:999px; background:#1a2132; color:#b8c7e6; letter-spacing:.02em; border:1px solid #213052}
+        .title{font-weight:700; font-size: clamp(16px, 2.2vw, 20px)}
+        .subtitle{color:var(--muted); font-size:14px}
+
+        .chev{margin-left:auto; transition: transform .25s ease; opacity:.8}
+        details[open] .chev{transform: rotate(180deg)}
+
+        .pane{padding: 0 22px 22px}
+        .pane h3{margin: 10px 0 6px; font-size:18px}
+        .pane p{margin:6px 0 12px}
+
+        .grid{display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:14px; margin-top:8px}
+        .card{border:1px solid var(--line); background:#0e1320; border-radius:12px; padding:14px}
+        .kpi{font-size:28px; font-weight:800}
+        .kpi small{font-size:14px; color:var(--muted)}
+
+        .note{font-size:13px; color:#b9c7de}
+        .cite{font-size:12px; color:#9bb2d8}
+        .cite a{color:#9dd0ff}
+
+        .footer{opacity:.85; margin-top:28px; color:var(--muted); text-align:center}
+        .btns{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:18px}
+        .btn{background:#111a2a; border:1px solid #1f2a44; color:#cfe0ff; padding:10px 14px; border-radius:10px; text-decoration:none}
+        .btn:hover{background:#0f1726}
+    </style>
+</head>
+<body>
+<main class="wrap">
+    <section class="hero" role="banner">
+        <h1>Empires are not only built by kings…<br/>but by architects of <em>code</em>.</h1>
+        <p>One man. Four trillion‑dollar industries. This one‑page dossier is built like a movie trailer: hook first, receipts on demand. Click the lines below to expand.</p>
+        <div class="btns" aria-label="quick actions">
+            <a class="btn" href="#untapped">Untapped Category</a>
+            <a class="btn" href="#proof">Proof of Impact</a>
+            <a class="btn" href="#inevitable">Myth of Inevitability</a>
+            <a class="btn" href="#close">Closing</a>
+        </div>
+    </section>
+
+    <section class="deck" aria-label="pitch deck">
+
+        <details id="untapped">
+            <summary>
+                <span class="chip">Slide 2</span>
+                <span class="title">The Most Lucrative Talent Class on Earth Is Unrepresented</span>
+                <span class="subtitle">Agencies rep actors & athletes; nobody reps the architects behind trillion‑dollar industries.</span>
+                <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </summary>
+            <div class="pane">
+                <div class="grid">
+                    <div class="card"><div class="kpi">50+ yrs <small>career horizon</small></div><p class="note">Elite technologists can sustain peak impact across multiple waves (desktop → mobile → AI), unlike athletic peaks.</p></div>
+                    <div class="card"><div class="kpi">$100B+ <small>valuation impact</small></div><p class="note">Architect‑level decisions can swing public valuations within a quarter. Agencies know how to package & syndicate stars with that reach.</p></div>
+                    <div class="card"><div class="kpi">Trillions <small>in GDP enabled</small></div><p class="note">Banking rails, streaming codecs/pipelines, C2B commerce logic, mobile UI primitives — the unseen DNA of modern markets.</p></div>
+                </div>
+            </div>
+        </details>
+
+        <details id="agencies">
+            <summary>
+                <span class="chip">Slide 3</span>
+                <span class="title">Why Agencies (not just VCs)</span>
+                <span class="subtitle">Agencies build public narrative & multi‑decade careers; VCs scout in private for 7–10 year exits.</span>
+                <svg class="chev" width="18" height="18" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            </summary>
+            <div class="pane">
+                <div class="grid">
+                    <div class="card">
+                        <h3>Agencies amplify in daylight</h3>
+                        <p class="note">Representation turns architects into bankable franchises — syndicating appearances, books, documentaries, partnerships, and IP.</p>
+                    </div>
+                    <div class="card">
+                        <h3>VCs scout in shadows</h3>
+                        <p class="note">Capital is abundant; talent is scarce. Agencies monetize talent’s public equity; VCs monetize company equity. Both can coexist.</p>
+                    </div>
+                </div>
+            </div>
+        </details>
+
+        <details id="proof">
+            <summary>
+                <span class="chip">Slides 4–6</span>
+                <span class="title">Proof of Impact — Four Industries + Market Moves + Resurrections</span>
+                <span class="subtitle">Banking/Fintech • Streaming • C2B Shopping • Mobile (Android/GlyphVector)</span>
+                <svg class="chev" width="18" height="18" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            </summary>
+            <div class="pane">
+                <h3>Streaming: daily global video hours (defensible bracket)</h3>
+                <p>Hard receipts from named platforms yield a conservative floor of <strong>≥3–4B hours/day</strong>, with a plausible mid‑range of <strong>~5–7B</strong>. Upper‑bound models (assuming ~100–150 min/day across most internet users) can reach <strong>~10–14B</strong>, but hinge on stronger assumptions.</p>
+                <ul class="cite">
+                    <li><strong>YouTube (TV screens alone):</strong> “Over <em>1B hours/day</em> watched on TVs in 2024.” — YouTube Blog; coverage in TheWrap; WSJ. <a href="https://blog.youtube/news-and-events/2024-recap-of-youtube-on-tv/" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.thewrap.com/youtube-living-room-viewership-1-billion-hours-daily-tv-2024/" target="_blank" rel="noopener">TheWrap</a> · <a href="https://www.wsj.com/business/media/how-youtube-won-the-battle-for-tv-viewers-346d05b8" target="_blank" rel="noopener">WSJ</a></li>
+                    <li><strong>Netflix:</strong> 94B hours H1’24 + 94B hours H2’24 ⇒ <em>~188B hours/year ≈ 0.52B/day</em>. <a href="https://about.netflix.com/news/what-we-watched-the-first-half-of-2024" target="_blank" rel="noopener">H1 2024</a> · <a href="https://about.netflix.com/news/what-we-watched-the-second-half-of-2024" target="_blank" rel="noopener">H2 2024</a> · <a href="https://www.owlandco.com/insights" target="_blank" rel="noopener">Recap</a></li>
+                    <li><strong>TikTok:</strong> Average time 55–58 minutes/day globally (varies by source & region). Scaling by active users yields <em>~0.9–1.6B hours/day</em> (range due to DAU uncertainty). <a href="https://www.oberlo.com/statistics/average-time-spent-on-tiktok" target="_blank" rel="noopener">Oberlo</a> · <a href="https://explodingtopics.com/blog/time-spent-on-tiktok" target="_blank" rel="noopener">Exploding Topics</a> · <a href="https://www.emarketer.com/content/us-tiktok-usage-time-spent-2025" target="_blank" rel="noopener">eMarketer (US)</a></li>
+                    <li><strong>Twitch (live):</strong> <em>20.9B hours in 2024 ⇒ ~57M/day</em>. <a href="https://twitchtracker.com/statistics" target="_blank" rel="noopener">TwitchTracker</a> · <a href="https://sullygnome.com/" target="_blank" rel="noopener">SullyGnome</a></li>
+                    <li><strong>Context:</strong> Video dominates global traffic by volume. <a href="https://www.sandvine.com/hubfs/Sandvine_Redesign_2019/Downloads/2024/GIPR/GIPR%202024.pdf" target="_blank" rel="noopener">Sandvine 2024 GIPR (PDF)</a> · <a href="https://www.applogicnetworks.com/blog/sandvines-2024-global-internet-phenomena-report-global-internet-usage-continues-to-grow" target="_blank" rel="noopener">Summary</a></li>
+                </ul>
+
+                <h3>Market‑Mover in Months</h3>
+                <p class="note">Architecture & delivery that shifted a public company’s valuation by billions in under 90 days (JavaFX). <em>Evidence: internal case files & contemporaneous market data.</em></p>
+
+                <h3>Flagship Resurrections</h3>
+                <ul class="note">
+                    <li><strong>Cisco IOS:</strong> backbone class software — revived & hardened.</li>
+                    <li><strong>CXFS:</strong> filesystem project re‑architected into viability.</li>
+                </ul>
+            </div>
+        </details>
+
+        <details id="inevitable">
+            <summary>
+                <span class="chip">Slide 7</span>
+                <span class="title">The Myth of Inevitability</span>
+                <span class="subtitle">Talent compresses decades into months — quality foundations become the standard.</span>
+                <svg class="chev" width="18" height="18" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            </summary>
+            <div class="pane">
+                <div class="grid">
+                    <div class="card">
+                        <h3>Timing is the market</h3>
+                        <p class="note">“Eventually” is worthless. Windows close. The first robust solution wins distribution, mindshare, and standards‑lock.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Foundation quality matters</h3>
+                        <p class="note">Not all architectures are equal. The one that ships cleanly becomes the reference — like TCP/IP, JPEG, or Android primitives.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Commando > Battalion</h3>
+                        <p class="note">A single elite architect can unblock bottlenecks, rescue products, and ignite adoption before the army writes its plan.</p>
+                    </div>
+                </div>
+            </div>
+        </details>
+
+        <details id="close">
+            <summary>
+                <span class="chip">Final</span>
+                <span class="title">The Ask — Your Next A‑List</span>
+                <span class="subtitle">First mover advantage: the agency that defines this category will own it.</span>
+                <svg class="chev" width="18" height="18" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            </summary>
+            <div class="pane">
+                <p class="note">Agencies already know how to build franchises around humans. This time, the franchise is the architect behind empires — banking rails, streaming pipelines, commerce logic, and mobile primitives that shaped daily life. Representation turns that into narrative, longevity, and diversified monetization.</p>
+                <p class="note"><strong>Tagline:</strong> The next A‑list isn’t on screen. It’s in the source.</p>
+            </div>
+        </details>
+
+        <p class="footer">Made for boardrooms & gatekeepers: hook first, receipts on click. • © 2025</p>
+    </section>
+</main>
+
+<script>
+    // Make summary rows exactly ~1 line tall by truncating subtitle when collapsed
+    document.querySelectorAll('details').forEach(d => {
+        const subtitle = d.querySelector('.subtitle');
+        if(!subtitle) return;
+        // clamp via CSS variable toggled on open/close for smoother behavior
+        const applyClamp = () => subtitle.style.display = d.open ? 'inline' : '-webkit-box';
+        subtitle.style.webkitLineClamp = '1';
+        subtitle.style.webkitBoxOrient = 'vertical';
+        subtitle.style.overflow = 'hidden';
+        subtitle.style.display = '-webkit-box';
+        d.addEventListener('toggle', applyClamp);
+    });
+
+    // Smooth‑scroll for header buttons
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+        a.addEventListener('click', e=>{
+            const id = a.getAttribute('href');
+            const el = document.querySelector(id);
+            if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); el.setAttribute('open',''); }
+        })
+    })
+</script>
+</body>
+</html>

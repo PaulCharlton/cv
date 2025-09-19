@@ -1,0 +1,78 @@
+🎬 The Invisible Architect: Empires Built in Code
+
+⸻
+
+Slide 1 — Empires (Cold Open)
+	•	Visual: Black screen → glowing code veins across a world map → one silhouette anchoring it.
+	•	Headline: “Empires are not only built by kings… but by architects of code.”
+	•	Subhead: One man. Four trillion-dollar industries.
+	•	Tone: Opening credits of a movie trailer.
+
+⸻
+
+Slide 2 — The Untapped Franchise
+	•	Visual: Split screen → Hollywood (red carpet, actors, athletes) vs Tech (servers, streaming, commerce).
+	•	Headline: “Agencies chase stars worth millions. Engineers shape markets worth trillions.”
+	•	Subhead: The next great franchise isn’t actors. It’s architects.
+	•	Tone: The premise. This is Marvel-before-Marvel.
+
+⸻
+
+Slide 3 — The Market Blindspot
+	•	Visual: Bar chart: Athlete career value ($500M), Actor ($1B), Star Engineer ($100B+).
+	•	Headline: “The most lucrative talent class in history is invisible.”
+	•	Subhead: 50-year careers. Market impact beyond CEOs. No agency representation.
+	•	Tone: Boardroom gasp moment.
+
+⸻
+
+Slide 4 — Origin Story: The Architect of Trillions
+	•	Visual: Industry montage — bank skyline, Netflix stream, Amazon cart, Android phone.
+	•	Headline: “Four industries. One invisible architect.”
+	•	Bullets:
+	•	Banking/Fintech → IT rails behind modern finance.
+	•	Streaming → Code powering 13.5B hours/day attention.
+	•	Shopping (C2B) → Commerce logic scaling global platforms.
+	•	Mobile (Android/GlyphVector) → UI primitives for 30B hours/day.
+	•	Tone: Marvel character reveal.
+
+⸻
+
+Slide 5 — Proof of Power: Market-Mover
+	•	Visual: Stock chart spike.
+	•	Headline: “Code that shifted valuations by billions — in <90 days.”
+	•	Case: JavaFX.
+	•	Tone: Demonstration of superpower.
+
+⸻
+
+Slide 6 — The Resurrectionist
+	•	Visual: Phoenix motif overlaying Cisco router / filesystem UI.
+	•	Headline: “Flagships, resurrected.”
+	•	CXFS → filesystem revived.
+	•	Cisco IOS → internet backbone resuscitated.
+	•	Tone: Comeback arc.
+
+⸻
+
+Slide 7 — The Franchise Potential
+	•	Visual: Side-by-side → Marvel’s Avengers lineup vs “Architect of Empires” silhouette.
+	•	Headline: “Agencies built billion-dollar franchises around talent. Tech is next.”
+	•	Subhead: Representation. Narrative. Monetization. Syndication.
+	•	Tone: This is the pre-sold universe.
+
+⸻
+
+Slide 8 — The Syndicate Play
+	•	Visual: Boardroom table, spotlight on empty chair labeled “The Architect”.
+	•	Headline: “Who represents the talent that shapes industries?”
+	•	Subhead: Agencies have the machine. Now they need the category.
+	•	Tone: Call to action.
+
+⸻
+
+Slide 9 — Closing Mic Drop
+	•	Visual: Empty red carpet lined with glowing code instead of flashbulbs.
+	•	Headline: “The next A-list isn’t on screen. It’s in the source.”
+	•	Tone: End credits teaser.
+

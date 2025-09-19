@@ -1,0 +1,97 @@
+# Dare Me to Do It Again:
+### Etching Typography, Raster, and Recognition into Java’s Mantle
+**Paul Charlton, Charlton Innovations, Inc.**
+
+---
+
+In 1997, Java was still pixelating its way toward maturity. Applets were sluggish, fonts looked rough, and the ambition of cross-platform fidelity felt more promise than practice. That’s when I stepped in — as Charlton Innovations — and embedded the infrastructure that would define **text rendering, rasterization, and graphics primitive optimization** for the next quarter-century of Java.
+
+But I didn't just write code. I named APIs, tuned typography, and embedded my fingerprint where no automated toolchain could erase it. Quietly, precisely, *permanently*.
+
+> **“When Java couldn’t kern — I taught it. When it needed to draw — I gave it primitives. When it needed to layout — I gave it `GlyphVector`."
+
+---
+
+## 🧠 Design, Typography, and Rendering Contributions
+
+I authored or co-authored some of the **most durable infrastructure in the JDK 1.2 graphics stack**, including:
+
+- The foundational **`GlyphVector`** and **`FontRenderContext`** APIs
+- The Java2D graphics primitive engine: `DrawLine`, `FillRect`, `DrawPolygons`, and more
+- Low-level optimizations in **`sun.java2d.loops`**, `TextPipe`, and `GraphicsPrimitiveMgr`
+- Early performance pipelines for **font hinting**, **kerning**, and **vector rasterization**
+- Native interface structures in `ImageData.h`
+
+And yes — all still shipping.
+
+> According to `git blame`, the interface of `GlyphVector`, `FontRenderContext`, and other core artifacts I authored hasn’t changed since the code was first pushed to Git — **18 years ago**. Because good code doesn’t need to be rewritten.
+
+---
+
+## 🗒️ Attribution That Survived the Toolchain
+
+When Sun's copyright automation threatened to strip personal attribution from header blocks, I embedded mine just beneath the fold:
+
+```java
+/*
+ * @author Charlton Innovations, Inc.
+ */
+```
+
+It’s not loud. But it’s **indelible** — and it’s in every file that mattered.
+
+---
+
+## 🎖️ Official Recognition in JDK Demos
+
+Even in the **canonical JDK 1.2 demo app**, my full name appears in the contributor scroll — alongside Java’s original luminaries:
+
+```java
+"Paul Charlton",
+```
+
+Which means: even the showcase app that defined Java’s capabilities carried my name into every customer meeting, trade show, and keynote demo of its era.
+
+---
+
+## 📂 GitHub Receipts — Source Files Bearing My Attribution
+
+Here’s a markdown table with direct links to OpenJDK source files that carry `@author Charlton Innovations`.
+
+| 📄 File | 📁 Package | 🔗 GitHub Link |
+|--------|-------------|----------------|
+| `GlyphVector.java` | `java.awt.font` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/java/awt/font/GlyphVector.java) |
+| `FontRenderContext.java` | `java.awt.font` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/java/awt/font/FontRenderContext.java) |
+| `TextPipe.java` | `sun.java2d.pipe` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/sun/java2d/pipe/TextPipe.java) |
+| `DrawLine.java` | `sun.java2d.loops` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/sun/java2d/loops/DrawLine.java) |
+| `DrawRect.java` | `sun.java2d.loops` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/sun/java2d/loops/DrawRect.java) |
+| `DrawPolygons.java` | `sun.java2d.loops` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/sun/java2d/loops/DrawPolygons.java) |
+| `FillRect.java` | `sun.java2d.loops` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/sun/java2d/loops/FillRect.java) |
+| `FillSpans.java` | `sun.java2d.loops` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/sun/java2d/loops/FillSpans.java) |
+| `CustomComponent.java` | `sun.java2d.loops` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/sun/java2d/loops/CustomComponent.java) |
+| `GraphicsPrimitive.java` | `sun.java2d.loops` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/sun/java2d/loops/GraphicsPrimitive.java) |
+| `GraphicsPrimitiveMgr.java` | `sun.java2d.loops` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/sun/java2d/loops/GraphicsPrimitiveMgr.java) |
+| `GeneralRenderer.java` | `sun.java2d.loops` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/classes/sun/java2d/loops/GeneralRenderer.java) |
+| `ImageData.h` | `native/libawt/java2d/loops` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/java.desktop/share/native/libawt/java2d/loops/ImageData.h) |
+| `Intro.java` (JDK Demo) | `demo/share/jfc/J2Ddemo/java2d` | [View on GitHub](https://github.com/openjdk/jdk/blob/master/src/demo/share/jfc/J2Ddemo/java2d/Intro.java) |
+
+---
+
+## 🧱 See More: My Portfolio
+
+For other foundational projects — including Apple QuickTime, Sun JavaFX, and the kernel of online banking at Chase Manhattan — visit my personal archive:
+
+🔹 [techguru.byiq.org](http://techguru.byiq.org)
+
+---
+
+## 🔥 Dare Me to Do It Again
+
+I don’t build tools for the moment. I build **infrastructure for decades**. If Java needed to learn to kern, raster, and layout again in 2025 — I could ship it, faster, cleaner, and leaner than before.
+
+> **"Not above the bedrock. Below. In the mantle.  
+> That’s where I carve things that last."**
+
+**Dare me.** I’ve done it before — and I still know how.
+
+---

@@ -1,0 +1,27 @@
+Dare Me to Do It Again – PDP-10 Over ARPANET Edition (1984)
+
+In 1984, when the world still clattered along at 300 baud on acoustic couplers, I was already riding the DARPA backbone — piping into CompuServe at a blistering 56 kbps from my university terminal.
+
+But this wasn’t just fast. It was direct.
+Not dial-up. Not public. This was ARPANET access to a commercial system that barely admitted it existed on the open net.
+
+And that system? CompuServe wasn’t even a tech company.
+It was the side hustle of Golden United Life Insurance, which had way too much DEC PDP-10 iron sitting idle after hours. So they did what no one else thought to do — sold excess compute cycles to the public. What started as a cost-recovery move turned into the first major online service. No marketing spin, no Silicon Valley pixie dust. Just raw compute, monetized.
+
+They ran TOPS-10, DEC’s time-sharing OS for PDP-10s — 36-bit machines with deep architectural roots in the 12-bit PDP-8s before them. And if you knew what to ask for (and who to ask), they’d hand you a private shell-level account. No UI. No menus. Just you, the command line, and the iron.
+
+I had one of those accounts.
+ID 75136,2256.
+
+While the flat-earth crowd watched their terminals draw ASCII slowly enough to sketch, I was interleaving shell jobs, pulling down forum data, and posting with latency so low it felt like thought-to-screen.
+
+I didn’t visit CompuServe.
+I lived inside it.
+
+And yeah — I scorched the local baud boys.
+Because I wasn’t playing with modems. I was playing with mainframes — from the inside.
+
+So go ahead.
+Dare me to do it again.
+Because I had root on the past,
+and I’ve got threads into the future.
