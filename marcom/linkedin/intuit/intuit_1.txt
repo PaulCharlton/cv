@@ -1,0 +1,89 @@
+On Competence: Keep the Receipts
+
+The best revenge in engineering is documentation.
+
+I joined a large financial software company in July 2005. Staff engineer title. No fanfare. The engineering folklore was that it took a year just to learn the codebase before submitting your first commit. Ten million lines of code, over 250 engineers, and a product that had tripled in size in a single year after dozens of new product managers each bolted on features with their own teams.
+
+They also told me it would take four to six weeks to requisition a workstation.
+
+I bought my own that Wednesday. Multicore, RAID array, dual 30-inch monitors. Kept the receipt. When my manager raised a concern about reimbursement, I told him I'd simply quit if anyone denied it.
+
+Receipt number one.
+
+--
+
+By Friday of my first week, I'd walked all three engineering floors and started asking what was keeping people up at night.
+
+One architect mentioned a bug called "ghosting." Close the application, try to reopen it -- sometimes it wouldn't come back. Sometimes it opened multiple dead windows. Only fix was rebooting the machine.
+
+The bug had been there for over a decade. Everyone knew about it. Nobody prioritized it because rebooting "worked."
+
+I set my sights on it.
+
+--
+
+Monday morning I started reproducing the bug inside a virtual machine -- a tool nobody else at the company was using. Management considered the licensing an unnecessary expense.
+
+I used SysInternals to observe the system externally before I ever looked at the source code. Every observation, logged. Every message queue trace, saved. Every file-locking sequence, recorded.
+
+Here's what the receipts showed:
+
+The application used a launcher process to determine which version to open. The launcher opened the data file exclusively, sent a custom Windows message to the application, and waited for a reply. But it held the file lock across the message exchange. On preemptive multitasking, a page fault in the launcher could yield the processor to the application, which would try to open the same file -- and fail. Dead window. Ghost.
+
+Nobody I talked to that day knew what a page fault was.
+
+The deeper I dug, the worse the receipts got. The original code had been ported from cooperative multitasking to MFC by someone who didn't understand MFC's message pump. Custom messages handled outside the message map through a hand-rolled WindowProc checking global state flags -- two flags for one condition, another race. Identical window class names across all instances, so FindWindow couldn't distinguish which process to talk to. IPC payload was a raw C struct written to a temp file with a hardcoded name that any concurrent launcher could overwrite mid-read.
+
+A decade of accumulated debt, all converging in one symptom. I documented every layer.
+
+--
+
+My fix had three layers.
+
+First, the file handle. Wrapped it in an object whose destructor released the lock when it left scope. No more holding a lock across a message exchange.
+
+Second, process coordination. A named mutex that enforced single-instance access to any data file across all launcher and application processes. One file open at a time. Deterministic.
+
+Third, the messaging. Replaced the brittle custom message and temp file IPC with WM_COPYDATA -- Microsoft's sanctioned mechanism -- with a serialized text payload instead of a binary struct. Versioned, parseable, forward-compatible. Kept the old path as fallback for unpatched legacy versions running side-by-side.
+
+All without stepping a single line of code in the debugger. Every finding written up in the bug tracker with source code references.
+
+Receipt number two.
+
+--
+
+Thursday I booked a conference room and hosted a code review. Eight people showed up.
+
+First comment: "What are we doing here? Code freeze was declared Tuesday. This bug isn't on the approved list."
+
+I hadn't heard about the code freeze. I'd been heads down fixing the bug.
+
+"Then maybe we ship it next year. I'm here to share what I found. If you want to shoot holes in it, stay. If not, no hard feelings."
+
+One person left. The rest stayed. By the end of the meeting, two staff engineers volunteered to hand me ownership of their MFC code. An architect brought back the installer team lead. A product manager agreed to own the UX implications.
+
+The meeting notes went out to everyone who attended.
+
+Receipt number three.
+
+--
+
+The following week I met with the VP of Quality, who controlled the approved exceptions list. He liked the approach but worried nobody else understood MFC at that level. We negotiated: the minimal fix -- moving the file close into the destructor -- shipped on the current gold master. The full architectural rework shipped next cycle.
+
+In return, I looked at his biggest headache. Their parallel build cluster was taking over an hour. Thirty minutes was just the source control checkout. I could see it from the blinking lights in the server room -- drives more than half idle, not enough RAM, not enough disk controllers. Wrote it up and sent it to him.
+
+Receipt number four.
+
+--
+
+The ghosting fix shipped on the gold master. End of my second week on payroll.
+
+I became a magnet for every piece of unwanted code in the building. Over the next two years, that was exactly the point -- earned influence, one documented solution at a time, until the culture started to shift toward code reviews, peer accountability, and shared ownership.
+
+--
+
+The bug had been there for a decade not because it was hard, but because nobody owned it. It fell between teams, between codebases, between job descriptions. The launcher wasn't assigned to any engineer. The MFC port was nobody's responsibility. The architecture had grown without governance.
+
+Most ten-year-old bugs aren't unsolvable. They're unowned.
+
+And the best revenge against institutional inertia? Keep the receipts. Every log, every writeup, every meeting note, every email. When someone tells you it can't be done, or it's not on the list, or it's not your problem -- the receipts are what turn "who asked you" into "glad you did."

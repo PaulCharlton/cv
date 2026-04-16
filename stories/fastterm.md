@@ -1,10 +1,10 @@
 Fast-Term - 1984 to 1986
 
-As noted in my writings on time at RPI, RPI would, upon request, run a 9600 baud serial port into your dorm room.  However, my personal computer at the time, a TI-99/4A, only had communication software that was reliable at only at 300 baud with a handset coupler.  This motivated me to write "Fast-Term", in 100% assembler language, that was fully capable at 19200 baud.
+As noted in my writings on time at RPI, RPI would, upon request, run a 9600 baud serial port into your dorm room.  However, my personal computer at the time, a TI-99/4A, only had communication software that was reliable at only at 300 baud with a handset coupler.  This motivated me to write "Fast-Term", in 100% assembler language, that was fully capable of 19,200 baud.
 
 The Fast-Term journey began with a deep dive on the serial ports available on the TI-99/4A.  What I learned is that the serial ports were driven by a custom chip from Texas Instruments called the TMS9902, which could be programmed to different bit rates by a programmable clock divisor.  I also completely reverse engineered the ROM of TI's RS232 Interface card to better understand how the card interacted with the main board in the TI-99/4A.
 
-As an aside, the RS232 Rom from TI also contained the shortest complete CRC-16 computation I have ever seen, with my original disassembly as below, with columns being: (address, memory contents, label, instruction decode)
+As an aside, the RS232 ROM from TI also contained the shortest complete CRC-16 computation I have ever seen, with my original disassembly as below, with columns being: (address, memory contents, label, instruction decode)
 
 ```
 ==CRC 16
@@ -24,7 +24,7 @@ As an aside, the RS232 Rom from TI also contained the shortest complete CRC-16 c
 ```
 Bonus points if you can figure out how that code implements the full 16-bit CRC, updated a byte at a time.
 
-Another anomaly which arose, is that the clock divisor was not fine-grained enough to truly support 19,200 baud with 10 bits per 8 bit character -- the quantization of the clock actually required 2-stop bits per character for a total of 11 bits per character on inbound characters in order to properly decode a sequence of characters without interference between characters.
+Another anomaly which arose was that the clock divisor was not fine-grained enough to truly support 19,200 baud with 10 bits per 8 bit character -- the quantization of the clock actually required 2-stop bits per character for a total of 11 bits per character on inbound characters in order to properly decode a sequence of characters without interference between characters.
 
 I decided that my architecture would be to enable hardware interrupts for the 9902 (instead of just polling) and stuff those characters into a ring-buffer at a far faster rate than simple polling would have allowed.  If the ring buffer became full, I stopped adding characters until the ring buffer had at least 1/3 of its space freed up.  This allowed me to do things like scroll a line of text upward (a computationally expensive operation) without tearing artifacts introduced by synchronous implementations.  I ended up writing my own assembler code to manage the TMS9918 video processor to further prevent graphic artifacts caused by collisions between the NTSC protocol reading the frame buffer, and the push of new characters into the buffer.
 

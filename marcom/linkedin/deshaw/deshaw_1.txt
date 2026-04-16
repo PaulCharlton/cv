@@ -1,0 +1,47 @@
+On Equity: The Conversation That Started an Exodus
+
+I was employee number 24 at a quantitative hedge fund in Manhattan. Every one of those 24 people was a genius -- recruited for raw intelligence over experience.
+
+We built algorithmic trading systems that, on many days, moved over 80% of NASDAQ's total volume. We called academic researchers whose papers concluded that market inefficiencies couldn't be profitably exploited -- because they assumed retail trading costs. Our clearing costs were a fraction of retail. Their "impossible" was our daily operation.
+
+A handful of us helped generate a $50 million windfall on a single derivatives position in 1993.
+
+When I sat down with the founder to discuss how that windfall would be shared, his answer was clear: base salaries were sufficient. The profit split was roughly 97% to him, 1% to the technical co-founder who had built the entire system, and 2% across the remaining hundred employees.
+
+I told him I'd finish my current projects and leave before summer unless he reconsidered.
+
+He did not reconsider.
+
+--
+
+My first stop after that meeting was my direct manager's office -- the guy running our market-making operation across 2,000 securities. I told him I was leaving, and shared the full conversation about equity and profit-sharing. I suggested he go ask the same questions.
+
+He did. He wasn't happy with the answers either.
+
+I interviewed at Apple the following week. I left in April. My manager left in May -- to start a company you've heard of.
+
+Seven of the original 24 departed that year.
+
+--
+
+New Year's Eve, a few months earlier, about ten of us had been in the office watching the ball drop in Times Square from the conference room. We started talking about the Internet. The conversation was energetic enough that the founder called an all-hands the following week -- sixty people in that same conference room on a gray Thursday afternoon in early January.
+
+Someone pitched a virtual bookstore. I pitched an expert system that would flip the marketplace model -- instead of consumers searching for products, sellers would bid for the consumer's business once the right product was identified. Others threw out ideas. It was one of those meetings where the energy in the room was real.
+
+Both of those ideas left the building with the people who proposed them.
+
+--
+
+The founder eventually had a change of heart about equity and startup investment. Probably around the time one of those departures turned into a historically successful IPO.
+
+The fund also later lost close to a billion dollars of investor money on a derivatives position gone wrong.
+
+Most of the original 23 who stayed are now billionaires.
+
+--
+
+Two things I took from this.
+
+First: equity conversations are the highest-signal moment in any company. The answer tells you everything about how the founder sees the people around them -- as partners or as payroll.
+
+Second: when you leave, what you take with you matters more than what you leave behind. I took my ideas, my relationships, and my standards. That was enough.

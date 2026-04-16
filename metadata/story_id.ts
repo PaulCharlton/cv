@@ -580,4 +580,13 @@ export const StoryMap: Record<string, Story> = {
     coolness: 440,
     id: 62,
   },
+  "apple2.md": {
+    filename: "apple2.md",
+    title: "Apple Computer Inc.  Next Steps",
+    date: "1994-1996",
+    summary: "",
+    company: Companies.Apple,
+    coolness: 972,
+    id: 63,
+  },
 };

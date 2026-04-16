@@ -1,0 +1,224 @@
+%-------------------------
+% ATS-Optimized CV Template
+% Author: Paul Charlton
+% Usage: Fill JOB-SPECIFIC KEYWORDS placeholder before submission.
+%        Compile with XeLaTeX (for fontspec/emoji support).
+% Target: 2 pages max.
+%------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{fontspec}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+
+% --- FA5 shim ---
+\makeatletter
+\@ifundefined{faExternalLink}{
+    \newcommand{\faExternalLink}{\faIcon{external-link-alt}}
+}{}
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins — tight for 2-page fit
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting — ATS-friendly headings
+\titleformat{\section}{
+    \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} \textit{\small — #3} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%============================================================
+% BEGIN DOCUMENT
+%============================================================
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Paul Charlton} \\[4pt]
+    % --- Conventional ATS-readable contact block ---
+    \small
+    techguru@byiq.com \enspace$|$\enspace
+    +1\,(808)\,278-7904 \enspace$|$\enspace
+    Honolulu, HI \enspace$|$\enspace
+    \href{https://www.linkedin.com/in/techguru/}{linkedin.com/in/techguru} \enspace$|$\enspace
+    \href{https://github.com/PaulCharlton}{github.com/PaulCharlton}
+    \\[2pt]
+    % --- Icon row with additional links ---
+    \href{mailto:techguru@byiq.com}{\faEnvelope} \quad
+    \href{https://github.com/PaulCharlton}{\faGithub} \quad
+    \href{https://gitlab.com/techguru}{\faGitlab} \quad
+    \href{https://www.linkedin.com/in/techguru/}{\faLinkedin} \quad
+    \href{https://paul-charlton.vercel.app/}{\faGlobe} \quad
+    \href{https://en.wikipedia.org/wiki/Paul_Charlton_(technologist)}{\faWikipediaW}
+\end{center}
+\vspace{-10pt}
+
+%----------SUMMARY----------
+\section{Summary}
+\small
+Distinguished Principal Engineer \& Architect with 35+ years shipping systems at Fortune 100 scale.
+Last decade: stabilized clustered filesystems (SGI/HPE), built IoT edge-to-cloud platforms
+(Element Analytics / BP, Shell, Chevron), scaled Acuity Brands' IoT cloud to 100B+ events/day
+across 600 engineers, advised Rocky Linux on kernel/SBOM lineage, and founded ByIQ venture studio.
+Known for ruthless simplicity in design, measurable results, and mentoring engineering organizations
+through cultural and technical transformations.
+\vspace{-4pt}
+
+%----------EXPERIENCE----------
+\section{Experience}
+
+\resumeSubHeadingListStart
+
+    %--- ByIQ (current umbrella) ---
+    \resumeSubheading
+    {Results ByIQ LLC}{Jul 2023 -- Present}
+    {Founder \& Principal Researcher}{}
+    \resumeItemListStart
+        \resumeItem{Founded venture studio exploring sovereign OS, reproducible builds, and secure communications.}
+        \resumeItem{Incubating Ambient OS (encrypted memory, programmable consent), DataGator (forensic SBOM lineage), and Forticom (defense-grade comms).}
+        \resumeItem{Advising startups on cloud architecture, security posture, and go-to-market while remaining fully IC-focused.}
+    \resumeItemListEnd
+
+    %--- CIQ / Rocky Linux ---
+    \resumeSubheading
+    {CIQ / Rocky Linux}{Dec 2021 -- Jul 2023}
+    {Board of Advisors — Kernel \& SBOM}{}
+    \resumeItemListStart
+        \resumeItem{Led Singularity $\rightarrow$ Apptainer port, abstracting proprietary features for open-source community continuity.}
+        \resumeItem{Resolved Tier-3 kernel escalations for Rakuten RAN, NVIDIA drivers, and kernel race conditions.}
+        \resumeItem{Architected SBOM ingestion system spanning kernels, distros, and userland — queryable by binary hash for CVE lineage.}
+    \resumeItemListEnd
+
+    %--- Acuity Brands ---
+    \resumeSubheading
+    {Acuity Brands (Fortune 1000)}{Sept 2019 -- Feb 2022}
+    {Chief Cloud Officer}{}
+    \resumeItemListStart
+        \resumeItem{Directed cloud/IoT strategy across 5 divisions and 600+ engineers; scaled platform to 100B+ events/day.}
+        \resumeItem{Built SOC2-compliant CI/CD pipeline achieving commit-to-prod in under 20 minutes with integrated CVE scanning.}
+        \resumeItem{Led migration of 800+ .NET/COBOL services into microservices; coached teams through cultural transformation.}
+        \resumeItem{Partnered with Walmart, Home Depot, CVS, Walgreens on BLE mesh IoT enabling 30\,cm indoor positioning.}
+    \resumeItemListEnd
+
+    %--- Element Analytics ---
+    \resumeSubheading
+    {Element Analytics}{Dec 2017 -- Aug 2019}
+    {Principal Architect — IoT Edge-to-Cloud}{}
+    \resumeItemListStart
+        \resumeItem{Designed Kubernetes + GitOps + Helm pipelines; one of first production Apache Spark on K8s deployments.}
+        \resumeItem{Instrumented 30+ Fortune-10 refinery facilities ($\sim$100K sensors each); unified 30+ years of PI System archives into normalized time-series for anomaly detection.}
+        \resumeItem{Embedded DevSecOps into Azure IoT pipelines; coached operators and engineers at BP, Shell, Chevron.}
+    \resumeItemListEnd
+
+    %--- SGI / HPE ---
+    \resumeSubheading
+    {SGI / HPE}{2014 -- 2017}
+    {Consulting Architect \& Principal Engineer}{}
+    \resumeItemListStart
+        \resumeItem{Resurrected and modernized CXFS clustered filesystem clients (macOS/Windows) — 200K+ lines, 32/64-bit — in 6 months on a 10-hr/week contract (scoped for 12 months).}
+        \resumeItem{Eliminated 90\%+ of reported bugs; solved decade-old cluster-scope race condition with direct C-level revenue impact.}
+        \resumeItem{Built Unicode fidelity engine for cross-platform filename round-tripping (UTF-8/UTF-16/NFD); code still runs on military vessels and post-production houses.}
+    \resumeItemListEnd
+
+    %--- Earlier career under ByIQ consulting umbrella ---
+    \resumeSubheading
+    {Results ByIQ LLC — Consulting Principal Engineer}{2005 -- 2014}
+    {Cisco, Intuit, Sun/JavaFX, ValueClick, F5, others}{}
+    \resumeItemListStart
+        \resumeItem{\textbf{Cisco IOS (2008):} Refactored 30M-line monolithic C codebase from single-threaded to preemptible multicore; achieved near-linear scaling across all cores and hyperthreads in 2-week POC.}
+        \resumeItem{\textbf{Sun/JavaFX (2008):} Led 10-person rescue team; shipped 350K-LOC product in 7 weeks (120+ hrs/wk). Deleted 30\% of codebase, wrote 40K new lines. Sun's market cap rose \$5.2B over 5 months; Oracle acquired for \$7.4B.}
+        \resumeItem{\textbf{Intuit/QuickBooks (2005):} Fixed decade-old ``ghosting'' rendering bug on gold master with 8 weeks to ship; coordinated 250+ engineers across 10M-LOC codebase.}
+        \resumeItem{\textbf{ValueClick (2012):} Cut mobile ad P90 latency from 3\,s to 100\,ms; RTB pipeline from 100\,ms to 20\,ms across 800-attribute user profiles.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%--- Earlier Career one-liner ---
+\vspace{-4pt}
+\section{Earlier Career Highlights (Pre-2005)}
+\small
+Principal engineer/architect at \textbf{Apple} (cross-platform QuickTime — basis for MP4; only 400 lines platform-specific C; WWDC keynote to 1K+ developers),
+\textbf{Sun/JavaSoft} (40x glyph rendering speedup; foundational Java2D code ships in every Android device),
+\textbf{D.\,E.\,Shaw} (employee \#24; built third-market operation across 2K+ securities; 80\%+ of NASDAQ daily volume),
+\textbf{Chase Manhattan} (17.8x batch speedup on 600K daily DDA postings; \$300M+ fraud recovery),
+\textbf{HP} (VLSI SCSI-II first-pass silicon; NASA tape recovery).
+3 US patents in AV sync, display arbitration, and artifact-free image scaling.
+\vspace{-2pt}
+
+%----------EDUCATION----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Rensselaer Polytechnic Institute}{1984 -- 1988}
+    {BS, Electrical, Computer, and Systems Engineering}{}
+\resumeSubHeadingListEnd
+
+%----------PATENTS & PUBLICATIONS----------
+\section{Patents \& Publications}
+\small
+\textbf{US\,5,875,354} — AV sync via dynamic sample-rate conversion (Apple) \quad
+\textbf{US\,5,825,359} — Display arbitration in multi-process environments \quad
+\textbf{US\,5,949,434} — Artifact-free 2D image scaling (extends Bresenham's algorithm) \\[2pt]
+Morton, Chung, Miller, \textbf{Charlton}, Fager (1986). \textit{Extended sensitivity for the calcium selective electrode.} Analytical Biochemistry 157(2), 345--352.
+
+%=============================================================
+% JOB-SPECIFIC KEYWORDS — Replace this block per application
+%=============================================================
+\section{Core Technologies \& Keywords}
+\small
+% >>> INSTRUCTIONS: Before submitting, replace or supplement the
+% >>> keywords below with terms extracted from the target job
+% >>> description. Keep the section under ~15 lines for ATS scannability.
+% >>> Group by domain. Remove irrelevant groups entirely.
+
+\textbf{Languages:} C, C++, Go, Python, Java, TypeScript, Rust, Ruby, SQL, Bash, .NET/C\# \\
+\textbf{Cloud \& Infrastructure:} AWS, Azure, GCP, Kubernetes, Helm, Terraform, Pulumi, Docker, GitOps, CI/CD \\
+\textbf{Data \& Messaging:} Kafka, Spark, PostgreSQL, Redis, ElasticSearch, MQTT, gRPC, Protocol Buffers \\
+\textbf{Security \& Compliance:} SOC2, SBOM, CVE scanning, mTLS, OIDC/SAML, OPA, Vault, Secure Boot \\
+\textbf{IoT \& Edge:} Azure IoT Hub/Edge, AWS IoT Core/Greengrass, BLE mesh, LoRaWAN, MQTT, Digital Twins \\
+\textbf{Observability:} OpenTelemetry, Prometheus, Grafana, distributed tracing, structured logging \\
+\textbf{OS \& Systems:} Linux kernel, XFS/CXFS, device drivers, memory management, filesystem internals \\
+\textbf{Methods:} Agile/Scrum, TDD, BDD, Six Sigma, Architecture Review Boards, RFC processes \\
+% >>> ADD JOB-SPECIFIC KEYWORDS BELOW THIS LINE <<<
+% \textbf{Role-Specific:} <paste keywords from job description here>
+
+\end{document}
