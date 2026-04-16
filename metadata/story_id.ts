@@ -587,6 +587,6 @@ export const StoryMap: Record<string, Story> = {
     summary: "",
     company: Companies.Apple,
     coolness: 972,
-    id: 63,
+    id: 64,
   },
 };
