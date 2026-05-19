@@ -14,7 +14,7 @@ Anyhow, I reversed engineered (disassembled into source code) their PRN driver a
 
 That first "laser printer" took several weekends in total.  As the next step, I had realized that the XEROX hardware could be used for color scanning.  I proved the point by adding "read memory" functionality to the line buffer in the XEROX and let the XEROX do the scanning of a page and allowing it to fill the line buffer and "step" the drum ... for each line from the XEROX, I read it across the GPIB into the Apple III, forming a raster of the current color.  I placed different color filters (available for darkroom color separation) on a single page, and did a full raster scan for each color filter with the original image.
 
-As an end result, I was able to translate several raster images (each from a different filter on the original image), and combine them into a single image usable by the graphic design software on the Apple III. The process became trickier at higher resolutions because the original design did not have registration alignment marks on either the filters or the original images.  I added a requirement for a one-inch white margin around the original image, and a cross-hair registration mark near each corner of the white area. I used the registration marks (detected by the edge detection algorithm I had previously written for the cursive glyph scanning system) to compute a trapezoidal coordinate transformation on the image pixels and corrected to a rectangular set of pixels prior to combining the various color layers.
+As an end result, I was able to translate several raster images (each from a different filter on the original image), and combine them into a single image usable by the graphic design software on the Apple III. The process became trickier at higher resolutions because the original design did not have registration alignment marks on either the filters or the original images.  I added a requirement for a one-inch white margin around the original image, and a cross-hair registration mark near each corner of the white area. I used the registration marks (detected by the edge detection algorithm I reused for the cursive glyph scanning system) to compute a trapezoidal coordinate transformation on the image pixels and corrected to a rectangular set of pixels prior to combining the various color layers.
 
 The graphics shop owner had purchased special displays and hardware for the Apple III that allowed him to edit and manipulate images up to 4k x 4k and print them directly to 35mm film through another specialized display attachment. I do not recall the specific vendor for that equipment, but the owner was able to import my color-separated raster images, manipulate them, and print to 35mm film.  overall I spent maybe a dozen weekends over the summer months creating the requirements and the designing and implementing the overall solution.
 
@@ -25,8 +25,6 @@ Xerox 5700
 68000
 6502
 GPIB
-Z80
-TMS9900
 Apple III
 Pascal
 ```
