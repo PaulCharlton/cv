@@ -526,6 +526,15 @@ export const StoryMap: Record<string, Story> = {
     coolness: 10,
     id: 53,
   },
+  "recommendations_with_context.md": {
+    filename: "recommendations_with_context.md",
+    title: "Recommendations With Context",
+    date: "",
+    summary: "",
+    company: undefined,
+    coolness: 11,
+    id: 65,
+  },
   "swiftboot.md": {
     filename: "swiftboot.md",
     title: "SwiftBoot",
